@@ -44,7 +44,7 @@ def parse_args():
         help="Batch size per GPU/CPU for training.")
     parser.add_argument(
         "--learning_rate",
-        default=1e-4,
+        default=2e-5,
         type=float,
         help="The initial learning rate for Adam.")
     parser.add_argument(
@@ -139,7 +139,7 @@ def parse_args():
     )
     parser.add_argument(
         "--layer_lr_decay",
-        default=0.8,
+        default=1.0,
         type=float,
         help="layer_lr_decay")
     args = parser.parse_args()

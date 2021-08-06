@@ -29,7 +29,7 @@ class MPNetTokenizer(BertTokenizer):
         "vocab_file": {
             "mpnet-base":
             # "https://paddlenlp.bj.bcebos.com/models/transformers/mpnet/mpnet-base/vocab.txt",
-            "https://huggingface.co/microsoft/mpnet-base/resolve/main/vocab.txt"
+            "https://huggingface.co/junnyu/mpnet/resolve/main/mpnet-base/vocab.txt"
         }
     }
     pretrained_init_configuration = {
