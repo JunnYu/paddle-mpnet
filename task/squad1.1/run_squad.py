@@ -351,7 +351,7 @@ def run(args):
         optimizer = paddle.optimizer.AdamW(
             learning_rate=lr_scheduler,
             beta1=0.9,
-            beta2=0.999,
+            beta2=0.98,
             epsilon=args.adam_epsilon,
             parameters=model.parameters(),
             weight_decay=args.weight_decay,
