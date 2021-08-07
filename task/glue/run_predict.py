@@ -7,7 +7,7 @@ import pandas as pd
 from tqdm import tqdm
 from paddlenlp.datasets import load_dataset
 from paddlenlp.data import Tuple, Pad
-from paddlenlp.transformers import ConvBertForSequenceClassification, ConvBertTokenizer
+from paddlenlp.transformers import MPNetForSequenceClassification, MPNetTokenizer
 from run_glue import convert_example
 
 
@@ -68,7 +68,7 @@ def predict(data_loader, model, id2label=None):
     with paddle.no_grad():
         for batch in data_loader:
             input_ids, segment_ids = batch
-            logits = model(input_ids, segment_ids)
+            logits = model(input_ids)
             if id2label is not None:
                 pred = paddle.argmax(logits, axis=-1).cpu().tolist()
                 outputs.extend(list(map(lambda x: id2label[x], pred)))
@@ -100,9 +100,9 @@ def predict2file(args):
         else:
             id2label = None
 
-    model = ConvBertForSequenceClassification.from_pretrained(args.ckpt_path)
+    model = MPNetForSequenceClassification.from_pretrained(args.ckpt_path)
     model.eval()
-    tokenizer = ConvBertTokenizer.from_pretrained(args.ckpt_path)
+    tokenizer = MPNetTokenizer.from_pretrained(args.ckpt_path)
     batchify_fn = lambda samples, fn=Tuple(
         Pad(axis=0, pad_val=tokenizer.pad_token_id),
         Pad(axis=0, pad_val=tokenizer.pad_token_type_id),

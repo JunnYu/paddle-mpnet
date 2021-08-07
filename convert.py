@@ -62,14 +62,14 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--pytorch_checkpoint_path",
-        default="./hg/mpnet-base/pytorch_model.bin",
+        default="weights/hg/mpnet-base/pytorch_model.bin",
         type=str,
         required=False,
         help="Path to the Pytorch checkpoint path.",
     )
     parser.add_argument(
         "--paddle_dump_path",
-        default="./pd/mpnet-base/model_state.pdparams",
+        default="weights/pd/mpnet-base/model_state.pdparams",
         type=str,
         required=False,
         help="Path to the output Paddle model.",
