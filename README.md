@@ -286,6 +286,10 @@ python -m paddle.distributed.launch --gpus "0" run_squad.py \
 链接：TODO
 提取码：TODO
 
+# Tips:
+- 对于SQUAD任务：根据这个[issues](https://github.com/microsoft/MPNet/issues/3)所说,论文中汇报的是`"best_exact"`和`"best_f1"`。
+- 对于GLUE任务：根据这个[issues](https://github.com/microsoft/MPNet/issues/7)所说，部分任务使用热启动。
+
 # Reference
 
 ```bibtex
