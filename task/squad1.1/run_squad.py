@@ -404,7 +404,8 @@ def print_arguments(args):
     for arg, value in sorted(vars(args).items()):
         print("%s: %s" % (arg, value))
     print("------------------------------------------------")
-    
+
 if __name__ == "__main__":
     args = parse_args()
+    print_arguments(args)
     run(args)
