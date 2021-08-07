@@ -88,7 +88,7 @@ python convert.py
 # Converting: lm_head.layer_norm.bias => lm_head.layer_norm.bias | is_transpose False
 ```
 
-转换好的模型链接：https://huggingface.co/junnyu/mpnet/tree/main/mpnet-base
+转换好的模型链接：https://huggingface.co/junnyu/mpnet/tree/main/mpnet-base（记得把tokenizer_config.json也下载，不然本地调用tokenizer时候会报错缺少这个）
 
 
 ### （三）下游任务微调
