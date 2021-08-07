@@ -144,8 +144,8 @@ python -m paddle.distributed.launch --gpus "0" run_glue.py \
 
 **模型链接**(这个链接包含所有GLUE任务微调后的权重)
 
-链接：TODO
-提取码：TODO
+链接：https://pan.baidu.com/s/1slFx1fgaF0ifoCXG7Lv9mw 
+提取码：nzg8
 
 ##### （2）模型预测：
 ```bash
@@ -226,8 +226,8 @@ python -m paddle.distributed.launch --gpus "0" run_squad.py \
 
 ##### 模型链接
 
-链接：TODO
-提取码：TODO
+链接：https://pan.baidu.com/s/1x39b4cEtTFHCQT76b4jv4Q 
+提取码：65xt
 
 #### 3、SQuAD v2.0
 对于 SQuAD v2.0,按如下方式启动 Fine-tuning:
