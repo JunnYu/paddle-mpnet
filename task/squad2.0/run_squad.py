@@ -398,6 +398,15 @@ def run(args):
                     if global_step == num_training_steps:
                         return
 
+def print_arguments(args):
+    """print arguments"""
+    print("-----------  Configuration Arguments -----------")
+    for arg, value in sorted(vars(args).items()):
+        print("%s: %s" % (arg, value))
+    print("------------------------------------------------")
+
 if __name__ == "__main__":
     args = parse_args()
+    print_arguments(args)
     run(args)
+
