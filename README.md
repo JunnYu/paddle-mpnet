@@ -88,7 +88,7 @@ python convert.py
 # Converting: lm_head.layer_norm.bias => lm_head.layer_norm.bias | is_transpose False
 ```
 
-转换好的模型链接：https://huggingface.co/junnyu/mpnet/tree/main/mpnet-base（记得把tokenizer_config.json也下载，不然本地调用tokenizer时候会报错缺少这个）
+转换好的模型链接：https://huggingface.co/junnyu/mpnet/tree/main/mpnet-base （记得把tokenizer_config.json也下载，不然本地调用tokenizer时候会报错缺少这个）
 
 
 ### （三）下游任务微调
@@ -127,8 +127,8 @@ python -m paddle.distributed.launch --gpus "0" run_glue.py \
     --device gpu
 ```
 其中参数释义如下：
-- `model_type` 指示了模型类型，当前支持BERT、ELECTRA、ERNIE、CONVBERT模型。
-- `model_name_or_path` 模型名称或者路径，其中convbert模型当前仅支持convbert-small、convbert-medium-small、convbert-base几种规格。
+- `model_type` 指示了模型类型，当前支持BERT、ELECTRA、ERNIE、CONVBERT、MPNET模型。
+- `model_name_or_path` 模型名称或者路径，其中mpnet模型当前仅支持mpnet-base几种规格。
 - `task_name` 表示 Fine-tuning 的任务，当前支持CoLA、SST-2、MRPC、STS-B、QQP、MNLI、QNLI、RTE、 WNLI。
 - `max_seq_length` 表示最大句子长度，超过该长度将被截断。
 - `batch_size` 表示每次迭代**每张卡**上的样本数目。
@@ -150,7 +150,7 @@ python -m paddle.distributed.launch --gpus "0" run_glue.py \
 ##### （2）模型预测：
 ```bash
 # 确保处在glue文件夹
-cd glue
+cd task/glue
 # 运行预测，请指定模型权重文件夹
 ​```python
 python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.pdparams
