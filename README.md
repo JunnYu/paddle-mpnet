@@ -199,8 +199,8 @@ python -m paddle.distributed.launch --gpus "0" run_squad.py \
     --num_train_epochs 4 \
     --scheduler_type linear \
     --layer_lr_decay 1.0 \
-    --logging_steps 200 \
-    --save_steps 200 \
+    --logging_steps 500 \
+    --save_steps 500 \
     --warmup_proportion 0.1 \
     --weight_decay 0.01 \
     --output_dir squad1.1/ \
