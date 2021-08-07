@@ -1,0 +1,108 @@
+/usr/lib/python3/dist-packages/urllib3/util/selectors.py:14: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import namedtuple, Mapping
+/usr/lib/python3/dist-packages/urllib3/_collections.py:2: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping
+-----------  Configuration Arguments -----------
+adam_epsilon: 1e-06
+batch_size: 16
+device: gpu
+layer_lr_decay: 1.0
+learning_rate: 1e-05
+logging_steps: 20
+max_seq_length: 128
+max_steps: -1
+model_name_or_path: mpnet-base
+model_type: mpnet
+num_train_epochs: 10
+output_dir: wnli
+save_steps: 20
+scheduler_type: linear
+seed: 42
+task_name: wnli
+warmup_proportion: 0.06
+warmup_steps: 0
+weight_decay: 0.1
+------------------------------------------------
+2021-08-07 10:29:42,176-INFO: unique_endpoints {'127.0.0.1:33833'}
+[32m[2021-08-07 10:29:42,178] [    INFO][0m - Already cached /root/.paddlenlp/models/mpnet-base/vocab.txt[0m
+2021-08-07 10:29:42,193-INFO: unique_endpoints {'127.0.0.1:33833'}
+[32m[2021-08-07 10:29:42,194] [    INFO][0m - Already cached /root/.paddlenlp/models/mpnet-base/model_state.pdparams[0m
+W0807 10:29:42.195317  3723 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 8.6, Driver API Version: 11.4, Runtime API Version: 11.2
+W0807 10:29:42.197397  3723 device_context.cc:422] device: 0, cuDNN Version: 8.1.
+num_training_steps 400
+global step 20/400, epoch: 0, batch: 19, rank_id: 0, loss: 0.703378, lr: 0.0000083333, speed: 10.5280 step/s
+====================================================================================================
+eval loss: 0.695336, acc: 0.39436619718309857, 
+eval done total : 0.2421412467956543 s
+global step 40/400, epoch: 0, batch: 39, rank_id: 0, loss: 0.703848, lr: 0.0000095745, speed: 4.0213 step/s
+====================================================================================================
+eval loss: 0.689355, acc: 0.5633802816901409, 
+eval done total : 0.22847867012023926 s
+global step 60/400, epoch: 1, batch: 19, rank_id: 0, loss: 0.710903, lr: 0.0000090426, speed: 3.9327 step/s
+====================================================================================================
+eval loss: 0.689713, acc: 0.5633802816901409, 
+eval done total : 0.25054240226745605 s
+global step 80/400, epoch: 1, batch: 39, rank_id: 0, loss: 0.708635, lr: 0.0000085106, speed: 3.9807 step/s
+====================================================================================================
+eval loss: 0.705501, acc: 0.2676056338028169, 
+eval done total : 0.2390298843383789 s
+global step 100/400, epoch: 2, batch: 19, rank_id: 0, loss: 0.697066, lr: 0.0000079787, speed: 3.8657 step/s
+====================================================================================================
+eval loss: 0.714723, acc: 0.4084507042253521, 
+eval done total : 0.23641180992126465 s
+global step 120/400, epoch: 2, batch: 39, rank_id: 0, loss: 0.687657, lr: 0.0000074468, speed: 3.9972 step/s
+====================================================================================================
+eval loss: 0.694573, acc: 0.5633802816901409, 
+eval done total : 0.23471331596374512 s
+global step 140/400, epoch: 3, batch: 19, rank_id: 0, loss: 0.696538, lr: 0.0000069149, speed: 3.8795 step/s
+====================================================================================================
+eval loss: 0.709538, acc: 0.4084507042253521, 
+eval done total : 0.23412823677062988 s
+global step 160/400, epoch: 3, batch: 39, rank_id: 0, loss: 0.682459, lr: 0.0000063830, speed: 3.9583 step/s
+====================================================================================================
+eval loss: 0.706108, acc: 0.5211267605633803, 
+eval done total : 0.280609130859375 s
+global step 180/400, epoch: 4, batch: 19, rank_id: 0, loss: 0.703646, lr: 0.0000058511, speed: 3.8955 step/s
+====================================================================================================
+eval loss: 0.723627, acc: 0.29577464788732394, 
+eval done total : 0.24371623992919922 s
+global step 200/400, epoch: 4, batch: 39, rank_id: 0, loss: 0.705605, lr: 0.0000053191, speed: 3.9410 step/s
+====================================================================================================
+eval loss: 0.715562, acc: 0.2676056338028169, 
+eval done total : 0.24121451377868652 s
+global step 220/400, epoch: 5, batch: 19, rank_id: 0, loss: 0.691932, lr: 0.0000047872, speed: 3.9906 step/s
+====================================================================================================
+eval loss: 0.717372, acc: 0.2535211267605634, 
+eval done total : 0.24084210395812988 s
+global step 240/400, epoch: 5, batch: 39, rank_id: 0, loss: 0.714273, lr: 0.0000042553, speed: 4.0521 step/s
+====================================================================================================
+eval loss: 0.717827, acc: 0.23943661971830985, 
+eval done total : 0.2356729507446289 s
+Traceback (most recent call last):
+  File "run_glue.py", line 509, in <module>
+    do_train(args)
+  File "run_glue.py", line 439, in do_train
+    optimizer.step()
+  File "<decorator-gen-198>", line 2, in step
+  File "/usr/local/lib/python3.8/dist-packages/paddle/fluid/dygraph/base.py", line 261, in __impl__
+    return func(*args, **kwargs)
+  File "<decorator-gen-196>", line 2, in step
+  File "/usr/local/lib/python3.8/dist-packages/paddle/fluid/wrapped_decorator.py", line 25, in __impl__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/paddle/fluid/framework.py", line 225, in __impl__
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/paddle/optimizer/adam.py", line 365, in step
+    optimize_ops = self._apply_optimize(
+  File "/usr/local/lib/python3.8/dist-packages/paddle/optimizer/optimizer.py", line 797, in _apply_optimize
+    optimize_ops = self._create_optimization_pass(params_grads)
+  File "/usr/local/lib/python3.8/dist-packages/paddle/optimizer/adamw.py", line 202, in _create_optimization_pass
+    optimize_ops = super(
+  File "/usr/local/lib/python3.8/dist-packages/paddle/optimizer/optimizer.py", line 614, in _create_optimization_pass
+    self._create_accumulators(
+  File "/usr/local/lib/python3.8/dist-packages/paddle/optimizer/adam.py", line 249, in _create_accumulators
+    self._add_moments_pows(p)
+  File "/usr/local/lib/python3.8/dist-packages/paddle/optimizer/adam.py", line 226, in _add_moments_pows
+    self._add_accumulator(
+  File "/usr/local/lib/python3.8/dist-packages/paddle/optimizer/optimizer.py", line 502, in _add_accumulator
+    if self._name is not None:
+KeyboardInterrupt

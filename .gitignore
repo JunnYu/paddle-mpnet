@@ -129,4 +129,3 @@ dmypy.json
 .pyre/
 pytorch_model.bin
 model_state.pdparams
-logs/
