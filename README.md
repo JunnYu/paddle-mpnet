@@ -265,19 +265,19 @@ python -m paddle.distributed.launch --gpus "0" run_squad.py \
 ```python
 # global step 24000
 {
-  "exact": 81.78219489598249,
-  "f1": 84.88699401134572,
+  "exact": 81.51267581908532,
+  "f1": 84.59661450171035,
   "total": 11873,
-  "HasAns_exact": 78.64372469635627,
-  "HasAns_f1": 84.86222670322341,
+  "HasAns_exact": 78.74493927125506,
+  "HasAns_f1": 84.92166059021716,
   "HasAns_total": 5928,
-  "NoAns_exact": 84.9116904962153,
-  "NoAns_f1": 84.9116904962153,
+  "NoAns_exact": 84.27249789739277,
+  "NoAns_f1": 84.27249789739277,
   "NoAns_total": 5945,
-  "best_exact": 82.28754316516466,
-  "best_exact_thresh": -1.2772836685180664,
-  "best_f1": 85.32220781324624,
-  "best_f1_thresh": -1.2772836685180664
+  "best_exact": 82.31281057862377,
+  "best_exact_thresh": -2.569451332092285,
+  "best_f1": 85.2005829057288,
+  "best_f1_thresh": -1.9268460273742676
 }
 ```
 
