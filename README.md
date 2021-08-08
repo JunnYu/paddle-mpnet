@@ -283,8 +283,8 @@ python -m paddle.distributed.launch --gpus "0" run_squad.py \
 
 ##### 模型链接
 
-链接：TODO
-提取码：TODO
+链接：https://pan.baidu.com/s/1CnksQgwG5wYvmgs9cODFZA 
+提取码：rfh4
 
 # Tips:
 - 对于SQUAD任务：根据这个[issues](https://github.com/microsoft/MPNet/issues/3)所说,论文中汇报的是`"best_exact"`和`"best_f1"`。
