@@ -1,0 +1,3262 @@
+/usr/lib/python3/dist-packages/urllib3/util/selectors.py:14: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import namedtuple, Mapping
+/usr/lib/python3/dist-packages/urllib3/_collections.py:2: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+-----------  Configuration Arguments -----------
+adam_epsilon: 1e-06
+batch_size: 16
+device: gpu
+do_lower_case: True
+do_predict: True
+do_train: True
+doc_stride: 128
+layer_lr_decay: 1.0
+learning_rate: 2e-05
+logging_steps: 25
+max_answer_length: 30
+max_grad_norm: 1.0
+max_query_length: 64
+max_seq_length: 512
+max_steps: -1
+model_name_or_path: mpnet-base
+model_type: mpnet
+n_best_size: 20
+null_score_diff_threshold: 0.0
+num_train_epochs: 4
+output_dir: squad1.1/
+predict_file: None
+save_steps: 25
+scheduler_type: linear
+seed: 42
+train_file: None
+verbose: False
+version_2_with_negative: False
+warmup_proportion: 0.1
+weight_decay: 0.1
+------------------------------------------------
+file ./config.json not found
+file ./config.json not found
+[32m[2021-08-12 15:40:36,880] [    INFO][0m - Already cached /root/.paddlenlp/models/mpnet-base/model_state.pdparams[0m
+W0812 15:40:36.881094  7284 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 8.6, Driver API Version: 11.4, Runtime API Version: 11.2
+W0812 15:40:36.883507  7284 device_context.cc:422] device: 0, cuDNN Version: 8.1.
+global step 25, epoch: 1, batch: 25, loss: 5.621178, speed: 5.26 step/s
+global step 50, epoch: 1, batch: 50, loss: 5.636802, speed: 5.26 step/s
+global step 75, epoch: 1, batch: 75, loss: 5.663493, speed: 5.50 step/s
+global step 100, epoch: 1, batch: 100, loss: 5.361373, speed: 5.09 step/s
+global step 125, epoch: 1, batch: 125, loss: 5.292023, speed: 5.43 step/s
+global step 150, epoch: 1, batch: 150, loss: 5.562447, speed: 5.81 step/s
+global step 175, epoch: 1, batch: 175, loss: 5.497352, speed: 5.56 step/s
+global step 200, epoch: 1, batch: 200, loss: 5.661872, speed: 5.69 step/s
+global step 225, epoch: 1, batch: 225, loss: 5.155840, speed: 5.38 step/s
+global step 250, epoch: 1, batch: 250, loss: 5.195474, speed: 5.28 step/s
+global step 275, epoch: 1, batch: 275, loss: 5.054824, speed: 5.43 step/s
+global step 300, epoch: 1, batch: 300, loss: 4.799030, speed: 5.17 step/s
+global step 325, epoch: 1, batch: 325, loss: 4.760433, speed: 5.50 step/s
+global step 350, epoch: 1, batch: 350, loss: 4.791926, speed: 5.50 step/s
+global step 375, epoch: 1, batch: 375, loss: 4.639761, speed: 5.51 step/s
+global step 400, epoch: 1, batch: 400, loss: 4.368412, speed: 5.25 step/s
+global step 425, epoch: 1, batch: 425, loss: 4.128112, speed: 5.44 step/s
+global step 450, epoch: 1, batch: 450, loss: 3.774025, speed: 5.12 step/s
+global step 475, epoch: 1, batch: 475, loss: 3.573608, speed: 5.39 step/s
+global step 500, epoch: 1, batch: 500, loss: 3.381752, speed: 4.96 step/s
+global step 525, epoch: 1, batch: 525, loss: 3.740839, speed: 5.74 step/s
+global step 550, epoch: 1, batch: 550, loss: 3.740690, speed: 5.49 step/s
+global step 575, epoch: 1, batch: 575, loss: 3.654050, speed: 5.52 step/s
+global step 600, epoch: 1, batch: 600, loss: 3.533051, speed: 5.05 step/s
+global step 625, epoch: 1, batch: 625, loss: 3.348863, speed: 5.61 step/s
+global step 650, epoch: 1, batch: 650, loss: 2.810186, speed: 5.64 step/s
+global step 675, epoch: 1, batch: 675, loss: 2.804510, speed: 5.24 step/s
+global step 700, epoch: 1, batch: 700, loss: 3.683012, speed: 5.29 step/s
+global step 725, epoch: 1, batch: 725, loss: 2.535317, speed: 5.13 step/s
+global step 750, epoch: 1, batch: 750, loss: 3.133977, speed: 5.38 step/s
+global step 775, epoch: 1, batch: 775, loss: 2.574934, speed: 5.20 step/s
+global step 800, epoch: 1, batch: 800, loss: 2.706791, speed: 5.53 step/s
+global step 825, epoch: 1, batch: 825, loss: 2.574778, speed: 5.83 step/s
+global step 850, epoch: 1, batch: 850, loss: 2.663697, speed: 5.72 step/s
+global step 875, epoch: 1, batch: 875, loss: 2.506125, speed: 5.06 step/s
+global step 900, epoch: 1, batch: 900, loss: 2.663584, speed: 5.81 step/s
+global step 925, epoch: 1, batch: 925, loss: 2.755519, speed: 5.36 step/s
+global step 950, epoch: 1, batch: 950, loss: 2.301987, speed: 5.22 step/s
+global step 975, epoch: 1, batch: 975, loss: 2.308704, speed: 5.87 step/s
+global step 1000, epoch: 1, batch: 1000, loss: 2.648790, speed: 5.37 step/s
+global step 1025, epoch: 1, batch: 1025, loss: 2.580897, speed: 5.76 step/s
+global step 1050, epoch: 1, batch: 1050, loss: 2.968455, speed: 5.06 step/s
+global step 1075, epoch: 1, batch: 1075, loss: 2.570194, speed: 5.49 step/s
+global step 1100, epoch: 1, batch: 1100, loss: 2.653996, speed: 5.54 step/s
+global step 1125, epoch: 1, batch: 1125, loss: 2.441601, speed: 5.20 step/s
+global step 1150, epoch: 1, batch: 1150, loss: 2.294857, speed: 5.66 step/s
+global step 1175, epoch: 1, batch: 1175, loss: 2.978661, speed: 5.53 step/s
+global step 1200, epoch: 1, batch: 1200, loss: 2.871540, speed: 5.78 step/s
+global step 1225, epoch: 1, batch: 1225, loss: 2.410709, speed: 5.35 step/s
+global step 1250, epoch: 1, batch: 1250, loss: 1.787471, speed: 5.61 step/s
+global step 1275, epoch: 1, batch: 1275, loss: 2.568744, speed: 5.80 step/s
+global step 1300, epoch: 1, batch: 1300, loss: 1.718628, speed: 5.45 step/s
+global step 1325, epoch: 1, batch: 1325, loss: 2.256269, speed: 5.41 step/s
+global step 1350, epoch: 1, batch: 1350, loss: 2.464161, speed: 5.31 step/s
+global step 1375, epoch: 1, batch: 1375, loss: 2.088826, speed: 5.50 step/s
+global step 1400, epoch: 1, batch: 1400, loss: 1.765146, speed: 5.64 step/s
+global step 1425, epoch: 1, batch: 1425, loss: 2.321781, speed: 5.30 step/s
+global step 1450, epoch: 1, batch: 1450, loss: 1.805019, speed: 5.32 step/s
+global step 1475, epoch: 1, batch: 1475, loss: 1.777466, speed: 5.22 step/s
+global step 1500, epoch: 1, batch: 1500, loss: 1.667954, speed: 5.47 step/s
+global step 1525, epoch: 1, batch: 1525, loss: 2.059019, speed: 4.99 step/s
+global step 1550, epoch: 1, batch: 1550, loss: 2.624285, speed: 5.48 step/s
+global step 1575, epoch: 1, batch: 1575, loss: 1.784302, speed: 5.45 step/s
+global step 1600, epoch: 1, batch: 1600, loss: 2.097591, speed: 5.37 step/s
+global step 1625, epoch: 1, batch: 1625, loss: 1.730072, speed: 5.32 step/s
+global step 1650, epoch: 1, batch: 1650, loss: 1.468211, speed: 5.61 step/s
+global step 1675, epoch: 1, batch: 1675, loss: 1.438733, speed: 5.29 step/s
+global step 1700, epoch: 1, batch: 1700, loss: 1.850275, speed: 5.18 step/s
+global step 1725, epoch: 1, batch: 1725, loss: 2.194840, speed: 5.45 step/s
+global step 1750, epoch: 1, batch: 1750, loss: 1.333884, speed: 5.26 step/s
+global step 1775, epoch: 1, batch: 1775, loss: 2.029606, speed: 5.08 step/s
+global step 1800, epoch: 1, batch: 1800, loss: 2.153879, speed: 5.47 step/s
+global step 1825, epoch: 1, batch: 1825, loss: 1.468977, speed: 5.66 step/s
+global step 1850, epoch: 1, batch: 1850, loss: 1.866792, speed: 4.85 step/s
+global step 1875, epoch: 1, batch: 1875, loss: 1.421970, speed: 5.43 step/s
+global step 1900, epoch: 1, batch: 1900, loss: 1.281300, speed: 5.44 step/s
+global step 1925, epoch: 1, batch: 1925, loss: 1.776860, speed: 5.56 step/s
+global step 1950, epoch: 1, batch: 1950, loss: 1.217591, speed: 5.15 step/s
+global step 1975, epoch: 1, batch: 1975, loss: 1.460725, speed: 5.28 step/s
+global step 2000, epoch: 1, batch: 2000, loss: 0.899778, speed: 5.12 step/s
+global step 2025, epoch: 1, batch: 2025, loss: 1.440594, speed: 5.27 step/s
+global step 2050, epoch: 1, batch: 2050, loss: 1.425447, speed: 5.18 step/s
+global step 2075, epoch: 1, batch: 2075, loss: 1.779059, speed: 5.23 step/s
+global step 2100, epoch: 1, batch: 2100, loss: 0.774881, speed: 5.31 step/s
+global step 2125, epoch: 1, batch: 2125, loss: 0.896622, speed: 5.34 step/s
+global step 2150, epoch: 1, batch: 2150, loss: 1.217411, speed: 5.83 step/s
+global step 2175, epoch: 1, batch: 2175, loss: 1.311294, speed: 5.38 step/s
+global step 2200, epoch: 1, batch: 2200, loss: 0.841710, speed: 5.66 step/s
+global step 2225, epoch: 1, batch: 2225, loss: 1.227058, speed: 5.73 step/s
+global step 2250, epoch: 1, batch: 2250, loss: 1.283347, speed: 4.84 step/s
+global step 2275, epoch: 1, batch: 2275, loss: 1.479296, speed: 5.57 step/s
+global step 2300, epoch: 1, batch: 2300, loss: 1.602816, speed: 5.51 step/s
+global step 2325, epoch: 1, batch: 2325, loss: 0.901431, speed: 5.48 step/s
+global step 2350, epoch: 1, batch: 2350, loss: 0.797240, speed: 5.53 step/s
+global step 2375, epoch: 1, batch: 2375, loss: 1.063173, speed: 5.33 step/s
+global step 2400, epoch: 1, batch: 2400, loss: 0.729576, speed: 5.23 step/s
+global step 2425, epoch: 1, batch: 2425, loss: 1.010512, speed: 5.00 step/s
+global step 2450, epoch: 1, batch: 2450, loss: 1.108816, speed: 5.60 step/s
+global step 2475, epoch: 1, batch: 2475, loss: 1.131731, speed: 5.02 step/s
+global step 2500, epoch: 1, batch: 2500, loss: 0.871868, speed: 5.38 step/s
+global step 2525, epoch: 1, batch: 2525, loss: 0.821234, speed: 5.68 step/s
+global step 2550, epoch: 1, batch: 2550, loss: 1.463102, speed: 5.15 step/s
+global step 2575, epoch: 1, batch: 2575, loss: 1.209027, speed: 5.49 step/s
+global step 2600, epoch: 1, batch: 2600, loss: 1.230987, speed: 5.18 step/s
+global step 2625, epoch: 1, batch: 2625, loss: 0.658115, speed: 5.20 step/s
+global step 2650, epoch: 1, batch: 2650, loss: 1.899771, speed: 5.69 step/s
+global step 2675, epoch: 1, batch: 2675, loss: 0.608179, speed: 5.26 step/s
+global step 2700, epoch: 1, batch: 2700, loss: 0.940842, speed: 5.86 step/s
+global step 2725, epoch: 1, batch: 2725, loss: 0.835586, speed: 5.33 step/s
+global step 2750, epoch: 1, batch: 2750, loss: 0.998442, speed: 5.47 step/s
+global step 2775, epoch: 1, batch: 2775, loss: 0.664749, speed: 4.89 step/s
+global step 2800, epoch: 1, batch: 2800, loss: 0.979342, speed: 5.23 step/s
+global step 2825, epoch: 1, batch: 2825, loss: 0.905661, speed: 5.89 step/s
+global step 2850, epoch: 1, batch: 2850, loss: 1.036634, speed: 5.62 step/s
+global step 2875, epoch: 1, batch: 2875, loss: 0.793948, speed: 4.99 step/s
+global step 2900, epoch: 1, batch: 2900, loss: 1.264786, speed: 5.48 step/s
+global step 2925, epoch: 1, batch: 2925, loss: 0.778446, speed: 5.32 step/s
+global step 2950, epoch: 1, batch: 2950, loss: 1.479769, speed: 5.09 step/s
+global step 2975, epoch: 1, batch: 2975, loss: 1.491937, speed: 5.34 step/s
+global step 3000, epoch: 1, batch: 3000, loss: 1.543374, speed: 5.37 step/s
+global step 3025, epoch: 1, batch: 3025, loss: 1.104034, speed: 5.32 step/s
+global step 3050, epoch: 1, batch: 3050, loss: 1.363873, speed: 4.99 step/s
+global step 3075, epoch: 1, batch: 3075, loss: 0.878332, speed: 5.18 step/s
+global step 3100, epoch: 1, batch: 3100, loss: 1.450874, speed: 5.39 step/s
+global step 3125, epoch: 1, batch: 3125, loss: 0.808165, speed: 5.57 step/s
+global step 3150, epoch: 1, batch: 3150, loss: 0.983837, speed: 5.49 step/s
+global step 3175, epoch: 1, batch: 3175, loss: 1.335461, speed: 5.33 step/s
+global step 3200, epoch: 1, batch: 3200, loss: 0.575160, speed: 5.22 step/s
+global step 3225, epoch: 1, batch: 3225, loss: 1.587237, speed: 5.52 step/s
+global step 3250, epoch: 1, batch: 3250, loss: 0.791178, speed: 5.29 step/s
+global step 3275, epoch: 1, batch: 3275, loss: 0.739407, speed: 4.88 step/s
+global step 3300, epoch: 1, batch: 3300, loss: 0.795707, speed: 5.44 step/s
+global step 3325, epoch: 1, batch: 3325, loss: 1.428752, speed: 5.45 step/s
+global step 3350, epoch: 1, batch: 3350, loss: 1.529644, speed: 5.41 step/s
+global step 3375, epoch: 1, batch: 3375, loss: 0.888821, speed: 4.90 step/s
+global step 3400, epoch: 1, batch: 3400, loss: 0.505685, speed: 5.48 step/s
+global step 3425, epoch: 1, batch: 3425, loss: 1.386600, speed: 5.40 step/s
+global step 3450, epoch: 1, batch: 3450, loss: 0.926429, speed: 5.81 step/s
+global step 3475, epoch: 1, batch: 3475, loss: 0.681341, speed: 5.36 step/s
+global step 3500, epoch: 1, batch: 3500, loss: 1.579395, speed: 5.52 step/s
+global step 3525, epoch: 1, batch: 3525, loss: 1.178318, speed: 5.45 step/s
+global step 3550, epoch: 1, batch: 3550, loss: 0.816336, speed: 5.73 step/s
+global step 3575, epoch: 1, batch: 3575, loss: 1.641146, speed: 5.76 step/s
+global step 3600, epoch: 1, batch: 3600, loss: 0.885404, speed: 5.39 step/s
+global step 3625, epoch: 1, batch: 3625, loss: 1.708295, speed: 5.16 step/s
+global step 3650, epoch: 1, batch: 3650, loss: 0.678520, speed: 5.47 step/s
+global step 3675, epoch: 1, batch: 3675, loss: 0.569282, speed: 5.69 step/s
+global step 3700, epoch: 1, batch: 3700, loss: 0.602526, speed: 5.93 step/s
+global step 3725, epoch: 1, batch: 3725, loss: 2.023592, speed: 5.43 step/s
+global step 3750, epoch: 1, batch: 3750, loss: 1.054287, speed: 5.22 step/s
+global step 3775, epoch: 1, batch: 3775, loss: 1.133244, speed: 5.64 step/s
+global step 3800, epoch: 1, batch: 3800, loss: 0.798241, speed: 5.87 step/s
+global step 3825, epoch: 1, batch: 3825, loss: 1.084293, speed: 5.08 step/s
+global step 3850, epoch: 1, batch: 3850, loss: 1.701177, speed: 5.06 step/s
+global step 3875, epoch: 1, batch: 3875, loss: 1.802790, speed: 5.46 step/s
+global step 3900, epoch: 1, batch: 3900, loss: 0.726363, speed: 5.46 step/s
+global step 3925, epoch: 1, batch: 3925, loss: 0.470728, speed: 5.95 step/s
+global step 3950, epoch: 1, batch: 3950, loss: 0.439458, speed: 5.69 step/s
+global step 3975, epoch: 1, batch: 3975, loss: 1.410072, speed: 5.10 step/s
+global step 4000, epoch: 1, batch: 4000, loss: 1.242196, speed: 5.70 step/s
+global step 4025, epoch: 1, batch: 4025, loss: 0.522336, speed: 5.45 step/s
+global step 4050, epoch: 1, batch: 4050, loss: 0.956890, speed: 5.41 step/s
+global step 4075, epoch: 1, batch: 4075, loss: 0.314037, speed: 5.52 step/s
+global step 4100, epoch: 1, batch: 4100, loss: 1.192243, speed: 5.69 step/s
+global step 4125, epoch: 1, batch: 4125, loss: 0.641076, speed: 5.35 step/s
+global step 4150, epoch: 1, batch: 4150, loss: 1.035700, speed: 5.13 step/s
+global step 4175, epoch: 1, batch: 4175, loss: 1.341671, speed: 5.65 step/s
+global step 4200, epoch: 1, batch: 4200, loss: 0.960498, speed: 5.41 step/s
+global step 4225, epoch: 1, batch: 4225, loss: 0.571556, speed: 5.25 step/s
+global step 4250, epoch: 1, batch: 4250, loss: 0.995472, speed: 5.83 step/s
+global step 4275, epoch: 1, batch: 4275, loss: 0.954469, speed: 5.48 step/s
+global step 4300, epoch: 1, batch: 4300, loss: 0.600961, speed: 5.38 step/s
+global step 4325, epoch: 1, batch: 4325, loss: 1.493604, speed: 5.56 step/s
+global step 4350, epoch: 1, batch: 4350, loss: 0.753213, speed: 5.06 step/s
+global step 4375, epoch: 1, batch: 4375, loss: 1.136463, speed: 5.46 step/s
+global step 4400, epoch: 1, batch: 4400, loss: 0.612780, speed: 5.49 step/s
+global step 4425, epoch: 1, batch: 4425, loss: 0.525064, speed: 5.26 step/s
+global step 4450, epoch: 1, batch: 4450, loss: 1.247759, speed: 5.19 step/s
+global step 4475, epoch: 1, batch: 4475, loss: 1.000341, speed: 5.23 step/s
+global step 4500, epoch: 1, batch: 4500, loss: 0.750429, speed: 5.46 step/s
+global step 4525, epoch: 1, batch: 4525, loss: 0.855478, speed: 5.54 step/s
+global step 4550, epoch: 1, batch: 4550, loss: 1.061737, speed: 5.00 step/s
+global step 4575, epoch: 1, batch: 4575, loss: 1.634306, speed: 4.95 step/s
+global step 4600, epoch: 1, batch: 4600, loss: 0.875435, speed: 5.54 step/s
+global step 4625, epoch: 1, batch: 4625, loss: 0.776326, speed: 5.15 step/s
+global step 4650, epoch: 1, batch: 4650, loss: 1.415999, speed: 5.09 step/s
+global step 4675, epoch: 1, batch: 4675, loss: 0.529382, speed: 5.70 step/s
+global step 4700, epoch: 1, batch: 4700, loss: 0.920764, speed: 5.37 step/s
+global step 4725, epoch: 1, batch: 4725, loss: 0.777447, speed: 5.63 step/s
+global step 4750, epoch: 1, batch: 4750, loss: 0.691872, speed: 5.58 step/s
+global step 4775, epoch: 1, batch: 4775, loss: 0.994243, speed: 5.28 step/s
+global step 4800, epoch: 1, batch: 4800, loss: 0.869180, speed: 5.47 step/s
+global step 4825, epoch: 1, batch: 4825, loss: 0.712838, speed: 5.29 step/s
+global step 4850, epoch: 1, batch: 4850, loss: 0.917571, speed: 5.96 step/s
+global step 4875, epoch: 1, batch: 4875, loss: 1.309098, speed: 5.63 step/s
+global step 4900, epoch: 1, batch: 4900, loss: 1.338689, speed: 5.33 step/s
+global step 4925, epoch: 1, batch: 4925, loss: 0.596552, speed: 5.49 step/s
+global step 4950, epoch: 1, batch: 4950, loss: 0.555888, speed: 5.90 step/s
+global step 4975, epoch: 1, batch: 4975, loss: 1.569624, speed: 5.70 step/s
+global step 5000, epoch: 1, batch: 5000, loss: 1.469622, speed: 5.59 step/s
+global step 5025, epoch: 1, batch: 5025, loss: 0.572784, speed: 5.44 step/s
+global step 5050, epoch: 1, batch: 5050, loss: 1.044089, speed: 5.05 step/s
+global step 5075, epoch: 1, batch: 5075, loss: 2.421664, speed: 5.53 step/s
+global step 5100, epoch: 1, batch: 5100, loss: 0.909043, speed: 5.91 step/s
+global step 5125, epoch: 1, batch: 5125, loss: 0.944196, speed: 5.59 step/s
+global step 5150, epoch: 1, batch: 5150, loss: 1.082152, speed: 5.73 step/s
+global step 5175, epoch: 1, batch: 5175, loss: 0.722550, speed: 5.86 step/s
+global step 5200, epoch: 1, batch: 5200, loss: 1.294529, speed: 5.18 step/s
+global step 5225, epoch: 1, batch: 5225, loss: 0.957955, speed: 5.80 step/s
+global step 5250, epoch: 1, batch: 5250, loss: 1.524972, speed: 5.50 step/s
+global step 5275, epoch: 1, batch: 5275, loss: 0.824468, speed: 5.49 step/s
+global step 5300, epoch: 1, batch: 5300, loss: 1.393134, speed: 5.59 step/s
+global step 5325, epoch: 1, batch: 5325, loss: 0.450172, speed: 5.31 step/s
+global step 5350, epoch: 1, batch: 5350, loss: 0.912639, speed: 5.34 step/s
+global step 5375, epoch: 1, batch: 5375, loss: 0.905280, speed: 5.52 step/s
+global step 5400, epoch: 1, batch: 5400, loss: 0.873002, speed: 5.36 step/s
+global step 5425, epoch: 1, batch: 5425, loss: 1.290683, speed: 5.26 step/s
+global step 5450, epoch: 1, batch: 5450, loss: 0.861381, speed: 5.76 step/s
+global step 5475, epoch: 1, batch: 5475, loss: 1.094135, speed: 5.17 step/s
+global step 5500, epoch: 2, batch: 25, loss: 0.744604, speed: 5.19 step/s
+global step 5525, epoch: 2, batch: 50, loss: 1.056919, speed: 5.44 step/s
+global step 5550, epoch: 2, batch: 75, loss: 0.608115, speed: 5.18 step/s
+global step 5575, epoch: 2, batch: 100, loss: 0.655742, speed: 5.12 step/s
+global step 5600, epoch: 2, batch: 125, loss: 0.553316, speed: 5.28 step/s
+global step 5625, epoch: 2, batch: 150, loss: 1.054623, speed: 5.48 step/s
+global step 5650, epoch: 2, batch: 175, loss: 0.764465, speed: 5.53 step/s
+global step 5675, epoch: 2, batch: 200, loss: 0.697993, speed: 5.39 step/s
+global step 5700, epoch: 2, batch: 225, loss: 0.553879, speed: 5.30 step/s
+global step 5725, epoch: 2, batch: 250, loss: 0.554773, speed: 5.40 step/s
+global step 5750, epoch: 2, batch: 275, loss: 0.775478, speed: 5.53 step/s
+global step 5775, epoch: 2, batch: 300, loss: 0.829815, speed: 5.50 step/s
+global step 5800, epoch: 2, batch: 325, loss: 0.642194, speed: 5.46 step/s
+global step 5825, epoch: 2, batch: 350, loss: 0.612770, speed: 5.22 step/s
+global step 5850, epoch: 2, batch: 375, loss: 0.440360, speed: 5.90 step/s
+global step 5875, epoch: 2, batch: 400, loss: 0.385614, speed: 5.31 step/s
+global step 5900, epoch: 2, batch: 425, loss: 1.203603, speed: 5.30 step/s
+global step 5925, epoch: 2, batch: 450, loss: 0.710253, speed: 5.62 step/s
+global step 5950, epoch: 2, batch: 475, loss: 1.866599, speed: 5.06 step/s
+global step 5975, epoch: 2, batch: 500, loss: 0.754548, speed: 5.38 step/s
+global step 6000, epoch: 2, batch: 525, loss: 0.707988, speed: 4.87 step/s
+global step 6025, epoch: 2, batch: 550, loss: 0.707396, speed: 5.21 step/s
+global step 6050, epoch: 2, batch: 575, loss: 0.214534, speed: 5.04 step/s
+global step 6075, epoch: 2, batch: 600, loss: 0.548851, speed: 5.50 step/s
+global step 6100, epoch: 2, batch: 625, loss: 0.835120, speed: 5.77 step/s
+global step 6125, epoch: 2, batch: 650, loss: 1.270327, speed: 6.07 step/s
+global step 6150, epoch: 2, batch: 675, loss: 0.532952, speed: 5.20 step/s
+global step 6175, epoch: 2, batch: 700, loss: 0.363431, speed: 5.15 step/s
+global step 6200, epoch: 2, batch: 725, loss: 0.804551, speed: 5.10 step/s
+global step 6225, epoch: 2, batch: 750, loss: 0.457913, speed: 5.42 step/s
+global step 6250, epoch: 2, batch: 775, loss: 0.624467, speed: 5.60 step/s
+global step 6275, epoch: 2, batch: 800, loss: 0.443200, speed: 5.35 step/s
+global step 6300, epoch: 2, batch: 825, loss: 0.869888, speed: 5.63 step/s
+global step 6325, epoch: 2, batch: 850, loss: 0.700071, speed: 5.52 step/s
+global step 6350, epoch: 2, batch: 875, loss: 0.930914, speed: 5.71 step/s
+global step 6375, epoch: 2, batch: 900, loss: 0.641522, speed: 5.62 step/s
+global step 6400, epoch: 2, batch: 925, loss: 1.229597, speed: 5.51 step/s
+global step 6425, epoch: 2, batch: 950, loss: 1.390645, speed: 5.34 step/s
+global step 6450, epoch: 2, batch: 975, loss: 0.689363, speed: 5.40 step/s
+global step 6475, epoch: 2, batch: 1000, loss: 1.130865, speed: 5.22 step/s
+global step 6500, epoch: 2, batch: 1025, loss: 0.808585, speed: 5.09 step/s
+global step 6525, epoch: 2, batch: 1050, loss: 0.676616, speed: 5.22 step/s
+global step 6550, epoch: 2, batch: 1075, loss: 0.576759, speed: 5.37 step/s
+global step 6575, epoch: 2, batch: 1100, loss: 0.849420, speed: 5.41 step/s
+global step 6600, epoch: 2, batch: 1125, loss: 1.167158, speed: 5.39 step/s
+global step 6625, epoch: 2, batch: 1150, loss: 0.797739, speed: 5.38 step/s
+global step 6650, epoch: 2, batch: 1175, loss: 1.290672, speed: 5.37 step/s
+global step 6675, epoch: 2, batch: 1200, loss: 0.518492, speed: 5.55 step/s
+global step 6700, epoch: 2, batch: 1225, loss: 0.974540, speed: 5.18 step/s
+global step 6725, epoch: 2, batch: 1250, loss: 0.459027, speed: 5.71 step/s
+global step 6750, epoch: 2, batch: 1275, loss: 0.517593, speed: 5.36 step/s
+global step 6775, epoch: 2, batch: 1300, loss: 0.872890, speed: 5.38 step/s
+global step 6800, epoch: 2, batch: 1325, loss: 1.105494, speed: 5.31 step/s
+global step 6825, epoch: 2, batch: 1350, loss: 0.998539, speed: 5.01 step/s
+global step 6850, epoch: 2, batch: 1375, loss: 0.679763, speed: 5.53 step/s
+global step 6875, epoch: 2, batch: 1400, loss: 0.510035, speed: 5.42 step/s
+global step 6900, epoch: 2, batch: 1425, loss: 0.834092, speed: 5.75 step/s
+global step 6925, epoch: 2, batch: 1450, loss: 0.836777, speed: 5.44 step/s
+global step 6950, epoch: 2, batch: 1475, loss: 0.231736, speed: 5.35 step/s
+global step 6975, epoch: 2, batch: 1500, loss: 0.836590, speed: 5.72 step/s
+global step 7000, epoch: 2, batch: 1525, loss: 0.472613, speed: 5.31 step/s
+global step 7025, epoch: 2, batch: 1550, loss: 0.742351, speed: 5.39 step/s
+global step 7050, epoch: 2, batch: 1575, loss: 0.404175, speed: 5.37 step/s
+global step 7075, epoch: 2, batch: 1600, loss: 0.560962, speed: 5.14 step/s
+global step 7100, epoch: 2, batch: 1625, loss: 0.896986, speed: 5.52 step/s
+global step 7125, epoch: 2, batch: 1650, loss: 0.762602, speed: 5.18 step/s
+global step 7150, epoch: 2, batch: 1675, loss: 0.614094, speed: 5.99 step/s
+global step 7175, epoch: 2, batch: 1700, loss: 0.624968, speed: 5.31 step/s
+global step 7200, epoch: 2, batch: 1725, loss: 0.535788, speed: 5.27 step/s
+global step 7225, epoch: 2, batch: 1750, loss: 0.776899, speed: 5.24 step/s
+global step 7250, epoch: 2, batch: 1775, loss: 0.996743, speed: 5.68 step/s
+global step 7275, epoch: 2, batch: 1800, loss: 0.866163, speed: 5.38 step/s
+global step 7300, epoch: 2, batch: 1825, loss: 1.275372, speed: 5.57 step/s
+global step 7325, epoch: 2, batch: 1850, loss: 0.897794, speed: 5.49 step/s
+global step 7350, epoch: 2, batch: 1875, loss: 1.287327, speed: 5.20 step/s
+global step 7375, epoch: 2, batch: 1900, loss: 1.122202, speed: 5.80 step/s
+global step 7400, epoch: 2, batch: 1925, loss: 0.503721, speed: 5.58 step/s
+global step 7425, epoch: 2, batch: 1950, loss: 0.571932, speed: 5.30 step/s
+global step 7450, epoch: 2, batch: 1975, loss: 0.653393, speed: 5.28 step/s
+global step 7475, epoch: 2, batch: 2000, loss: 0.583880, speed: 5.23 step/s
+global step 7500, epoch: 2, batch: 2025, loss: 0.908659, speed: 5.37 step/s
+global step 7525, epoch: 2, batch: 2050, loss: 1.210380, speed: 5.22 step/s
+global step 7550, epoch: 2, batch: 2075, loss: 0.803679, speed: 5.15 step/s
+global step 7575, epoch: 2, batch: 2100, loss: 0.647721, speed: 5.78 step/s
+global step 7600, epoch: 2, batch: 2125, loss: 0.691526, speed: 5.86 step/s
+global step 7625, epoch: 2, batch: 2150, loss: 0.973112, speed: 5.17 step/s
+global step 7650, epoch: 2, batch: 2175, loss: 0.860074, speed: 5.70 step/s
+global step 7675, epoch: 2, batch: 2200, loss: 0.703288, speed: 5.04 step/s
+global step 7700, epoch: 2, batch: 2225, loss: 1.293834, speed: 5.73 step/s
+global step 7725, epoch: 2, batch: 2250, loss: 0.616958, speed: 5.31 step/s
+global step 7750, epoch: 2, batch: 2275, loss: 0.438518, speed: 5.52 step/s
+global step 7775, epoch: 2, batch: 2300, loss: 0.335211, speed: 5.60 step/s
+global step 7800, epoch: 2, batch: 2325, loss: 0.653327, speed: 5.50 step/s
+global step 7825, epoch: 2, batch: 2350, loss: 1.549308, speed: 5.31 step/s
+global step 7850, epoch: 2, batch: 2375, loss: 1.172624, speed: 5.35 step/s
+global step 7875, epoch: 2, batch: 2400, loss: 0.195811, speed: 5.16 step/s
+global step 7900, epoch: 2, batch: 2425, loss: 0.565091, speed: 5.76 step/s
+global step 7925, epoch: 2, batch: 2450, loss: 0.931143, speed: 5.28 step/s
+global step 7950, epoch: 2, batch: 2475, loss: 0.749666, speed: 5.53 step/s
+global step 7975, epoch: 2, batch: 2500, loss: 0.447410, speed: 5.39 step/s
+global step 8000, epoch: 2, batch: 2525, loss: 0.727396, speed: 5.14 step/s
+global step 8025, epoch: 2, batch: 2550, loss: 1.077325, speed: 5.39 step/s
+global step 8050, epoch: 2, batch: 2575, loss: 0.600137, speed: 5.27 step/s
+global step 8075, epoch: 2, batch: 2600, loss: 0.627678, speed: 5.25 step/s
+global step 8100, epoch: 2, batch: 2625, loss: 1.520562, speed: 5.51 step/s
+global step 8125, epoch: 2, batch: 2650, loss: 0.562310, speed: 4.93 step/s
+global step 8150, epoch: 2, batch: 2675, loss: 0.581340, speed: 5.48 step/s
+global step 8175, epoch: 2, batch: 2700, loss: 0.998729, speed: 5.50 step/s
+global step 8200, epoch: 2, batch: 2725, loss: 1.515191, speed: 5.45 step/s
+global step 8225, epoch: 2, batch: 2750, loss: 0.499865, speed: 5.46 step/s
+global step 8250, epoch: 2, batch: 2775, loss: 0.650743, speed: 5.54 step/s
+global step 8275, epoch: 2, batch: 2800, loss: 0.920934, speed: 5.15 step/s
+global step 8300, epoch: 2, batch: 2825, loss: 1.015913, speed: 5.31 step/s
+global step 8325, epoch: 2, batch: 2850, loss: 0.953786, speed: 5.20 step/s
+global step 8350, epoch: 2, batch: 2875, loss: 0.629132, speed: 5.73 step/s
+global step 8375, epoch: 2, batch: 2900, loss: 0.511775, speed: 5.27 step/s
+global step 8400, epoch: 2, batch: 2925, loss: 0.829327, speed: 5.76 step/s
+global step 8425, epoch: 2, batch: 2950, loss: 0.977129, speed: 5.18 step/s
+global step 8450, epoch: 2, batch: 2975, loss: 0.392961, speed: 5.44 step/s
+global step 8475, epoch: 2, batch: 3000, loss: 0.717000, speed: 5.57 step/s
+global step 8500, epoch: 2, batch: 3025, loss: 0.541023, speed: 5.54 step/s
+global step 8525, epoch: 2, batch: 3050, loss: 1.282587, speed: 5.18 step/s
+global step 8550, epoch: 2, batch: 3075, loss: 0.418716, speed: 5.24 step/s
+global step 8575, epoch: 2, batch: 3100, loss: 0.332070, speed: 5.65 step/s
+global step 8600, epoch: 2, batch: 3125, loss: 0.550030, speed: 5.45 step/s
+global step 8625, epoch: 2, batch: 3150, loss: 0.849188, speed: 5.79 step/s
+global step 8650, epoch: 2, batch: 3175, loss: 0.295391, speed: 5.23 step/s
+global step 8675, epoch: 2, batch: 3200, loss: 0.834100, speed: 5.22 step/s
+global step 8700, epoch: 2, batch: 3225, loss: 1.668095, speed: 5.36 step/s
+global step 8725, epoch: 2, batch: 3250, loss: 0.771521, speed: 5.25 step/s
+global step 8750, epoch: 2, batch: 3275, loss: 1.144781, speed: 5.05 step/s
+global step 8775, epoch: 2, batch: 3300, loss: 1.070995, speed: 5.36 step/s
+global step 8800, epoch: 2, batch: 3325, loss: 0.508072, speed: 5.68 step/s
+global step 8825, epoch: 2, batch: 3350, loss: 0.541483, speed: 5.71 step/s
+global step 8850, epoch: 2, batch: 3375, loss: 0.904851, speed: 5.41 step/s
+global step 8875, epoch: 2, batch: 3400, loss: 0.576181, speed: 5.46 step/s
+global step 8900, epoch: 2, batch: 3425, loss: 0.849113, speed: 5.42 step/s
+global step 8925, epoch: 2, batch: 3450, loss: 0.484748, speed: 5.35 step/s
+global step 8950, epoch: 2, batch: 3475, loss: 0.870871, speed: 5.28 step/s
+global step 8975, epoch: 2, batch: 3500, loss: 0.729501, speed: 5.40 step/s
+global step 9000, epoch: 2, batch: 3525, loss: 0.932228, speed: 5.91 step/s
+global step 9025, epoch: 2, batch: 3550, loss: 0.861835, speed: 5.50 step/s
+global step 9050, epoch: 2, batch: 3575, loss: 0.706938, speed: 5.14 step/s
+global step 9075, epoch: 2, batch: 3600, loss: 1.114613, speed: 5.03 step/s
+global step 9100, epoch: 2, batch: 3625, loss: 0.790492, speed: 5.11 step/s
+global step 9125, epoch: 2, batch: 3650, loss: 0.788058, speed: 5.31 step/s
+global step 9150, epoch: 2, batch: 3675, loss: 0.921135, speed: 5.72 step/s
+global step 9175, epoch: 2, batch: 3700, loss: 1.059547, speed: 5.10 step/s
+global step 9200, epoch: 2, batch: 3725, loss: 0.498180, speed: 5.50 step/s
+global step 9225, epoch: 2, batch: 3750, loss: 0.640640, speed: 5.71 step/s
+global step 9250, epoch: 2, batch: 3775, loss: 0.421790, speed: 5.40 step/s
+global step 9275, epoch: 2, batch: 3800, loss: 0.444887, speed: 5.50 step/s
+global step 9300, epoch: 2, batch: 3825, loss: 1.479207, speed: 5.25 step/s
+global step 9325, epoch: 2, batch: 3850, loss: 0.665365, speed: 5.63 step/s
+global step 9350, epoch: 2, batch: 3875, loss: 0.268958, speed: 5.32 step/s
+global step 9375, epoch: 2, batch: 3900, loss: 0.701405, speed: 5.52 step/s
+global step 9400, epoch: 2, batch: 3925, loss: 1.149450, speed: 5.44 step/s
+global step 9425, epoch: 2, batch: 3950, loss: 0.827474, speed: 5.30 step/s
+global step 9450, epoch: 2, batch: 3975, loss: 1.035960, speed: 4.94 step/s
+global step 9475, epoch: 2, batch: 4000, loss: 0.470915, speed: 5.54 step/s
+global step 9500, epoch: 2, batch: 4025, loss: 0.671889, speed: 5.64 step/s
+global step 9525, epoch: 2, batch: 4050, loss: 0.389418, speed: 5.41 step/s
+global step 9550, epoch: 2, batch: 4075, loss: 0.848016, speed: 5.78 step/s
+global step 9575, epoch: 2, batch: 4100, loss: 0.295767, speed: 5.19 step/s
+global step 9600, epoch: 2, batch: 4125, loss: 0.586367, speed: 5.56 step/s
+global step 9625, epoch: 2, batch: 4150, loss: 1.172072, speed: 5.81 step/s
+global step 9650, epoch: 2, batch: 4175, loss: 0.575174, speed: 5.55 step/s
+global step 9675, epoch: 2, batch: 4200, loss: 1.547767, speed: 5.54 step/s
+global step 9700, epoch: 2, batch: 4225, loss: 0.408761, speed: 5.40 step/s
+global step 9725, epoch: 2, batch: 4250, loss: 0.790227, speed: 5.25 step/s
+global step 9750, epoch: 2, batch: 4275, loss: 1.318267, speed: 5.54 step/s
+global step 9775, epoch: 2, batch: 4300, loss: 0.945596, speed: 5.18 step/s
+global step 9800, epoch: 2, batch: 4325, loss: 0.725175, speed: 5.53 step/s
+global step 9825, epoch: 2, batch: 4350, loss: 0.447781, speed: 5.49 step/s
+global step 9850, epoch: 2, batch: 4375, loss: 1.374106, speed: 5.79 step/s
+global step 9875, epoch: 2, batch: 4400, loss: 1.205935, speed: 5.46 step/s
+global step 9900, epoch: 2, batch: 4425, loss: 0.588470, speed: 5.80 step/s
+global step 9925, epoch: 2, batch: 4450, loss: 0.631134, speed: 5.06 step/s
+global step 9950, epoch: 2, batch: 4475, loss: 0.642181, speed: 5.39 step/s
+global step 9975, epoch: 2, batch: 4500, loss: 0.378639, speed: 5.83 step/s
+global step 10000, epoch: 2, batch: 4525, loss: 0.359154, speed: 5.27 step/s
+global step 10025, epoch: 2, batch: 4550, loss: 0.486076, speed: 5.35 step/s
+global step 10050, epoch: 2, batch: 4575, loss: 0.730618, speed: 5.47 step/s
+global step 10075, epoch: 2, batch: 4600, loss: 0.704443, speed: 5.02 step/s
+global step 10100, epoch: 2, batch: 4625, loss: 0.336880, speed: 5.25 step/s
+global step 10125, epoch: 2, batch: 4650, loss: 0.623631, speed: 5.80 step/s
+global step 10150, epoch: 2, batch: 4675, loss: 0.858172, speed: 5.40 step/s
+global step 10175, epoch: 2, batch: 4700, loss: 0.552614, speed: 5.29 step/s
+global step 10200, epoch: 2, batch: 4725, loss: 1.363173, speed: 5.68 step/s
+global step 10225, epoch: 2, batch: 4750, loss: 0.324830, speed: 5.78 step/s
+global step 10250, epoch: 2, batch: 4775, loss: 1.040530, speed: 5.29 step/s
+global step 10275, epoch: 2, batch: 4800, loss: 0.426550, speed: 5.21 step/s
+global step 10300, epoch: 2, batch: 4825, loss: 0.588906, speed: 5.38 step/s
+global step 10325, epoch: 2, batch: 4850, loss: 0.849940, speed: 5.93 step/s
+global step 10350, epoch: 2, batch: 4875, loss: 0.507304, speed: 5.11 step/s
+global step 10375, epoch: 2, batch: 4900, loss: 0.646422, speed: 5.12 step/s
+global step 10400, epoch: 2, batch: 4925, loss: 1.029209, speed: 5.06 step/s
+global step 10425, epoch: 2, batch: 4950, loss: 1.417111, speed: 5.08 step/s
+global step 10450, epoch: 2, batch: 4975, loss: 0.699482, speed: 5.26 step/s
+global step 10475, epoch: 2, batch: 5000, loss: 0.593928, speed: 5.24 step/s
+global step 10500, epoch: 2, batch: 5025, loss: 0.857917, speed: 5.12 step/s
+global step 10525, epoch: 2, batch: 5050, loss: 0.518592, speed: 5.67 step/s
+global step 10550, epoch: 2, batch: 5075, loss: 0.799948, speed: 5.54 step/s
+global step 10575, epoch: 2, batch: 5100, loss: 0.506780, speed: 5.75 step/s
+global step 10600, epoch: 2, batch: 5125, loss: 0.705541, speed: 5.51 step/s
+global step 10625, epoch: 2, batch: 5150, loss: 0.909149, speed: 5.15 step/s
+global step 10650, epoch: 2, batch: 5175, loss: 0.709439, speed: 5.41 step/s
+global step 10675, epoch: 2, batch: 5200, loss: 0.510963, speed: 5.51 step/s
+global step 10700, epoch: 2, batch: 5225, loss: 0.571947, speed: 5.20 step/s
+global step 10725, epoch: 2, batch: 5250, loss: 0.575763, speed: 5.13 step/s
+global step 10750, epoch: 2, batch: 5275, loss: 0.868592, speed: 5.00 step/s
+global step 10775, epoch: 2, batch: 5300, loss: 0.701859, speed: 5.62 step/s
+global step 10800, epoch: 2, batch: 5325, loss: 0.333512, speed: 5.26 step/s
+global step 10825, epoch: 2, batch: 5350, loss: 0.548856, speed: 5.59 step/s
+global step 10850, epoch: 2, batch: 5375, loss: 0.784338, speed: 5.61 step/s
+global step 10875, epoch: 2, batch: 5400, loss: 0.868044, speed: 5.54 step/s
+global step 10900, epoch: 2, batch: 5425, loss: 1.193294, speed: 5.48 step/s
+global step 10925, epoch: 2, batch: 5450, loss: 0.535862, speed: 5.13 step/s
+global step 10950, epoch: 2, batch: 5475, loss: 0.677408, speed: 4.87 step/s
+global step 10975, epoch: 3, batch: 25, loss: 0.421469, speed: 5.82 step/s
+global step 11000, epoch: 3, batch: 50, loss: 0.426090, speed: 5.54 step/s
+global step 11025, epoch: 3, batch: 75, loss: 0.614510, speed: 5.07 step/s
+global step 11050, epoch: 3, batch: 100, loss: 0.546566, speed: 5.47 step/s
+global step 11075, epoch: 3, batch: 125, loss: 1.064406, speed: 5.52 step/s
+global step 11100, epoch: 3, batch: 150, loss: 0.467241, speed: 5.58 step/s
+global step 11125, epoch: 3, batch: 175, loss: 0.737745, speed: 5.30 step/s
+global step 11150, epoch: 3, batch: 200, loss: 1.013112, speed: 5.56 step/s
+global step 11175, epoch: 3, batch: 225, loss: 0.500543, speed: 5.16 step/s
+global step 11200, epoch: 3, batch: 250, loss: 0.651643, speed: 5.14 step/s
+global step 11225, epoch: 3, batch: 275, loss: 0.518187, speed: 5.24 step/s
+global step 11250, epoch: 3, batch: 300, loss: 0.580111, speed: 5.71 step/s
+global step 11275, epoch: 3, batch: 325, loss: 0.371743, speed: 5.31 step/s
+global step 11300, epoch: 3, batch: 350, loss: 0.649393, speed: 5.35 step/s
+global step 11325, epoch: 3, batch: 375, loss: 0.706609, speed: 5.14 step/s
+global step 11350, epoch: 3, batch: 400, loss: 0.417024, speed: 5.09 step/s
+global step 11375, epoch: 3, batch: 425, loss: 0.196146, speed: 5.27 step/s
+global step 11400, epoch: 3, batch: 450, loss: 1.137536, speed: 5.00 step/s
+global step 11425, epoch: 3, batch: 475, loss: 0.807991, speed: 5.82 step/s
+global step 11450, epoch: 3, batch: 500, loss: 0.835710, speed: 5.59 step/s
+global step 11475, epoch: 3, batch: 525, loss: 1.006504, speed: 5.46 step/s
+global step 11500, epoch: 3, batch: 550, loss: 0.393143, speed: 5.30 step/s
+global step 11525, epoch: 3, batch: 575, loss: 0.653581, speed: 5.60 step/s
+global step 11550, epoch: 3, batch: 600, loss: 0.170040, speed: 5.10 step/s
+global step 11575, epoch: 3, batch: 625, loss: 0.229579, speed: 5.75 step/s
+global step 11600, epoch: 3, batch: 650, loss: 0.638059, speed: 5.63 step/s
+global step 11625, epoch: 3, batch: 675, loss: 0.613635, speed: 5.32 step/s
+global step 11650, epoch: 3, batch: 700, loss: 0.466229, speed: 5.23 step/s
+global step 11675, epoch: 3, batch: 725, loss: 0.840969, speed: 5.10 step/s
+global step 11700, epoch: 3, batch: 750, loss: 0.461976, speed: 5.11 step/s
+global step 11725, epoch: 3, batch: 775, loss: 0.683524, speed: 5.01 step/s
+global step 11750, epoch: 3, batch: 800, loss: 0.683223, speed: 5.50 step/s
+global step 11775, epoch: 3, batch: 825, loss: 0.412244, speed: 5.60 step/s
+global step 11800, epoch: 3, batch: 850, loss: 0.743300, speed: 5.91 step/s
+global step 11825, epoch: 3, batch: 875, loss: 0.326426, speed: 5.09 step/s
+global step 11850, epoch: 3, batch: 900, loss: 0.515212, speed: 5.61 step/s
+global step 11875, epoch: 3, batch: 925, loss: 0.602646, speed: 4.90 step/s
+global step 11900, epoch: 3, batch: 950, loss: 0.620398, speed: 5.37 step/s
+global step 11925, epoch: 3, batch: 975, loss: 0.184397, speed: 5.20 step/s
+global step 11950, epoch: 3, batch: 1000, loss: 0.516578, speed: 5.52 step/s
+global step 11975, epoch: 3, batch: 1025, loss: 0.548243, speed: 5.31 step/s
+global step 12000, epoch: 3, batch: 1050, loss: 0.976749, speed: 5.21 step/s
+global step 12025, epoch: 3, batch: 1075, loss: 0.380715, speed: 5.82 step/s
+global step 12050, epoch: 3, batch: 1100, loss: 0.665178, speed: 5.06 step/s
+global step 12075, epoch: 3, batch: 1125, loss: 0.411506, speed: 5.61 step/s
+global step 12100, epoch: 3, batch: 1150, loss: 0.637566, speed: 5.30 step/s
+global step 12125, epoch: 3, batch: 1175, loss: 0.680879, speed: 4.94 step/s
+global step 12150, epoch: 3, batch: 1200, loss: 0.551756, speed: 5.33 step/s
+global step 12175, epoch: 3, batch: 1225, loss: 0.638568, speed: 5.04 step/s
+global step 12200, epoch: 3, batch: 1250, loss: 0.843463, speed: 5.98 step/s
+global step 12225, epoch: 3, batch: 1275, loss: 0.912027, speed: 5.54 step/s
+global step 12250, epoch: 3, batch: 1300, loss: 1.124031, speed: 5.52 step/s
+global step 12275, epoch: 3, batch: 1325, loss: 0.442644, speed: 4.91 step/s
+global step 12300, epoch: 3, batch: 1350, loss: 0.463392, speed: 5.31 step/s
+global step 12325, epoch: 3, batch: 1375, loss: 0.698880, speed: 5.33 step/s
+global step 12350, epoch: 3, batch: 1400, loss: 0.826630, speed: 5.02 step/s
+global step 12375, epoch: 3, batch: 1425, loss: 0.817696, speed: 5.44 step/s
+global step 12400, epoch: 3, batch: 1450, loss: 0.832340, speed: 5.42 step/s
+global step 12425, epoch: 3, batch: 1475, loss: 0.835287, speed: 5.39 step/s
+global step 12450, epoch: 3, batch: 1500, loss: 0.649738, speed: 5.33 step/s
+global step 12475, epoch: 3, batch: 1525, loss: 0.531311, speed: 5.24 step/s
+global step 12500, epoch: 3, batch: 1550, loss: 0.354989, speed: 5.59 step/s
+global step 12525, epoch: 3, batch: 1575, loss: 0.253981, speed: 5.11 step/s
+global step 12550, epoch: 3, batch: 1600, loss: 0.529887, speed: 5.47 step/s
+global step 12575, epoch: 3, batch: 1625, loss: 0.399595, speed: 5.24 step/s
+global step 12600, epoch: 3, batch: 1650, loss: 0.624491, speed: 5.17 step/s
+global step 12625, epoch: 3, batch: 1675, loss: 0.522027, speed: 5.19 step/s
+global step 12650, epoch: 3, batch: 1700, loss: 0.578577, speed: 5.55 step/s
+global step 12675, epoch: 3, batch: 1725, loss: 0.713349, speed: 5.17 step/s
+global step 12700, epoch: 3, batch: 1750, loss: 0.622926, speed: 5.20 step/s
+global step 12725, epoch: 3, batch: 1775, loss: 0.752387, speed: 5.54 step/s
+global step 12750, epoch: 3, batch: 1800, loss: 0.707306, speed: 5.49 step/s
+global step 12775, epoch: 3, batch: 1825, loss: 0.444100, speed: 5.47 step/s
+global step 12800, epoch: 3, batch: 1850, loss: 0.545767, speed: 5.52 step/s
+global step 12825, epoch: 3, batch: 1875, loss: 0.170357, speed: 5.25 step/s
+global step 12850, epoch: 3, batch: 1900, loss: 0.394154, speed: 5.45 step/s
+global step 12875, epoch: 3, batch: 1925, loss: 0.638474, speed: 5.68 step/s
+global step 12900, epoch: 3, batch: 1950, loss: 0.933667, speed: 5.99 step/s
+global step 12925, epoch: 3, batch: 1975, loss: 0.660591, speed: 5.80 step/s
+global step 12950, epoch: 3, batch: 2000, loss: 0.795299, speed: 5.30 step/s
+global step 12975, epoch: 3, batch: 2025, loss: 0.241103, speed: 5.58 step/s
+global step 13000, epoch: 3, batch: 2050, loss: 0.285264, speed: 5.92 step/s
+global step 13025, epoch: 3, batch: 2075, loss: 0.380278, speed: 5.72 step/s
+global step 13050, epoch: 3, batch: 2100, loss: 0.958570, speed: 5.61 step/s
+global step 13075, epoch: 3, batch: 2125, loss: 0.262648, speed: 5.74 step/s
+global step 13100, epoch: 3, batch: 2150, loss: 0.519627, speed: 5.29 step/s
+global step 13125, epoch: 3, batch: 2175, loss: 0.360157, speed: 4.89 step/s
+global step 13150, epoch: 3, batch: 2200, loss: 0.371614, speed: 5.60 step/s
+global step 13175, epoch: 3, batch: 2225, loss: 0.509485, speed: 5.79 step/s
+global step 13200, epoch: 3, batch: 2250, loss: 0.736205, speed: 5.40 step/s
+global step 13225, epoch: 3, batch: 2275, loss: 0.805682, speed: 5.28 step/s
+global step 13250, epoch: 3, batch: 2300, loss: 0.545184, speed: 5.31 step/s
+global step 13275, epoch: 3, batch: 2325, loss: 1.056792, speed: 5.40 step/s
+global step 13300, epoch: 3, batch: 2350, loss: 1.329349, speed: 5.24 step/s
+global step 13325, epoch: 3, batch: 2375, loss: 0.503390, speed: 5.29 step/s
+global step 13350, epoch: 3, batch: 2400, loss: 0.581845, speed: 5.77 step/s
+global step 13375, epoch: 3, batch: 2425, loss: 0.738745, speed: 5.39 step/s
+global step 13400, epoch: 3, batch: 2450, loss: 0.323053, speed: 5.90 step/s
+global step 13425, epoch: 3, batch: 2475, loss: 0.292208, speed: 5.43 step/s
+global step 13450, epoch: 3, batch: 2500, loss: 0.408773, speed: 5.17 step/s
+global step 13475, epoch: 3, batch: 2525, loss: 0.625554, speed: 4.94 step/s
+global step 13500, epoch: 3, batch: 2550, loss: 0.620710, speed: 5.46 step/s
+global step 13525, epoch: 3, batch: 2575, loss: 0.771335, speed: 5.52 step/s
+global step 13550, epoch: 3, batch: 2600, loss: 0.349516, speed: 5.26 step/s
+global step 13575, epoch: 3, batch: 2625, loss: 0.421685, speed: 5.73 step/s
+global step 13600, epoch: 3, batch: 2650, loss: 0.691172, speed: 5.58 step/s
+global step 13625, epoch: 3, batch: 2675, loss: 0.929891, speed: 5.70 step/s
+global step 13650, epoch: 3, batch: 2700, loss: 1.312704, speed: 5.36 step/s
+global step 13675, epoch: 3, batch: 2725, loss: 0.674614, speed: 5.46 step/s
+global step 13700, epoch: 3, batch: 2750, loss: 0.894297, speed: 5.33 step/s
+global step 13725, epoch: 3, batch: 2775, loss: 0.516039, speed: 5.67 step/s
+global step 13750, epoch: 3, batch: 2800, loss: 0.368997, speed: 5.24 step/s
+global step 13775, epoch: 3, batch: 2825, loss: 0.851865, speed: 5.56 step/s
+global step 13800, epoch: 3, batch: 2850, loss: 0.550313, speed: 5.52 step/s
+global step 13825, epoch: 3, batch: 2875, loss: 1.011226, speed: 5.52 step/s
+global step 13850, epoch: 3, batch: 2900, loss: 0.707549, speed: 5.36 step/s
+global step 13875, epoch: 3, batch: 2925, loss: 0.821251, speed: 5.36 step/s
+global step 13900, epoch: 3, batch: 2950, loss: 0.854717, speed: 5.33 step/s
+global step 13925, epoch: 3, batch: 2975, loss: 0.516248, speed: 5.42 step/s
+global step 13950, epoch: 3, batch: 3000, loss: 0.411531, speed: 5.14 step/s
+global step 13975, epoch: 3, batch: 3025, loss: 1.297980, speed: 5.61 step/s
+global step 14000, epoch: 3, batch: 3050, loss: 0.652885, speed: 5.68 step/s
+global step 14025, epoch: 3, batch: 3075, loss: 0.232871, speed: 5.33 step/s
+global step 14050, epoch: 3, batch: 3100, loss: 0.436402, speed: 5.48 step/s
+global step 14075, epoch: 3, batch: 3125, loss: 0.634683, speed: 5.80 step/s
+global step 14100, epoch: 3, batch: 3150, loss: 0.672337, speed: 5.33 step/s
+global step 14125, epoch: 3, batch: 3175, loss: 0.735625, speed: 5.44 step/s
+global step 14150, epoch: 3, batch: 3200, loss: 0.958722, speed: 5.22 step/s
+global step 14175, epoch: 3, batch: 3225, loss: 0.331322, speed: 5.33 step/s
+global step 14200, epoch: 3, batch: 3250, loss: 0.296707, speed: 5.71 step/s
+global step 14225, epoch: 3, batch: 3275, loss: 0.700094, speed: 5.51 step/s
+global step 14250, epoch: 3, batch: 3300, loss: 0.293133, speed: 5.61 step/s
+global step 14275, epoch: 3, batch: 3325, loss: 0.633408, speed: 5.26 step/s
+global step 14300, epoch: 3, batch: 3350, loss: 0.615979, speed: 5.50 step/s
+global step 14325, epoch: 3, batch: 3375, loss: 1.333530, speed: 5.26 step/s
+global step 14350, epoch: 3, batch: 3400, loss: 0.727766, speed: 5.58 step/s
+global step 14375, epoch: 3, batch: 3425, loss: 1.041229, speed: 5.49 step/s
+global step 14400, epoch: 3, batch: 3450, loss: 0.286132, speed: 5.42 step/s
+global step 14425, epoch: 3, batch: 3475, loss: 0.649891, speed: 5.42 step/s
+global step 14450, epoch: 3, batch: 3500, loss: 0.354757, speed: 5.72 step/s
+global step 14475, epoch: 3, batch: 3525, loss: 0.485051, speed: 4.96 step/s
+global step 14500, epoch: 3, batch: 3550, loss: 0.648846, speed: 5.31 step/s
+global step 14525, epoch: 3, batch: 3575, loss: 0.334069, speed: 5.46 step/s
+global step 14550, epoch: 3, batch: 3600, loss: 0.271088, speed: 5.87 step/s
+global step 14575, epoch: 3, batch: 3625, loss: 0.467211, speed: 5.18 step/s
+global step 14600, epoch: 3, batch: 3650, loss: 0.634539, speed: 5.53 step/s
+global step 14625, epoch: 3, batch: 3675, loss: 0.551625, speed: 5.85 step/s
+global step 14650, epoch: 3, batch: 3700, loss: 0.430138, speed: 5.00 step/s
+global step 14675, epoch: 3, batch: 3725, loss: 0.493873, speed: 5.64 step/s
+global step 14700, epoch: 3, batch: 3750, loss: 0.554400, speed: 5.54 step/s
+global step 14725, epoch: 3, batch: 3775, loss: 0.446295, speed: 5.29 step/s
+global step 14750, epoch: 3, batch: 3800, loss: 0.590919, speed: 5.36 step/s
+global step 14775, epoch: 3, batch: 3825, loss: 0.623772, speed: 5.32 step/s
+global step 14800, epoch: 3, batch: 3850, loss: 0.563318, speed: 5.38 step/s
+global step 14825, epoch: 3, batch: 3875, loss: 0.552315, speed: 5.57 step/s
+global step 14850, epoch: 3, batch: 3900, loss: 0.345455, speed: 5.35 step/s
+global step 14875, epoch: 3, batch: 3925, loss: 0.764089, speed: 5.20 step/s
+global step 14900, epoch: 3, batch: 3950, loss: 0.950360, speed: 5.38 step/s
+global step 14925, epoch: 3, batch: 3975, loss: 0.771413, speed: 5.38 step/s
+global step 14950, epoch: 3, batch: 4000, loss: 0.380154, speed: 5.72 step/s
+global step 14975, epoch: 3, batch: 4025, loss: 0.788355, speed: 5.66 step/s
+global step 15000, epoch: 3, batch: 4050, loss: 0.884475, speed: 5.23 step/s
+global step 15025, epoch: 3, batch: 4075, loss: 0.630227, speed: 5.11 step/s
+global step 15050, epoch: 3, batch: 4100, loss: 0.448215, speed: 5.41 step/s
+global step 15075, epoch: 3, batch: 4125, loss: 0.447198, speed: 5.13 step/s
+global step 15100, epoch: 3, batch: 4150, loss: 0.359778, speed: 5.41 step/s
+global step 15125, epoch: 3, batch: 4175, loss: 1.211388, speed: 5.21 step/s
+global step 15150, epoch: 3, batch: 4200, loss: 0.173589, speed: 5.59 step/s
+global step 15175, epoch: 3, batch: 4225, loss: 0.728718, speed: 5.28 step/s
+global step 15200, epoch: 3, batch: 4250, loss: 0.402009, speed: 5.48 step/s
+global step 15225, epoch: 3, batch: 4275, loss: 0.334220, speed: 5.13 step/s
+global step 15250, epoch: 3, batch: 4300, loss: 1.060218, speed: 5.37 step/s
+global step 15275, epoch: 3, batch: 4325, loss: 0.526177, speed: 5.09 step/s
+global step 15300, epoch: 3, batch: 4350, loss: 0.441279, speed: 5.18 step/s
+global step 15325, epoch: 3, batch: 4375, loss: 0.656038, speed: 5.76 step/s
+global step 15350, epoch: 3, batch: 4400, loss: 0.958685, speed: 5.36 step/s
+global step 15375, epoch: 3, batch: 4425, loss: 0.513371, speed: 4.87 step/s
+global step 15400, epoch: 3, batch: 4450, loss: 0.686634, speed: 5.29 step/s
+global step 15425, epoch: 3, batch: 4475, loss: 0.646477, speed: 5.27 step/s
+global step 15450, epoch: 3, batch: 4500, loss: 0.337996, speed: 5.26 step/s
+global step 15475, epoch: 3, batch: 4525, loss: 0.881490, speed: 5.41 step/s
+global step 15500, epoch: 3, batch: 4550, loss: 0.754902, speed: 5.18 step/s
+global step 15525, epoch: 3, batch: 4575, loss: 0.508213, speed: 5.17 step/s
+global step 15550, epoch: 3, batch: 4600, loss: 0.682447, speed: 5.42 step/s
+global step 15575, epoch: 3, batch: 4625, loss: 0.637351, speed: 5.42 step/s
+global step 15600, epoch: 3, batch: 4650, loss: 0.549162, speed: 5.55 step/s
+global step 15625, epoch: 3, batch: 4675, loss: 0.573067, speed: 5.11 step/s
+global step 15650, epoch: 3, batch: 4700, loss: 0.985987, speed: 5.19 step/s
+global step 15675, epoch: 3, batch: 4725, loss: 0.403395, speed: 5.44 step/s
+global step 15700, epoch: 3, batch: 4750, loss: 1.062963, speed: 5.50 step/s
+Saving checkpoint to: squad1.1/model_15700
+{
+  "exact": 86.71712393566698,
+  "f1": 92.79115823253207,
+  "total": 10570,
+  "HasAns_exact": 86.71712393566698,
+  "HasAns_f1": 92.79115823253207,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15725, epoch: 3, batch: 4775, loss: 0.492076, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_15725
+{
+  "exact": 85.87511825922422,
+  "f1": 92.53206620154376,
+  "total": 10570,
+  "HasAns_exact": 85.87511825922422,
+  "HasAns_f1": 92.53206620154376,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15750, epoch: 3, batch: 4800, loss: 0.369274, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_15750
+{
+  "exact": 86.7360454115421,
+  "f1": 92.80711813567397,
+  "total": 10570,
+  "HasAns_exact": 86.7360454115421,
+  "HasAns_f1": 92.80711813567397,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15775, epoch: 3, batch: 4825, loss: 0.670714, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_15775
+{
+  "exact": 86.44276253547777,
+  "f1": 92.80164860993256,
+  "total": 10570,
+  "HasAns_exact": 86.44276253547777,
+  "HasAns_f1": 92.80164860993256,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15800, epoch: 3, batch: 4850, loss: 0.489506, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_15800
+{
+  "exact": 86.72658467360453,
+  "f1": 92.80425893895352,
+  "total": 10570,
+  "HasAns_exact": 86.72658467360453,
+  "HasAns_f1": 92.80425893895352,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15825, epoch: 3, batch: 4875, loss: 0.510112, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_15825
+{
+  "exact": 86.72658467360453,
+  "f1": 92.82732839901611,
+  "total": 10570,
+  "HasAns_exact": 86.72658467360453,
+  "HasAns_f1": 92.82732839901611,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15850, epoch: 3, batch: 4900, loss: 0.664161, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_15850
+{
+  "exact": 86.59413434247871,
+  "f1": 92.77058405614414,
+  "total": 10570,
+  "HasAns_exact": 86.59413434247871,
+  "HasAns_f1": 92.77058405614414,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15875, epoch: 3, batch: 4925, loss: 0.260728, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_15875
+{
+  "exact": 86.07379375591296,
+  "f1": 92.59142524433426,
+  "total": 10570,
+  "HasAns_exact": 86.07379375591296,
+  "HasAns_f1": 92.59142524433426,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15900, epoch: 3, batch: 4950, loss: 0.213604, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_15900
+{
+  "exact": 86.74550614947965,
+  "f1": 92.78266637970357,
+  "total": 10570,
+  "HasAns_exact": 86.74550614947965,
+  "HasAns_f1": 92.78266637970357,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15925, epoch: 3, batch: 4975, loss: 0.694331, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_15925
+{
+  "exact": 86.5752128666036,
+  "f1": 92.68104295541545,
+  "total": 10570,
+  "HasAns_exact": 86.5752128666036,
+  "HasAns_f1": 92.68104295541545,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15950, epoch: 3, batch: 5000, loss: 0.306452, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_15950
+{
+  "exact": 86.16840113528855,
+  "f1": 92.54086190470508,
+  "total": 10570,
+  "HasAns_exact": 86.16840113528855,
+  "HasAns_f1": 92.54086190470508,
+  "HasAns_total": 10570
+}
+==================================================
+global step 15975, epoch: 3, batch: 5025, loss: 0.329574, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_15975
+{
+  "exact": 86.62251655629139,
+  "f1": 92.63203924248451,
+  "total": 10570,
+  "HasAns_exact": 86.62251655629139,
+  "HasAns_f1": 92.63203924248451,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16000, epoch: 3, batch: 5050, loss: 0.745140, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16000
+{
+  "exact": 86.50898770104068,
+  "f1": 92.68098737639014,
+  "total": 10570,
+  "HasAns_exact": 86.50898770104068,
+  "HasAns_f1": 92.68098737639014,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16025, epoch: 3, batch: 5075, loss: 0.397928, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16025
+{
+  "exact": 86.5752128666036,
+  "f1": 92.694058425286,
+  "total": 10570,
+  "HasAns_exact": 86.5752128666036,
+  "HasAns_f1": 92.694058425286,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16050, epoch: 3, batch: 5100, loss: 0.536400, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16050
+{
+  "exact": 86.69820245979186,
+  "f1": 92.77590528228697,
+  "total": 10570,
+  "HasAns_exact": 86.69820245979186,
+  "HasAns_f1": 92.77590528228697,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16075, epoch: 3, batch: 5125, loss: 0.603466, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16075
+{
+  "exact": 86.02649006622516,
+  "f1": 92.53285457955404,
+  "total": 10570,
+  "HasAns_exact": 86.02649006622516,
+  "HasAns_f1": 92.53285457955404,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16100, epoch: 3, batch: 5150, loss: 0.444712, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16100
+{
+  "exact": 86.54683065279092,
+  "f1": 92.70715598348113,
+  "total": 10570,
+  "HasAns_exact": 86.54683065279092,
+  "HasAns_f1": 92.70715598348113,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16125, epoch: 3, batch: 5175, loss: 1.280339, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16125
+{
+  "exact": 86.30085146641439,
+  "f1": 92.63644630310628,
+  "total": 10570,
+  "HasAns_exact": 86.30085146641439,
+  "HasAns_f1": 92.63644630310628,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16150, epoch: 3, batch: 5200, loss: 0.727900, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16150
+{
+  "exact": 86.03595080416272,
+  "f1": 92.55612610933989,
+  "total": 10570,
+  "HasAns_exact": 86.03595080416272,
+  "HasAns_f1": 92.55612610933989,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16175, epoch: 3, batch: 5225, loss: 0.516107, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16175
+{
+  "exact": 86.32923368022706,
+  "f1": 92.67826861237624,
+  "total": 10570,
+  "HasAns_exact": 86.32923368022706,
+  "HasAns_f1": 92.67826861237624,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16200, epoch: 3, batch: 5250, loss: 0.471319, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16200
+{
+  "exact": 86.1116367076632,
+  "f1": 92.6488895997827,
+  "total": 10570,
+  "HasAns_exact": 86.1116367076632,
+  "HasAns_f1": 92.6488895997827,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16225, epoch: 3, batch: 5275, loss: 0.267438, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16225
+{
+  "exact": 86.28192999053927,
+  "f1": 92.73655126092099,
+  "total": 10570,
+  "HasAns_exact": 86.28192999053927,
+  "HasAns_f1": 92.73655126092099,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16250, epoch: 3, batch: 5300, loss: 0.431073, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16250
+{
+  "exact": 86.27246925260171,
+  "f1": 92.67133002925408,
+  "total": 10570,
+  "HasAns_exact": 86.27246925260171,
+  "HasAns_f1": 92.67133002925408,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16275, epoch: 3, batch: 5325, loss: 0.581420, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16275
+{
+  "exact": 86.29139072847683,
+  "f1": 92.63026166594267,
+  "total": 10570,
+  "HasAns_exact": 86.29139072847683,
+  "HasAns_f1": 92.63026166594267,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16300, epoch: 3, batch: 5350, loss: 0.735200, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16300
+{
+  "exact": 86.14001892147587,
+  "f1": 92.55616225557416,
+  "total": 10570,
+  "HasAns_exact": 86.14001892147587,
+  "HasAns_f1": 92.55616225557416,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16325, epoch: 3, batch: 5375, loss: 0.289173, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16325
+{
+  "exact": 86.67928098391674,
+  "f1": 92.76675848068858,
+  "total": 10570,
+  "HasAns_exact": 86.67928098391674,
+  "HasAns_f1": 92.76675848068858,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16350, epoch: 3, batch: 5400, loss: 1.047981, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16350
+{
+  "exact": 85.78051087984863,
+  "f1": 92.4667013435674,
+  "total": 10570,
+  "HasAns_exact": 85.78051087984863,
+  "HasAns_f1": 92.4667013435674,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16375, epoch: 3, batch: 5425, loss: 0.332817, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16375
+{
+  "exact": 86.40491958372753,
+  "f1": 92.68418757136732,
+  "total": 10570,
+  "HasAns_exact": 86.40491958372753,
+  "HasAns_f1": 92.68418757136732,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16400, epoch: 3, batch: 5450, loss: 0.796754, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16400
+{
+  "exact": 85.9035004730369,
+  "f1": 92.56380737410204,
+  "total": 10570,
+  "HasAns_exact": 85.9035004730369,
+  "HasAns_f1": 92.56380737410204,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16425, epoch: 3, batch: 5475, loss: 0.408310, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16425
+{
+  "exact": 86.25354777672659,
+  "f1": 92.6750402889969,
+  "total": 10570,
+  "HasAns_exact": 86.25354777672659,
+  "HasAns_f1": 92.6750402889969,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16450, epoch: 4, batch: 25, loss: 0.131823, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16450
+{
+  "exact": 86.67928098391674,
+  "f1": 92.79094094331377,
+  "total": 10570,
+  "HasAns_exact": 86.67928098391674,
+  "HasAns_f1": 92.79094094331377,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16475, epoch: 4, batch: 50, loss: 0.698060, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16475
+{
+  "exact": 86.5752128666036,
+  "f1": 92.77220071421718,
+  "total": 10570,
+  "HasAns_exact": 86.5752128666036,
+  "HasAns_f1": 92.77220071421718,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16500, epoch: 4, batch: 75, loss: 0.266334, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16500
+{
+  "exact": 86.62251655629139,
+  "f1": 92.8071298709811,
+  "total": 10570,
+  "HasAns_exact": 86.62251655629139,
+  "HasAns_f1": 92.8071298709811,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16525, epoch: 4, batch: 100, loss: 0.473657, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16525
+{
+  "exact": 86.3197729422895,
+  "f1": 92.67494362010652,
+  "total": 10570,
+  "HasAns_exact": 86.3197729422895,
+  "HasAns_f1": 92.67494362010652,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16550, epoch: 4, batch: 125, loss: 0.425675, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16550
+{
+  "exact": 86.5752128666036,
+  "f1": 92.71878685018247,
+  "total": 10570,
+  "HasAns_exact": 86.5752128666036,
+  "HasAns_f1": 92.71878685018247,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16575, epoch: 4, batch: 150, loss: 0.206287, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16575
+{
+  "exact": 86.59413434247871,
+  "f1": 92.72725731106397,
+  "total": 10570,
+  "HasAns_exact": 86.59413434247871,
+  "HasAns_f1": 92.72725731106397,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16600, epoch: 4, batch: 175, loss: 0.416948, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16600
+{
+  "exact": 85.81835383159887,
+  "f1": 92.44378361367235,
+  "total": 10570,
+  "HasAns_exact": 85.81835383159887,
+  "HasAns_f1": 92.44378361367235,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16625, epoch: 4, batch: 200, loss: 0.464847, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16625
+{
+  "exact": 85.75212866603596,
+  "f1": 92.43318692091853,
+  "total": 10570,
+  "HasAns_exact": 85.75212866603596,
+  "HasAns_f1": 92.43318692091853,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16650, epoch: 4, batch: 225, loss: 0.863648, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16650
+{
+  "exact": 86.23462630085146,
+  "f1": 92.61500124947925,
+  "total": 10570,
+  "HasAns_exact": 86.23462630085146,
+  "HasAns_f1": 92.61500124947925,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16675, epoch: 4, batch: 250, loss: 0.341858, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16675
+{
+  "exact": 86.09271523178808,
+  "f1": 92.57304179847668,
+  "total": 10570,
+  "HasAns_exact": 86.09271523178808,
+  "HasAns_f1": 92.57304179847668,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16700, epoch: 4, batch: 275, loss: 0.260254, speed: 0.54 step/s
+Saving checkpoint to: squad1.1/model_16700
+{
+  "exact": 86.61305581835383,
+  "f1": 92.77525941983522,
+  "total": 10570,
+  "HasAns_exact": 86.61305581835383,
+  "HasAns_f1": 92.77525941983522,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16725, epoch: 4, batch: 300, loss: 0.391803, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16725
+{
+  "exact": 85.81835383159887,
+  "f1": 92.46975764795424,
+  "total": 10570,
+  "HasAns_exact": 85.81835383159887,
+  "HasAns_f1": 92.46975764795424,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16750, epoch: 4, batch: 325, loss: 0.422974, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16750
+{
+  "exact": 86.30085146641439,
+  "f1": 92.65335213746133,
+  "total": 10570,
+  "HasAns_exact": 86.30085146641439,
+  "HasAns_f1": 92.65335213746133,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16775, epoch: 4, batch: 350, loss: 0.267048, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16775
+{
+  "exact": 86.38599810785242,
+  "f1": 92.70483220961954,
+  "total": 10570,
+  "HasAns_exact": 86.38599810785242,
+  "HasAns_f1": 92.70483220961954,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16800, epoch: 4, batch: 375, loss: 0.546373, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16800
+{
+  "exact": 86.7833491012299,
+  "f1": 92.80284512163558,
+  "total": 10570,
+  "HasAns_exact": 86.7833491012299,
+  "HasAns_f1": 92.80284512163558,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16825, epoch: 4, batch: 400, loss: 0.363162, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16825
+{
+  "exact": 86.50898770104068,
+  "f1": 92.73691070483757,
+  "total": 10570,
+  "HasAns_exact": 86.50898770104068,
+  "HasAns_f1": 92.73691070483757,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16850, epoch: 4, batch: 425, loss: 0.588575, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16850
+{
+  "exact": 86.84957426679281,
+  "f1": 92.82031917884066,
+  "total": 10570,
+  "HasAns_exact": 86.84957426679281,
+  "HasAns_f1": 92.82031917884066,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16875, epoch: 4, batch: 450, loss: 0.549208, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16875
+{
+  "exact": 86.66035950804162,
+  "f1": 92.77820943320485,
+  "total": 10570,
+  "HasAns_exact": 86.66035950804162,
+  "HasAns_f1": 92.77820943320485,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16900, epoch: 4, batch: 475, loss: 0.490892, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16900
+{
+  "exact": 86.04541154210028,
+  "f1": 92.45797568745162,
+  "total": 10570,
+  "HasAns_exact": 86.04541154210028,
+  "HasAns_f1": 92.45797568745162,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16925, epoch: 4, batch: 500, loss: 0.764527, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_16925
+{
+  "exact": 86.05487228003784,
+  "f1": 92.46425331666823,
+  "total": 10570,
+  "HasAns_exact": 86.05487228003784,
+  "HasAns_f1": 92.46425331666823,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16950, epoch: 4, batch: 525, loss: 0.222906, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16950
+{
+  "exact": 86.51844843897824,
+  "f1": 92.6409815091062,
+  "total": 10570,
+  "HasAns_exact": 86.51844843897824,
+  "HasAns_f1": 92.6409815091062,
+  "HasAns_total": 10570
+}
+==================================================
+global step 16975, epoch: 4, batch: 550, loss: 0.383541, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_16975
+{
+  "exact": 86.25354777672659,
+  "f1": 92.52343983661983,
+  "total": 10570,
+  "HasAns_exact": 86.25354777672659,
+  "HasAns_f1": 92.52343983661983,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17000, epoch: 4, batch: 575, loss: 0.709247, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_17000
+{
+  "exact": 86.33869441816462,
+  "f1": 92.60334192794154,
+  "total": 10570,
+  "HasAns_exact": 86.33869441816462,
+  "HasAns_f1": 92.60334192794154,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17025, epoch: 4, batch: 600, loss: 0.665350, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17025
+{
+  "exact": 86.20624408703878,
+  "f1": 92.53600217449858,
+  "total": 10570,
+  "HasAns_exact": 86.20624408703878,
+  "HasAns_f1": 92.53600217449858,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17050, epoch: 4, batch: 625, loss: 1.256850, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17050
+{
+  "exact": 86.27246925260171,
+  "f1": 92.55598636537604,
+  "total": 10570,
+  "HasAns_exact": 86.27246925260171,
+  "HasAns_f1": 92.55598636537604,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17075, epoch: 4, batch: 650, loss: 0.614139, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17075
+{
+  "exact": 86.30085146641439,
+  "f1": 92.60375201682544,
+  "total": 10570,
+  "HasAns_exact": 86.30085146641439,
+  "HasAns_f1": 92.60375201682544,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17100, epoch: 4, batch: 675, loss: 0.560197, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17100
+{
+  "exact": 86.08325449385052,
+  "f1": 92.58799584614596,
+  "total": 10570,
+  "HasAns_exact": 86.08325449385052,
+  "HasAns_f1": 92.58799584614596,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17125, epoch: 4, batch: 700, loss: 0.366672, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_17125
+{
+  "exact": 86.13055818353831,
+  "f1": 92.54738788201558,
+  "total": 10570,
+  "HasAns_exact": 86.13055818353831,
+  "HasAns_f1": 92.54738788201558,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17150, epoch: 4, batch: 725, loss: 0.422720, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17150
+{
+  "exact": 85.9035004730369,
+  "f1": 92.46804991001675,
+  "total": 10570,
+  "HasAns_exact": 85.9035004730369,
+  "HasAns_f1": 92.46804991001675,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17175, epoch: 4, batch: 750, loss: 0.821948, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17175
+{
+  "exact": 86.20624408703878,
+  "f1": 92.62638695843923,
+  "total": 10570,
+  "HasAns_exact": 86.20624408703878,
+  "HasAns_f1": 92.62638695843923,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17200, epoch: 4, batch: 775, loss: 0.485220, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17200
+{
+  "exact": 86.20624408703878,
+  "f1": 92.5738838028216,
+  "total": 10570,
+  "HasAns_exact": 86.20624408703878,
+  "HasAns_f1": 92.5738838028216,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17225, epoch: 4, batch: 800, loss: 0.537123, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17225
+{
+  "exact": 86.1116367076632,
+  "f1": 92.55475893442457,
+  "total": 10570,
+  "HasAns_exact": 86.1116367076632,
+  "HasAns_f1": 92.55475893442457,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17250, epoch: 4, batch: 825, loss: 0.423113, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17250
+{
+  "exact": 86.19678334910122,
+  "f1": 92.62317458463657,
+  "total": 10570,
+  "HasAns_exact": 86.19678334910122,
+  "HasAns_f1": 92.62317458463657,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17275, epoch: 4, batch: 850, loss: 0.387492, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17275
+{
+  "exact": 86.39545884578997,
+  "f1": 92.66363328738781,
+  "total": 10570,
+  "HasAns_exact": 86.39545884578997,
+  "HasAns_f1": 92.66363328738781,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17300, epoch: 4, batch: 875, loss: 0.744100, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17300
+{
+  "exact": 86.39545884578997,
+  "f1": 92.64368502634328,
+  "total": 10570,
+  "HasAns_exact": 86.39545884578997,
+  "HasAns_f1": 92.64368502634328,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17325, epoch: 4, batch: 900, loss: 0.424671, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17325
+{
+  "exact": 86.18732261116367,
+  "f1": 92.60507315464181,
+  "total": 10570,
+  "HasAns_exact": 86.18732261116367,
+  "HasAns_f1": 92.60507315464181,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17350, epoch: 4, batch: 925, loss: 0.506805, speed: 0.54 step/s
+Saving checkpoint to: squad1.1/model_17350
+{
+  "exact": 86.28192999053927,
+  "f1": 92.64717942735747,
+  "total": 10570,
+  "HasAns_exact": 86.28192999053927,
+  "HasAns_f1": 92.64717942735747,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17375, epoch: 4, batch: 950, loss: 0.680614, speed: 0.54 step/s
+Saving checkpoint to: squad1.1/model_17375
+{
+  "exact": 86.35761589403974,
+  "f1": 92.62606060774758,
+  "total": 10570,
+  "HasAns_exact": 86.35761589403974,
+  "HasAns_f1": 92.62606060774758,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17400, epoch: 4, batch: 975, loss: 0.605694, speed: 0.54 step/s
+Saving checkpoint to: squad1.1/model_17400
+{
+  "exact": 86.47114474929045,
+  "f1": 92.65330631764309,
+  "total": 10570,
+  "HasAns_exact": 86.47114474929045,
+  "HasAns_f1": 92.65330631764309,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17425, epoch: 4, batch: 1000, loss: 0.202849, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17425
+{
+  "exact": 86.56575212866603,
+  "f1": 92.68077450429494,
+  "total": 10570,
+  "HasAns_exact": 86.56575212866603,
+  "HasAns_f1": 92.68077450429494,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17450, epoch: 4, batch: 1025, loss: 0.348122, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17450
+{
+  "exact": 86.37653736991486,
+  "f1": 92.67210649759649,
+  "total": 10570,
+  "HasAns_exact": 86.37653736991486,
+  "HasAns_f1": 92.67210649759649,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17475, epoch: 4, batch: 1050, loss: 0.102235, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17475
+{
+  "exact": 86.51844843897824,
+  "f1": 92.66480847486251,
+  "total": 10570,
+  "HasAns_exact": 86.51844843897824,
+  "HasAns_f1": 92.66480847486251,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17500, epoch: 4, batch: 1075, loss: 0.439785, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17500
+{
+  "exact": 86.42384105960265,
+  "f1": 92.68186095344224,
+  "total": 10570,
+  "HasAns_exact": 86.42384105960265,
+  "HasAns_f1": 92.68186095344224,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17525, epoch: 4, batch: 1100, loss: 0.526584, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17525
+{
+  "exact": 86.07379375591296,
+  "f1": 92.53181677137455,
+  "total": 10570,
+  "HasAns_exact": 86.07379375591296,
+  "HasAns_f1": 92.53181677137455,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17550, epoch: 4, batch: 1125, loss: 0.300992, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_17550
+{
+  "exact": 85.98864711447493,
+  "f1": 92.4927689134118,
+  "total": 10570,
+  "HasAns_exact": 85.98864711447493,
+  "HasAns_f1": 92.4927689134118,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17575, epoch: 4, batch: 1150, loss: 0.415832, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17575
+{
+  "exact": 86.63197729422895,
+  "f1": 92.58139825670823,
+  "total": 10570,
+  "HasAns_exact": 86.63197729422895,
+  "HasAns_f1": 92.58139825670823,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17600, epoch: 4, batch: 1175, loss: 0.494246, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_17600
+{
+  "exact": 86.34815515610218,
+  "f1": 92.5500456751253,
+  "total": 10570,
+  "HasAns_exact": 86.34815515610218,
+  "HasAns_f1": 92.5500456751253,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17625, epoch: 4, batch: 1200, loss: 0.548921, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17625
+{
+  "exact": 86.45222327341533,
+  "f1": 92.66258500380611,
+  "total": 10570,
+  "HasAns_exact": 86.45222327341533,
+  "HasAns_f1": 92.66258500380611,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17650, epoch: 4, batch: 1225, loss: 0.402503, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_17650
+{
+  "exact": 86.16840113528855,
+  "f1": 92.62311917381614,
+  "total": 10570,
+  "HasAns_exact": 86.16840113528855,
+  "HasAns_f1": 92.62311917381614,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17675, epoch: 4, batch: 1250, loss: 0.230166, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17675
+{
+  "exact": 86.37653736991486,
+  "f1": 92.70691345420678,
+  "total": 10570,
+  "HasAns_exact": 86.37653736991486,
+  "HasAns_f1": 92.70691345420678,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17700, epoch: 4, batch: 1275, loss: 0.532361, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17700
+{
+  "exact": 86.31031220435194,
+  "f1": 92.7365688902378,
+  "total": 10570,
+  "HasAns_exact": 86.31031220435194,
+  "HasAns_f1": 92.7365688902378,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17725, epoch: 4, batch: 1300, loss: 0.494338, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17725
+{
+  "exact": 85.87511825922422,
+  "f1": 92.54231490363766,
+  "total": 10570,
+  "HasAns_exact": 85.87511825922422,
+  "HasAns_f1": 92.54231490363766,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17750, epoch: 4, batch: 1325, loss: 0.302997, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17750
+{
+  "exact": 86.20624408703878,
+  "f1": 92.65482045711556,
+  "total": 10570,
+  "HasAns_exact": 86.20624408703878,
+  "HasAns_f1": 92.65482045711556,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17775, epoch: 4, batch: 1350, loss: 0.395200, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17775
+{
+  "exact": 85.94134342478714,
+  "f1": 92.51055023729437,
+  "total": 10570,
+  "HasAns_exact": 85.94134342478714,
+  "HasAns_f1": 92.51055023729437,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17800, epoch: 4, batch: 1375, loss: 0.344745, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_17800
+{
+  "exact": 86.60359508041627,
+  "f1": 92.722052272405,
+  "total": 10570,
+  "HasAns_exact": 86.60359508041627,
+  "HasAns_f1": 92.722052272405,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17825, epoch: 4, batch: 1400, loss: 0.291016, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_17825
+{
+  "exact": 86.44276253547777,
+  "f1": 92.71255623055562,
+  "total": 10570,
+  "HasAns_exact": 86.44276253547777,
+  "HasAns_f1": 92.71255623055562,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17850, epoch: 4, batch: 1425, loss: 0.323767, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_17850
+{
+  "exact": 86.40491958372753,
+  "f1": 92.67617021710085,
+  "total": 10570,
+  "HasAns_exact": 86.40491958372753,
+  "HasAns_f1": 92.67617021710085,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17875, epoch: 4, batch: 1450, loss: 0.277700, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17875
+{
+  "exact": 86.40491958372753,
+  "f1": 92.66170810980772,
+  "total": 10570,
+  "HasAns_exact": 86.40491958372753,
+  "HasAns_f1": 92.66170810980772,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17900, epoch: 4, batch: 1475, loss: 0.310848, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_17900
+{
+  "exact": 86.32923368022706,
+  "f1": 92.64657994020779,
+  "total": 10570,
+  "HasAns_exact": 86.32923368022706,
+  "HasAns_f1": 92.64657994020779,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17925, epoch: 4, batch: 1500, loss: 0.717379, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17925
+{
+  "exact": 86.29139072847683,
+  "f1": 92.63755940194923,
+  "total": 10570,
+  "HasAns_exact": 86.29139072847683,
+  "HasAns_f1": 92.63755940194923,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17950, epoch: 4, batch: 1525, loss: 0.265537, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17950
+{
+  "exact": 86.63197729422895,
+  "f1": 92.73024343707056,
+  "total": 10570,
+  "HasAns_exact": 86.63197729422895,
+  "HasAns_f1": 92.73024343707056,
+  "HasAns_total": 10570
+}
+==================================================
+global step 17975, epoch: 4, batch: 1550, loss: 0.724967, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_17975
+{
+  "exact": 86.51844843897824,
+  "f1": 92.7294647919868,
+  "total": 10570,
+  "HasAns_exact": 86.51844843897824,
+  "HasAns_f1": 92.7294647919868,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18000, epoch: 4, batch: 1575, loss: 0.557934, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18000
+{
+  "exact": 86.61305581835383,
+  "f1": 92.78670479109547,
+  "total": 10570,
+  "HasAns_exact": 86.61305581835383,
+  "HasAns_f1": 92.78670479109547,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18025, epoch: 4, batch: 1600, loss: 0.532514, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18025
+{
+  "exact": 86.49006622516556,
+  "f1": 92.72436879272277,
+  "total": 10570,
+  "HasAns_exact": 86.49006622516556,
+  "HasAns_f1": 92.72436879272277,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18050, epoch: 4, batch: 1625, loss: 0.545928, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18050
+{
+  "exact": 86.50898770104068,
+  "f1": 92.78917695273311,
+  "total": 10570,
+  "HasAns_exact": 86.50898770104068,
+  "HasAns_f1": 92.78917695273311,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18075, epoch: 4, batch: 1650, loss: 0.547989, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18075
+{
+  "exact": 86.76442762535478,
+  "f1": 92.84098525243425,
+  "total": 10570,
+  "HasAns_exact": 86.76442762535478,
+  "HasAns_f1": 92.84098525243425,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18100, epoch: 4, batch: 1675, loss: 0.243059, speed: 0.54 step/s
+Saving checkpoint to: squad1.1/model_18100
+{
+  "exact": 86.77388836329234,
+  "f1": 92.8807010052884,
+  "total": 10570,
+  "HasAns_exact": 86.77388836329234,
+  "HasAns_f1": 92.8807010052884,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18125, epoch: 4, batch: 1700, loss: 0.825400, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18125
+{
+  "exact": 86.63197729422895,
+  "f1": 92.78672170754943,
+  "total": 10570,
+  "HasAns_exact": 86.63197729422895,
+  "HasAns_f1": 92.78672170754943,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18150, epoch: 4, batch: 1725, loss: 0.332907, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18150
+{
+  "exact": 86.45222327341533,
+  "f1": 92.71627473657608,
+  "total": 10570,
+  "HasAns_exact": 86.45222327341533,
+  "HasAns_f1": 92.71627473657608,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18175, epoch: 4, batch: 1750, loss: 0.452489, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18175
+{
+  "exact": 86.37653736991486,
+  "f1": 92.67916978272568,
+  "total": 10570,
+  "HasAns_exact": 86.37653736991486,
+  "HasAns_f1": 92.67916978272568,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18200, epoch: 4, batch: 1775, loss: 0.759374, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18200
+{
+  "exact": 86.05487228003784,
+  "f1": 92.59681557085467,
+  "total": 10570,
+  "HasAns_exact": 86.05487228003784,
+  "HasAns_f1": 92.59681557085467,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18225, epoch: 4, batch: 1800, loss: 0.227637, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18225
+{
+  "exact": 86.50898770104068,
+  "f1": 92.65927836123872,
+  "total": 10570,
+  "HasAns_exact": 86.50898770104068,
+  "HasAns_f1": 92.65927836123872,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18250, epoch: 4, batch: 1825, loss: 0.910228, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18250
+{
+  "exact": 86.51844843897824,
+  "f1": 92.77525740375046,
+  "total": 10570,
+  "HasAns_exact": 86.51844843897824,
+  "HasAns_f1": 92.77525740375046,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18275, epoch: 4, batch: 1850, loss: 0.531294, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18275
+{
+  "exact": 86.20624408703878,
+  "f1": 92.70155163280455,
+  "total": 10570,
+  "HasAns_exact": 86.20624408703878,
+  "HasAns_f1": 92.70155163280455,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18300, epoch: 4, batch: 1875, loss: 0.549873, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18300
+{
+  "exact": 86.44276253547777,
+  "f1": 92.7238309642332,
+  "total": 10570,
+  "HasAns_exact": 86.44276253547777,
+  "HasAns_f1": 92.7238309642332,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18325, epoch: 4, batch: 1900, loss: 0.263472, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18325
+{
+  "exact": 86.51844843897824,
+  "f1": 92.71268799367478,
+  "total": 10570,
+  "HasAns_exact": 86.51844843897824,
+  "HasAns_f1": 92.71268799367478,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18350, epoch: 4, batch: 1925, loss: 0.400718, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18350
+{
+  "exact": 85.55345316934721,
+  "f1": 92.44314690271446,
+  "total": 10570,
+  "HasAns_exact": 85.55345316934721,
+  "HasAns_f1": 92.44314690271446,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18375, epoch: 4, batch: 1950, loss: 0.443854, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18375
+{
+  "exact": 86.1116367076632,
+  "f1": 92.5786374147075,
+  "total": 10570,
+  "HasAns_exact": 86.1116367076632,
+  "HasAns_f1": 92.5786374147075,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18400, epoch: 4, batch: 1975, loss: 0.630513, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18400
+{
+  "exact": 85.98864711447493,
+  "f1": 92.63507399373258,
+  "total": 10570,
+  "HasAns_exact": 85.98864711447493,
+  "HasAns_f1": 92.63507399373258,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18425, epoch: 4, batch: 2000, loss: 0.556158, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18425
+{
+  "exact": 86.15894039735099,
+  "f1": 92.67259977514313,
+  "total": 10570,
+  "HasAns_exact": 86.15894039735099,
+  "HasAns_f1": 92.67259977514313,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18450, epoch: 4, batch: 2025, loss: 0.396061, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18450
+{
+  "exact": 86.1778618732261,
+  "f1": 92.69763200218527,
+  "total": 10570,
+  "HasAns_exact": 86.1778618732261,
+  "HasAns_f1": 92.69763200218527,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18475, epoch: 4, batch: 2050, loss: 0.501508, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_18475
+{
+  "exact": 86.33869441816462,
+  "f1": 92.78858308990083,
+  "total": 10570,
+  "HasAns_exact": 86.33869441816462,
+  "HasAns_f1": 92.78858308990083,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18500, epoch: 4, batch: 2075, loss: 0.396149, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_18500
+{
+  "exact": 86.29139072847683,
+  "f1": 92.73665342431129,
+  "total": 10570,
+  "HasAns_exact": 86.29139072847683,
+  "HasAns_f1": 92.73665342431129,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18525, epoch: 4, batch: 2100, loss: 0.263663, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18525
+{
+  "exact": 86.29139072847683,
+  "f1": 92.70497534296844,
+  "total": 10570,
+  "HasAns_exact": 86.29139072847683,
+  "HasAns_f1": 92.70497534296844,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18550, epoch: 4, batch: 2125, loss: 0.465120, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_18550
+{
+  "exact": 85.66698202459791,
+  "f1": 92.51657108124236,
+  "total": 10570,
+  "HasAns_exact": 85.66698202459791,
+  "HasAns_f1": 92.51657108124236,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18575, epoch: 4, batch: 2150, loss: 0.333111, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18575
+{
+  "exact": 86.33869441816462,
+  "f1": 92.68312775097488,
+  "total": 10570,
+  "HasAns_exact": 86.33869441816462,
+  "HasAns_f1": 92.68312775097488,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18600, epoch: 4, batch: 2175, loss: 0.277906, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18600
+{
+  "exact": 86.49006622516556,
+  "f1": 92.72010401144176,
+  "total": 10570,
+  "HasAns_exact": 86.49006622516556,
+  "HasAns_f1": 92.72010401144176,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18625, epoch: 4, batch: 2200, loss: 0.364350, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18625
+{
+  "exact": 86.41438032166509,
+  "f1": 92.72389573743135,
+  "total": 10570,
+  "HasAns_exact": 86.41438032166509,
+  "HasAns_f1": 92.72389573743135,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18650, epoch: 4, batch: 2225, loss: 0.633554, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18650
+{
+  "exact": 86.31031220435194,
+  "f1": 92.6854596318477,
+  "total": 10570,
+  "HasAns_exact": 86.31031220435194,
+  "HasAns_f1": 92.6854596318477,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18675, epoch: 4, batch: 2250, loss: 0.405432, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18675
+{
+  "exact": 86.50898770104068,
+  "f1": 92.7694369011374,
+  "total": 10570,
+  "HasAns_exact": 86.50898770104068,
+  "HasAns_f1": 92.7694369011374,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18700, epoch: 4, batch: 2275, loss: 0.750453, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18700
+{
+  "exact": 86.28192999053927,
+  "f1": 92.6713690565282,
+  "total": 10570,
+  "HasAns_exact": 86.28192999053927,
+  "HasAns_f1": 92.6713690565282,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18725, epoch: 4, batch: 2300, loss: 0.548630, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18725
+{
+  "exact": 86.3670766319773,
+  "f1": 92.70003392639417,
+  "total": 10570,
+  "HasAns_exact": 86.3670766319773,
+  "HasAns_f1": 92.70003392639417,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18750, epoch: 4, batch: 2325, loss: 0.557284, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18750
+{
+  "exact": 86.60359508041627,
+  "f1": 92.76626956874496,
+  "total": 10570,
+  "HasAns_exact": 86.60359508041627,
+  "HasAns_f1": 92.76626956874496,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18775, epoch: 4, batch: 2350, loss: 0.360346, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18775
+{
+  "exact": 86.0170293282876,
+  "f1": 92.62425493173687,
+  "total": 10570,
+  "HasAns_exact": 86.0170293282876,
+  "HasAns_f1": 92.62425493173687,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18800, epoch: 4, batch: 2375, loss: 0.269210, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18800
+{
+  "exact": 85.96972563859981,
+  "f1": 92.55436823100199,
+  "total": 10570,
+  "HasAns_exact": 85.96972563859981,
+  "HasAns_f1": 92.55436823100199,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18825, epoch: 4, batch: 2400, loss: 0.292398, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18825
+{
+  "exact": 86.66982024597918,
+  "f1": 92.73638571104522,
+  "total": 10570,
+  "HasAns_exact": 86.66982024597918,
+  "HasAns_f1": 92.73638571104522,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18850, epoch: 4, batch: 2425, loss: 0.594371, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18850
+{
+  "exact": 86.65089877010406,
+  "f1": 92.74715007208286,
+  "total": 10570,
+  "HasAns_exact": 86.65089877010406,
+  "HasAns_f1": 92.74715007208286,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18875, epoch: 4, batch: 2450, loss: 0.409191, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_18875
+{
+  "exact": 86.5279091769158,
+  "f1": 92.7004150859981,
+  "total": 10570,
+  "HasAns_exact": 86.5279091769158,
+  "HasAns_f1": 92.7004150859981,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18900, epoch: 4, batch: 2475, loss: 0.566992, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_18900
+{
+  "exact": 86.10217596972564,
+  "f1": 92.62619431151619,
+  "total": 10570,
+  "HasAns_exact": 86.10217596972564,
+  "HasAns_f1": 92.62619431151619,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18925, epoch: 4, batch: 2500, loss: 0.238011, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_18925
+{
+  "exact": 85.55345316934721,
+  "f1": 92.41095122464321,
+  "total": 10570,
+  "HasAns_exact": 85.55345316934721,
+  "HasAns_f1": 92.41095122464321,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18950, epoch: 4, batch: 2525, loss: 0.340378, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_18950
+{
+  "exact": 86.14947965941343,
+  "f1": 92.55263280862599,
+  "total": 10570,
+  "HasAns_exact": 86.14947965941343,
+  "HasAns_f1": 92.55263280862599,
+  "HasAns_total": 10570
+}
+==================================================
+global step 18975, epoch: 4, batch: 2550, loss: 0.449067, speed: 0.54 step/s
+Saving checkpoint to: squad1.1/model_18975
+{
+  "exact": 86.43330179754021,
+  "f1": 92.66867246390065,
+  "total": 10570,
+  "HasAns_exact": 86.43330179754021,
+  "HasAns_f1": 92.66867246390065,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19000, epoch: 4, batch: 2575, loss: 0.417902, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19000
+{
+  "exact": 86.19678334910122,
+  "f1": 92.61126683604192,
+  "total": 10570,
+  "HasAns_exact": 86.19678334910122,
+  "HasAns_f1": 92.61126683604192,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19025, epoch: 4, batch: 2600, loss: 0.531305, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19025
+{
+  "exact": 86.1116367076632,
+  "f1": 92.56467931735622,
+  "total": 10570,
+  "HasAns_exact": 86.1116367076632,
+  "HasAns_f1": 92.56467931735622,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19050, epoch: 4, batch: 2625, loss: 0.637780, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_19050
+{
+  "exact": 86.26300851466415,
+  "f1": 92.62485653243426,
+  "total": 10570,
+  "HasAns_exact": 86.26300851466415,
+  "HasAns_f1": 92.62485653243426,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19075, epoch: 4, batch: 2650, loss: 0.539396, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19075
+{
+  "exact": 86.32923368022706,
+  "f1": 92.66331696673105,
+  "total": 10570,
+  "HasAns_exact": 86.32923368022706,
+  "HasAns_f1": 92.66331696673105,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19100, epoch: 4, batch: 2675, loss: 0.488549, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19100
+{
+  "exact": 86.32923368022706,
+  "f1": 92.58571599550045,
+  "total": 10570,
+  "HasAns_exact": 86.32923368022706,
+  "HasAns_f1": 92.58571599550045,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19125, epoch: 4, batch: 2700, loss: 0.338159, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_19125
+{
+  "exact": 86.42384105960265,
+  "f1": 92.65901246256556,
+  "total": 10570,
+  "HasAns_exact": 86.42384105960265,
+  "HasAns_f1": 92.65901246256556,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19150, epoch: 4, batch: 2725, loss: 0.507907, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19150
+{
+  "exact": 85.87511825922422,
+  "f1": 92.55477497212192,
+  "total": 10570,
+  "HasAns_exact": 85.87511825922422,
+  "HasAns_f1": 92.55477497212192,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19175, epoch: 4, batch: 2750, loss: 0.690235, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19175
+{
+  "exact": 86.32923368022706,
+  "f1": 92.67028235872853,
+  "total": 10570,
+  "HasAns_exact": 86.32923368022706,
+  "HasAns_f1": 92.67028235872853,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19200, epoch: 4, batch: 2775, loss: 0.373408, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19200
+{
+  "exact": 86.47114474929045,
+  "f1": 92.6488756524825,
+  "total": 10570,
+  "HasAns_exact": 86.47114474929045,
+  "HasAns_f1": 92.6488756524825,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19225, epoch: 4, batch: 2800, loss: 0.368536, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_19225
+{
+  "exact": 86.29139072847683,
+  "f1": 92.63150236176345,
+  "total": 10570,
+  "HasAns_exact": 86.29139072847683,
+  "HasAns_f1": 92.63150236176345,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19250, epoch: 4, batch: 2825, loss: 0.152980, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19250
+{
+  "exact": 86.26300851466415,
+  "f1": 92.62512497431275,
+  "total": 10570,
+  "HasAns_exact": 86.26300851466415,
+  "HasAns_f1": 92.62512497431275,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19275, epoch: 4, batch: 2850, loss: 0.311528, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_19275
+{
+  "exact": 86.05487228003784,
+  "f1": 92.54092647417092,
+  "total": 10570,
+  "HasAns_exact": 86.05487228003784,
+  "HasAns_f1": 92.54092647417092,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19300, epoch: 4, batch: 2875, loss: 0.500294, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19300
+{
+  "exact": 86.37653736991486,
+  "f1": 92.64231481162506,
+  "total": 10570,
+  "HasAns_exact": 86.37653736991486,
+  "HasAns_f1": 92.64231481162506,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19325, epoch: 4, batch: 2900, loss: 1.341753, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19325
+{
+  "exact": 86.34815515610218,
+  "f1": 92.61058638785323,
+  "total": 10570,
+  "HasAns_exact": 86.34815515610218,
+  "HasAns_f1": 92.61058638785323,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19350, epoch: 4, batch: 2925, loss: 0.331600, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19350
+{
+  "exact": 86.23462630085146,
+  "f1": 92.54422077862597,
+  "total": 10570,
+  "HasAns_exact": 86.23462630085146,
+  "HasAns_f1": 92.54422077862597,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19375, epoch: 4, batch: 2950, loss: 1.101449, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_19375
+{
+  "exact": 86.02649006622516,
+  "f1": 92.48528746130091,
+  "total": 10570,
+  "HasAns_exact": 86.02649006622516,
+  "HasAns_f1": 92.48528746130091,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19400, epoch: 4, batch: 2975, loss: 0.188818, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19400
+{
+  "exact": 86.34815515610218,
+  "f1": 92.62382837357418,
+  "total": 10570,
+  "HasAns_exact": 86.34815515610218,
+  "HasAns_f1": 92.62382837357418,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19425, epoch: 4, batch: 3000, loss: 0.468350, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19425
+{
+  "exact": 86.6414380321665,
+  "f1": 92.67770520829403,
+  "total": 10570,
+  "HasAns_exact": 86.6414380321665,
+  "HasAns_f1": 92.67770520829403,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19450, epoch: 4, batch: 3025, loss: 0.841981, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_19450
+{
+  "exact": 86.82119205298014,
+  "f1": 92.74834449136675,
+  "total": 10570,
+  "HasAns_exact": 86.82119205298014,
+  "HasAns_f1": 92.74834449136675,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19475, epoch: 4, batch: 3050, loss: 0.463351, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19475
+{
+  "exact": 86.5752128666036,
+  "f1": 92.65893741520237,
+  "total": 10570,
+  "HasAns_exact": 86.5752128666036,
+  "HasAns_f1": 92.65893741520237,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19500, epoch: 4, batch: 3075, loss: 0.892092, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19500
+{
+  "exact": 86.46168401135289,
+  "f1": 92.70569570118,
+  "total": 10570,
+  "HasAns_exact": 86.46168401135289,
+  "HasAns_f1": 92.70569570118,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19525, epoch: 4, batch: 3100, loss: 0.456049, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19525
+{
+  "exact": 86.66982024597918,
+  "f1": 92.71814349800546,
+  "total": 10570,
+  "HasAns_exact": 86.66982024597918,
+  "HasAns_f1": 92.71814349800546,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19550, epoch: 4, batch: 3125, loss: 0.503718, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19550
+{
+  "exact": 86.24408703878902,
+  "f1": 92.56347623950109,
+  "total": 10570,
+  "HasAns_exact": 86.24408703878902,
+  "HasAns_f1": 92.56347623950109,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19575, epoch: 4, batch: 3150, loss: 0.542851, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19575
+{
+  "exact": 86.10217596972564,
+  "f1": 92.60294062675055,
+  "total": 10570,
+  "HasAns_exact": 86.10217596972564,
+  "HasAns_f1": 92.60294062675055,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19600, epoch: 4, batch: 3175, loss: 0.744966, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_19600
+{
+  "exact": 85.9508041627247,
+  "f1": 92.54612783536646,
+  "total": 10570,
+  "HasAns_exact": 85.9508041627247,
+  "HasAns_f1": 92.54612783536646,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19625, epoch: 4, batch: 3200, loss: 0.281993, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19625
+{
+  "exact": 86.02649006622516,
+  "f1": 92.5652623600339,
+  "total": 10570,
+  "HasAns_exact": 86.02649006622516,
+  "HasAns_f1": 92.5652623600339,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19650, epoch: 4, batch: 3225, loss: 0.486558, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_19650
+{
+  "exact": 85.9508041627247,
+  "f1": 92.5299649734879,
+  "total": 10570,
+  "HasAns_exact": 85.9508041627247,
+  "HasAns_f1": 92.5299649734879,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19675, epoch: 4, batch: 3250, loss: 0.488709, speed: 0.54 step/s
+Saving checkpoint to: squad1.1/model_19675
+{
+  "exact": 86.16840113528855,
+  "f1": 92.60855694817138,
+  "total": 10570,
+  "HasAns_exact": 86.16840113528855,
+  "HasAns_f1": 92.60855694817138,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19700, epoch: 4, batch: 3275, loss: 0.402292, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19700
+{
+  "exact": 86.6414380321665,
+  "f1": 92.69476671484637,
+  "total": 10570,
+  "HasAns_exact": 86.6414380321665,
+  "HasAns_f1": 92.69476671484637,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19725, epoch: 4, batch: 3300, loss: 0.172268, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19725
+{
+  "exact": 86.44276253547777,
+  "f1": 92.7196272839664,
+  "total": 10570,
+  "HasAns_exact": 86.44276253547777,
+  "HasAns_f1": 92.7196272839664,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19750, epoch: 4, batch: 3325, loss: 0.539012, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_19750
+{
+  "exact": 86.43330179754021,
+  "f1": 92.70167380274283,
+  "total": 10570,
+  "HasAns_exact": 86.43330179754021,
+  "HasAns_f1": 92.70167380274283,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19775, epoch: 4, batch: 3350, loss: 0.487508, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_19775
+{
+  "exact": 86.40491958372753,
+  "f1": 92.68484190464332,
+  "total": 10570,
+  "HasAns_exact": 86.40491958372753,
+  "HasAns_f1": 92.68484190464332,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19800, epoch: 4, batch: 3375, loss: 0.546596, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19800
+{
+  "exact": 86.5752128666036,
+  "f1": 92.69219817399552,
+  "total": 10570,
+  "HasAns_exact": 86.5752128666036,
+  "HasAns_f1": 92.69219817399552,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19825, epoch: 4, batch: 3400, loss: 0.172042, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19825
+{
+  "exact": 86.3197729422895,
+  "f1": 92.66058432759682,
+  "total": 10570,
+  "HasAns_exact": 86.3197729422895,
+  "HasAns_f1": 92.66058432759682,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19850, epoch: 4, batch: 3425, loss: 0.708359, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19850
+{
+  "exact": 85.71428571428571,
+  "f1": 92.46043029140215,
+  "total": 10570,
+  "HasAns_exact": 85.71428571428571,
+  "HasAns_f1": 92.46043029140215,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19875, epoch: 4, batch: 3450, loss: 0.359419, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19875
+{
+  "exact": 86.20624408703878,
+  "f1": 92.62423676916796,
+  "total": 10570,
+  "HasAns_exact": 86.20624408703878,
+  "HasAns_f1": 92.62423676916796,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19900, epoch: 4, batch: 3475, loss: 0.801869, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19900
+{
+  "exact": 86.51844843897824,
+  "f1": 92.68959955557828,
+  "total": 10570,
+  "HasAns_exact": 86.51844843897824,
+  "HasAns_f1": 92.68959955557828,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19925, epoch: 4, batch: 3500, loss: 0.269708, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19925
+{
+  "exact": 86.62251655629139,
+  "f1": 92.72607087898409,
+  "total": 10570,
+  "HasAns_exact": 86.62251655629139,
+  "HasAns_f1": 92.72607087898409,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19950, epoch: 4, batch: 3525, loss: 0.416760, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19950
+{
+  "exact": 86.38599810785242,
+  "f1": 92.67251189389461,
+  "total": 10570,
+  "HasAns_exact": 86.38599810785242,
+  "HasAns_f1": 92.67251189389461,
+  "HasAns_total": 10570
+}
+==================================================
+global step 19975, epoch: 4, batch: 3550, loss: 0.489895, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_19975
+{
+  "exact": 86.43330179754021,
+  "f1": 92.6973809894439,
+  "total": 10570,
+  "HasAns_exact": 86.43330179754021,
+  "HasAns_f1": 92.6973809894439,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20000, epoch: 4, batch: 3575, loss: 0.843798, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20000
+{
+  "exact": 86.49952696310312,
+  "f1": 92.70774432691047,
+  "total": 10570,
+  "HasAns_exact": 86.49952696310312,
+  "HasAns_f1": 92.70774432691047,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20025, epoch: 4, batch: 3600, loss: 0.163362, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20025
+{
+  "exact": 86.56575212866603,
+  "f1": 92.73594682798262,
+  "total": 10570,
+  "HasAns_exact": 86.56575212866603,
+  "HasAns_f1": 92.73594682798262,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20050, epoch: 4, batch: 3625, loss: 0.362285, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20050
+{
+  "exact": 86.58467360454115,
+  "f1": 92.74954360495282,
+  "total": 10570,
+  "HasAns_exact": 86.58467360454115,
+  "HasAns_f1": 92.74954360495282,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20075, epoch: 4, batch: 3650, loss: 0.258813, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20075
+{
+  "exact": 86.7833491012299,
+  "f1": 92.80356521694604,
+  "total": 10570,
+  "HasAns_exact": 86.7833491012299,
+  "HasAns_f1": 92.80356521694604,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20100, epoch: 4, batch: 3675, loss: 0.620228, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20100
+{
+  "exact": 86.38599810785242,
+  "f1": 92.68075692233728,
+  "total": 10570,
+  "HasAns_exact": 86.38599810785242,
+  "HasAns_f1": 92.68075692233728,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20125, epoch: 4, batch: 3700, loss: 0.300520, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20125
+{
+  "exact": 86.51844843897824,
+  "f1": 92.7335620226701,
+  "total": 10570,
+  "HasAns_exact": 86.51844843897824,
+  "HasAns_f1": 92.7335620226701,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20150, epoch: 4, batch: 3725, loss: 0.716170, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20150
+{
+  "exact": 86.49952696310312,
+  "f1": 92.68343687104108,
+  "total": 10570,
+  "HasAns_exact": 86.49952696310312,
+  "HasAns_f1": 92.68343687104108,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20175, epoch: 4, batch: 3750, loss: 0.449843, speed: 0.53 step/s
+Saving checkpoint to: squad1.1/model_20175
+{
+  "exact": 86.45222327341533,
+  "f1": 92.65815135395607,
+  "total": 10570,
+  "HasAns_exact": 86.45222327341533,
+  "HasAns_f1": 92.65815135395607,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20200, epoch: 4, batch: 3775, loss: 0.652357, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20200
+{
+  "exact": 86.40491958372753,
+  "f1": 92.64845210371328,
+  "total": 10570,
+  "HasAns_exact": 86.40491958372753,
+  "HasAns_f1": 92.64845210371328,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20225, epoch: 4, batch: 3800, loss: 0.586098, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20225
+{
+  "exact": 86.44276253547777,
+  "f1": 92.65974424394268,
+  "total": 10570,
+  "HasAns_exact": 86.44276253547777,
+  "HasAns_f1": 92.65974424394268,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20250, epoch: 4, batch: 3825, loss: 0.713316, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20250
+{
+  "exact": 86.34815515610218,
+  "f1": 92.63327669970771,
+  "total": 10570,
+  "HasAns_exact": 86.34815515610218,
+  "HasAns_f1": 92.63327669970771,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20275, epoch: 4, batch: 3850, loss: 0.294252, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20275
+{
+  "exact": 86.49006622516556,
+  "f1": 92.67901977163648,
+  "total": 10570,
+  "HasAns_exact": 86.49006622516556,
+  "HasAns_f1": 92.67901977163648,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20300, epoch: 4, batch: 3875, loss: 0.259779, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20300
+{
+  "exact": 86.40491958372753,
+  "f1": 92.68572657149245,
+  "total": 10570,
+  "HasAns_exact": 86.40491958372753,
+  "HasAns_f1": 92.68572657149245,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20325, epoch: 4, batch: 3900, loss: 0.471895, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20325
+{
+  "exact": 86.27246925260171,
+  "f1": 92.62652827694441,
+  "total": 10570,
+  "HasAns_exact": 86.27246925260171,
+  "HasAns_f1": 92.62652827694441,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20350, epoch: 4, batch: 3925, loss: 0.145969, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20350
+{
+  "exact": 86.25354777672659,
+  "f1": 92.61628111540759,
+  "total": 10570,
+  "HasAns_exact": 86.25354777672659,
+  "HasAns_f1": 92.61628111540759,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20375, epoch: 4, batch: 3950, loss: 0.460615, speed: 0.54 step/s
+Saving checkpoint to: squad1.1/model_20375
+{
+  "exact": 86.3197729422895,
+  "f1": 92.61429598013073,
+  "total": 10570,
+  "HasAns_exact": 86.3197729422895,
+  "HasAns_f1": 92.61429598013073,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20400, epoch: 4, batch: 3975, loss: 0.326153, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20400
+{
+  "exact": 86.21570482497634,
+  "f1": 92.60323545492625,
+  "total": 10570,
+  "HasAns_exact": 86.21570482497634,
+  "HasAns_f1": 92.60323545492625,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20425, epoch: 4, batch: 4000, loss: 0.266313, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20425
+{
+  "exact": 86.28192999053927,
+  "f1": 92.63791788283345,
+  "total": 10570,
+  "HasAns_exact": 86.28192999053927,
+  "HasAns_f1": 92.63791788283345,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20450, epoch: 4, batch: 4025, loss: 0.253040, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20450
+{
+  "exact": 86.33869441816462,
+  "f1": 92.68390567540791,
+  "total": 10570,
+  "HasAns_exact": 86.33869441816462,
+  "HasAns_f1": 92.68390567540791,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20475, epoch: 4, batch: 4050, loss: 0.287921, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20475
+{
+  "exact": 86.33869441816462,
+  "f1": 92.68900927589243,
+  "total": 10570,
+  "HasAns_exact": 86.33869441816462,
+  "HasAns_f1": 92.68900927589243,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20500, epoch: 4, batch: 4075, loss: 0.476493, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20500
+{
+  "exact": 86.31031220435194,
+  "f1": 92.70033898325595,
+  "total": 10570,
+  "HasAns_exact": 86.31031220435194,
+  "HasAns_f1": 92.70033898325595,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20525, epoch: 4, batch: 4100, loss: 0.339421, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20525
+{
+  "exact": 86.29139072847683,
+  "f1": 92.69530616519866,
+  "total": 10570,
+  "HasAns_exact": 86.29139072847683,
+  "HasAns_f1": 92.69530616519866,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20550, epoch: 4, batch: 4125, loss: 0.405893, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20550
+{
+  "exact": 86.3197729422895,
+  "f1": 92.69270391669288,
+  "total": 10570,
+  "HasAns_exact": 86.3197729422895,
+  "HasAns_f1": 92.69270391669288,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20575, epoch: 4, batch: 4150, loss: 0.424552, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20575
+{
+  "exact": 86.38599810785242,
+  "f1": 92.72267681355316,
+  "total": 10570,
+  "HasAns_exact": 86.38599810785242,
+  "HasAns_f1": 92.72267681355316,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20600, epoch: 4, batch: 4175, loss: 0.426654, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20600
+{
+  "exact": 86.49006622516556,
+  "f1": 92.74388028919202,
+  "total": 10570,
+  "HasAns_exact": 86.49006622516556,
+  "HasAns_f1": 92.74388028919202,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20625, epoch: 4, batch: 4200, loss: 0.351473, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20625
+{
+  "exact": 86.49952696310312,
+  "f1": 92.76023272880118,
+  "total": 10570,
+  "HasAns_exact": 86.49952696310312,
+  "HasAns_f1": 92.76023272880118,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20650, epoch: 4, batch: 4225, loss: 0.641305, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20650
+{
+  "exact": 86.44276253547777,
+  "f1": 92.71613205712994,
+  "total": 10570,
+  "HasAns_exact": 86.44276253547777,
+  "HasAns_f1": 92.71613205712994,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20675, epoch: 4, batch: 4250, loss: 0.499153, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20675
+{
+  "exact": 86.5752128666036,
+  "f1": 92.75845096969911,
+  "total": 10570,
+  "HasAns_exact": 86.5752128666036,
+  "HasAns_f1": 92.75845096969911,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20700, epoch: 4, batch: 4275, loss: 0.282807, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20700
+{
+  "exact": 86.46168401135289,
+  "f1": 92.70835379216022,
+  "total": 10570,
+  "HasAns_exact": 86.46168401135289,
+  "HasAns_f1": 92.70835379216022,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20725, epoch: 4, batch: 4300, loss: 0.366193, speed: 0.54 step/s
+Saving checkpoint to: squad1.1/model_20725
+{
+  "exact": 86.47114474929045,
+  "f1": 92.77411688015353,
+  "total": 10570,
+  "HasAns_exact": 86.47114474929045,
+  "HasAns_f1": 92.77411688015353,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20750, epoch: 4, batch: 4325, loss: 0.348404, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20750
+{
+  "exact": 86.37653736991486,
+  "f1": 92.74716463877716,
+  "total": 10570,
+  "HasAns_exact": 86.37653736991486,
+  "HasAns_f1": 92.74716463877716,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20775, epoch: 4, batch: 4350, loss: 0.332832, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20775
+{
+  "exact": 86.63197729422895,
+  "f1": 92.80401089095734,
+  "total": 10570,
+  "HasAns_exact": 86.63197729422895,
+  "HasAns_f1": 92.80401089095734,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20800, epoch: 4, batch: 4375, loss: 0.504629, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20800
+{
+  "exact": 86.65089877010406,
+  "f1": 92.75168033722322,
+  "total": 10570,
+  "HasAns_exact": 86.65089877010406,
+  "HasAns_f1": 92.75168033722322,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20825, epoch: 4, batch: 4400, loss: 0.277565, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20825
+{
+  "exact": 86.75496688741723,
+  "f1": 92.82553098283927,
+  "total": 10570,
+  "HasAns_exact": 86.75496688741723,
+  "HasAns_f1": 92.82553098283927,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20850, epoch: 4, batch: 4425, loss: 0.507105, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20850
+{
+  "exact": 86.71712393566698,
+  "f1": 92.7916975616076,
+  "total": 10570,
+  "HasAns_exact": 86.71712393566698,
+  "HasAns_f1": 92.7916975616076,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20875, epoch: 4, batch: 4450, loss: 0.578423, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_20875
+{
+  "exact": 86.49006622516556,
+  "f1": 92.74232160555322,
+  "total": 10570,
+  "HasAns_exact": 86.49006622516556,
+  "HasAns_f1": 92.74232160555322,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20900, epoch: 4, batch: 4475, loss: 0.248210, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20900
+{
+  "exact": 86.38599810785242,
+  "f1": 92.70882404051157,
+  "total": 10570,
+  "HasAns_exact": 86.38599810785242,
+  "HasAns_f1": 92.70882404051157,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20925, epoch: 4, batch: 4500, loss: 0.815747, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20925
+{
+  "exact": 86.43330179754021,
+  "f1": 92.73041414542121,
+  "total": 10570,
+  "HasAns_exact": 86.43330179754021,
+  "HasAns_f1": 92.73041414542121,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20950, epoch: 4, batch: 4525, loss: 0.799440, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20950
+{
+  "exact": 86.59413434247871,
+  "f1": 92.77222459423773,
+  "total": 10570,
+  "HasAns_exact": 86.59413434247871,
+  "HasAns_f1": 92.77222459423773,
+  "HasAns_total": 10570
+}
+==================================================
+global step 20975, epoch: 4, batch: 4550, loss: 0.521099, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_20975
+{
+  "exact": 86.5752128666036,
+  "f1": 92.76438205762338,
+  "total": 10570,
+  "HasAns_exact": 86.5752128666036,
+  "HasAns_f1": 92.76438205762338,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21000, epoch: 4, batch: 4575, loss: 0.297250, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_21000
+{
+  "exact": 86.51844843897824,
+  "f1": 92.7542496389819,
+  "total": 10570,
+  "HasAns_exact": 86.51844843897824,
+  "HasAns_f1": 92.7542496389819,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21025, epoch: 4, batch: 4600, loss: 0.602060, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21025
+{
+  "exact": 86.38599810785242,
+  "f1": 92.7289857287184,
+  "total": 10570,
+  "HasAns_exact": 86.38599810785242,
+  "HasAns_f1": 92.7289857287184,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21050, epoch: 4, batch: 4625, loss: 0.581908, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_21050
+{
+  "exact": 86.44276253547777,
+  "f1": 92.71113040315316,
+  "total": 10570,
+  "HasAns_exact": 86.44276253547777,
+  "HasAns_f1": 92.71113040315316,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21075, epoch: 4, batch: 4650, loss: 0.432556, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21075
+{
+  "exact": 86.38599810785242,
+  "f1": 92.69465256734593,
+  "total": 10570,
+  "HasAns_exact": 86.38599810785242,
+  "HasAns_f1": 92.69465256734593,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21100, epoch: 4, batch: 4675, loss: 0.153338, speed: 0.54 step/s
+Saving checkpoint to: squad1.1/model_21100
+{
+  "exact": 86.38599810785242,
+  "f1": 92.68060806205507,
+  "total": 10570,
+  "HasAns_exact": 86.38599810785242,
+  "HasAns_f1": 92.68060806205507,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21125, epoch: 4, batch: 4700, loss: 0.602183, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21125
+{
+  "exact": 86.46168401135289,
+  "f1": 92.71973171268469,
+  "total": 10570,
+  "HasAns_exact": 86.46168401135289,
+  "HasAns_f1": 92.71973171268469,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21150, epoch: 4, batch: 4725, loss: 0.534512, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_21150
+{
+  "exact": 86.6414380321665,
+  "f1": 92.77152910517202,
+  "total": 10570,
+  "HasAns_exact": 86.6414380321665,
+  "HasAns_f1": 92.77152910517202,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21175, epoch: 4, batch: 4750, loss: 0.364365, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_21175
+{
+  "exact": 86.6414380321665,
+  "f1": 92.7400629774019,
+  "total": 10570,
+  "HasAns_exact": 86.6414380321665,
+  "HasAns_f1": 92.7400629774019,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21200, epoch: 4, batch: 4775, loss: 0.348221, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21200
+{
+  "exact": 86.54683065279092,
+  "f1": 92.72852559102452,
+  "total": 10570,
+  "HasAns_exact": 86.54683065279092,
+  "HasAns_f1": 92.72852559102452,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21225, epoch: 4, batch: 4800, loss: 0.625143, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21225
+{
+  "exact": 86.49952696310312,
+  "f1": 92.70519720621395,
+  "total": 10570,
+  "HasAns_exact": 86.49952696310312,
+  "HasAns_f1": 92.70519720621395,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21250, epoch: 4, batch: 4825, loss: 0.332931, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21250
+{
+  "exact": 86.46168401135289,
+  "f1": 92.69669610955016,
+  "total": 10570,
+  "HasAns_exact": 86.46168401135289,
+  "HasAns_f1": 92.69669610955016,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21275, epoch: 4, batch: 4850, loss: 0.338866, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21275
+{
+  "exact": 86.480605487228,
+  "f1": 92.69319330189639,
+  "total": 10570,
+  "HasAns_exact": 86.480605487228,
+  "HasAns_f1": 92.69319330189639,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21300, epoch: 4, batch: 4875, loss: 0.437887, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_21300
+{
+  "exact": 86.59413434247871,
+  "f1": 92.73346901483058,
+  "total": 10570,
+  "HasAns_exact": 86.59413434247871,
+  "HasAns_f1": 92.73346901483058,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21325, epoch: 4, batch: 4900, loss: 0.588512, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_21325
+{
+  "exact": 86.3670766319773,
+  "f1": 92.64640922624528,
+  "total": 10570,
+  "HasAns_exact": 86.3670766319773,
+  "HasAns_f1": 92.64640922624528,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21350, epoch: 4, batch: 4925, loss: 0.591123, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21350
+{
+  "exact": 86.33869441816462,
+  "f1": 92.65992460816182,
+  "total": 10570,
+  "HasAns_exact": 86.33869441816462,
+  "HasAns_f1": 92.65992460816182,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21375, epoch: 4, batch: 4950, loss: 0.354186, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21375
+{
+  "exact": 86.29139072847683,
+  "f1": 92.67978040557675,
+  "total": 10570,
+  "HasAns_exact": 86.29139072847683,
+  "HasAns_f1": 92.67978040557675,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21400, epoch: 4, batch: 4975, loss: 0.471896, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_21400
+{
+  "exact": 86.35761589403974,
+  "f1": 92.67408744406544,
+  "total": 10570,
+  "HasAns_exact": 86.35761589403974,
+  "HasAns_f1": 92.67408744406544,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21425, epoch: 4, batch: 5000, loss: 0.510003, speed: 0.56 step/s
+Saving checkpoint to: squad1.1/model_21425
+{
+  "exact": 86.33869441816462,
+  "f1": 92.68163451626197,
+  "total": 10570,
+  "HasAns_exact": 86.33869441816462,
+  "HasAns_f1": 92.68163451626197,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21450, epoch: 4, batch: 5025, loss: 0.426584, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21450
+{
+  "exact": 86.3197729422895,
+  "f1": 92.68346007787383,
+  "total": 10570,
+  "HasAns_exact": 86.3197729422895,
+  "HasAns_f1": 92.68346007787383,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21475, epoch: 4, batch: 5050, loss: 0.468613, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21475
+{
+  "exact": 86.29139072847683,
+  "f1": 92.65818766733528,
+  "total": 10570,
+  "HasAns_exact": 86.29139072847683,
+  "HasAns_f1": 92.65818766733528,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21500, epoch: 4, batch: 5075, loss: 0.369413, speed: 0.22 step/s
+Saving checkpoint to: squad1.1/model_21500
+{
+  "exact": 86.31031220435194,
+  "f1": 92.6647624178301,
+  "total": 10570,
+  "HasAns_exact": 86.31031220435194,
+  "HasAns_f1": 92.6647624178301,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21525, epoch: 4, batch: 5100, loss: 0.500416, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21525
+{
+  "exact": 86.31031220435194,
+  "f1": 92.67609725521059,
+  "total": 10570,
+  "HasAns_exact": 86.31031220435194,
+  "HasAns_f1": 92.67609725521059,
+  "HasAns_total": 10570
+}
+==================================================
+global step 21550, epoch: 4, batch: 5125, loss: 0.340008, speed: 0.55 step/s
+Saving checkpoint to: squad1.1/model_21550
+Traceback (most recent call last):
+  File "run_squad.py", line 425, in <module>
+    run(args)
+  File "run_squad.py", line 407, in run
+    evaluate(model, dev_data_loader, args, global_step)
+  File "<decorator-gen-275>", line 2, in evaluate
+  File "/usr/local/lib/python3.8/dist-packages/paddle/fluid/dygraph/base.py", line 316, in _decorate_function
+    return func(*args, **kwargs)
+  File "run_squad.py", line 177, in evaluate
+    start_logits_tensor, end_logits_tensor = model(input_ids)
+  File "/usr/local/lib/python3.8/dist-packages/paddle/fluid/dygraph/layers.py", line 898, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/hy-tmp/paddlenlp/paddlenlp/transformers/mpnet/modeling.py", line 572, in forward
+    start_logits, end_logits = paddle.unstack(x=logits, axis=0)
+  File "/usr/local/lib/python3.8/dist-packages/paddle/fluid/layers/nn.py", line 10235, in unstack
+    return core.ops.unstack(x, num, 'axis', int(axis), 'num', num)
+KeyboardInterrupt

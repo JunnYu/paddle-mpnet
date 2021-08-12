@@ -1,0 +1,1 @@
+python evaluate.py --model_name_or_path ./best-model_29400 --version_2_with_negative --batch_size 16

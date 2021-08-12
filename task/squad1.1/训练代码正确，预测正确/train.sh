@@ -1,0 +1,18 @@
+python -m paddle.distributed.launch --gpus "0" run_squad.py \
+    --model_type mpnet \
+    --model_name_or_path mpnet-base \
+    --max_seq_length 512 \
+    --batch_size 16 \
+    --learning_rate 2e-5 \
+    --num_train_epochs 4 \
+    --scheduler_type linear \
+    --layer_lr_decay 1.0 \
+    --logging_steps 25 \
+    --save_steps 25 \
+    --warmup_proportion 0.1 \
+    --weight_decay 0.1 \
+    --output_dir squad1.1/ \
+    --device gpu \
+    --do_train \
+    --seed 42 \
+    --do_predict

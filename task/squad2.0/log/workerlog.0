@@ -1,0 +1,2125 @@
+/usr/lib/python3/dist-packages/urllib3/util/selectors.py:14: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import namedtuple, Mapping
+/usr/lib/python3/dist-packages/urllib3/_collections.py:2: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+-----------  Configuration Arguments -----------
+adam_epsilon: 1e-06
+batch_size: 16
+device: gpu
+do_lower_case: True
+do_predict: True
+do_train: True
+doc_stride: 128
+layer_lr_decay: 1.0
+learning_rate: 2e-05
+logging_steps: 200
+max_answer_length: 30
+max_grad_norm: 1.0
+max_query_length: 64
+max_seq_length: 512
+max_steps: -1
+model_name_or_path: mpnet-base
+model_type: mpnet
+n_best_size: 20
+null_score_diff_threshold: 0.0
+num_train_epochs: 4
+output_dir: squad2/
+predict_file: None
+save_steps: 200
+scheduler_type: linear
+seed: 42
+train_file: None
+verbose: False
+version_2_with_negative: True
+warmup_proportion: 0.1
+weight_decay: 0.1
+------------------------------------------------
+file ./config.json not found
+file ./config.json not found
+[32m[2021-08-12 18:15:39,138] [    INFO][0m - Already cached /root/.paddlenlp/models/mpnet-base/model_state.pdparams[0m
+W0812 18:15:39.139955   888 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 8.6, Driver API Version: 11.4, Runtime API Version: 11.2
+W0812 18:15:39.142361   888 device_context.cc:422] device: 0, cuDNN Version: 8.1.
+global step 200, epoch: 1, batch: 200, loss: 5.097401, speed: 5.20 step/s
+global step 400, epoch: 1, batch: 400, loss: 5.243487, speed: 5.50 step/s
+global step 600, epoch: 1, batch: 600, loss: 3.825210, speed: 5.21 step/s
+global step 800, epoch: 1, batch: 800, loss: 3.140698, speed: 5.58 step/s
+global step 1000, epoch: 1, batch: 1000, loss: 3.414783, speed: 5.30 step/s
+global step 1200, epoch: 1, batch: 1200, loss: 2.839533, speed: 5.38 step/s
+global step 1400, epoch: 1, batch: 1400, loss: 2.552351, speed: 5.21 step/s
+global step 1600, epoch: 1, batch: 1600, loss: 2.453582, speed: 5.60 step/s
+global step 1800, epoch: 1, batch: 1800, loss: 2.200360, speed: 5.29 step/s
+global step 2000, epoch: 1, batch: 2000, loss: 2.120905, speed: 5.47 step/s
+global step 2200, epoch: 1, batch: 2200, loss: 1.934960, speed: 5.27 step/s
+global step 2400, epoch: 1, batch: 2400, loss: 1.413846, speed: 5.45 step/s
+global step 2600, epoch: 1, batch: 2600, loss: 1.288536, speed: 5.29 step/s
+global step 2800, epoch: 1, batch: 2800, loss: 1.317652, speed: 5.26 step/s
+global step 3000, epoch: 1, batch: 3000, loss: 1.376784, speed: 5.26 step/s
+global step 3200, epoch: 1, batch: 3200, loss: 0.819238, speed: 5.21 step/s
+global step 3400, epoch: 1, batch: 3400, loss: 0.772339, speed: 5.37 step/s
+global step 3600, epoch: 1, batch: 3600, loss: 1.242743, speed: 5.44 step/s
+global step 3800, epoch: 1, batch: 3800, loss: 1.166651, speed: 5.37 step/s
+global step 4000, epoch: 1, batch: 4000, loss: 1.579779, speed: 5.38 step/s
+global step 4200, epoch: 1, batch: 4200, loss: 0.917836, speed: 5.43 step/s
+global step 4400, epoch: 1, batch: 4400, loss: 0.962984, speed: 5.46 step/s
+global step 4600, epoch: 1, batch: 4600, loss: 0.614588, speed: 5.33 step/s
+global step 4800, epoch: 1, batch: 4800, loss: 1.128613, speed: 5.52 step/s
+global step 5000, epoch: 1, batch: 5000, loss: 1.184555, speed: 5.23 step/s
+global step 5200, epoch: 1, batch: 5200, loss: 0.689601, speed: 5.51 step/s
+global step 5400, epoch: 1, batch: 5400, loss: 1.275212, speed: 5.36 step/s
+global step 5600, epoch: 1, batch: 5600, loss: 0.854379, speed: 5.36 step/s
+global step 5800, epoch: 1, batch: 5800, loss: 0.482465, speed: 5.37 step/s
+global step 6000, epoch: 1, batch: 6000, loss: 0.782306, speed: 5.36 step/s
+global step 6200, epoch: 1, batch: 6200, loss: 0.666331, speed: 5.26 step/s
+global step 6400, epoch: 1, batch: 6400, loss: 0.914086, speed: 5.50 step/s
+global step 6600, epoch: 1, batch: 6600, loss: 0.966548, speed: 5.51 step/s
+global step 6800, epoch: 1, batch: 6800, loss: 0.459345, speed: 5.12 step/s
+global step 7000, epoch: 1, batch: 7000, loss: 0.508301, speed: 5.31 step/s
+global step 7200, epoch: 1, batch: 7200, loss: 0.687410, speed: 5.23 step/s
+global step 7400, epoch: 1, batch: 7400, loss: 0.880232, speed: 5.53 step/s
+global step 7600, epoch: 1, batch: 7600, loss: 1.164886, speed: 5.36 step/s
+global step 7800, epoch: 1, batch: 7800, loss: 1.121641, speed: 5.40 step/s
+global step 8000, epoch: 1, batch: 8000, loss: 1.177009, speed: 5.33 step/s
+global step 8200, epoch: 2, batch: 55, loss: 0.868535, speed: 5.46 step/s
+global step 8400, epoch: 2, batch: 255, loss: 1.012768, speed: 5.42 step/s
+global step 8600, epoch: 2, batch: 455, loss: 0.729144, speed: 5.41 step/s
+global step 8800, epoch: 2, batch: 655, loss: 0.736319, speed: 5.34 step/s
+global step 9000, epoch: 2, batch: 855, loss: 0.271748, speed: 5.37 step/s
+global step 9200, epoch: 2, batch: 1055, loss: 0.576995, speed: 5.42 step/s
+global step 9400, epoch: 2, batch: 1255, loss: 1.154029, speed: 5.46 step/s
+global step 9600, epoch: 2, batch: 1455, loss: 0.602176, speed: 5.35 step/s
+global step 9800, epoch: 2, batch: 1655, loss: 0.263844, speed: 5.26 step/s
+global step 10000, epoch: 2, batch: 1855, loss: 0.363307, speed: 5.25 step/s
+global step 10200, epoch: 2, batch: 2055, loss: 0.301776, speed: 5.39 step/s
+Saving checkpoint to: squad2/model_10200
+{
+  "exact": 80.19034784805862,
+  "f1": 83.21892892947123,
+  "total": 11873,
+  "HasAns_exact": 73.582995951417,
+  "HasAns_f1": 79.64884331639895,
+  "HasAns_total": 5928,
+  "NoAns_exact": 86.77880571909168,
+  "NoAns_f1": 86.77880571909168,
+  "NoAns_total": 5945,
+  "best_exact": 80.40933209803757,
+  "best_exact_thresh": -0.5125231742858887,
+  "best_f1": 83.35761527262014,
+  "best_f1_thresh": -0.4205660820007324
+}
+==================================================
+global step 10400, epoch: 2, batch: 2255, loss: 0.718682, speed: 2.57 step/s
+Saving checkpoint to: squad2/model_10400
+{
+  "exact": 79.90398382885539,
+  "f1": 83.16112204975981,
+  "total": 11873,
+  "HasAns_exact": 77.68218623481782,
+  "HasAns_f1": 84.20580332267193,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.11942809083263,
+  "NoAns_f1": 82.11942809083263,
+  "NoAns_total": 5945,
+  "best_exact": 80.73780847300598,
+  "best_exact_thresh": -2.055701732635498,
+  "best_f1": 83.73306159998671,
+  "best_f1_thresh": -2.055701732635498
+}
+==================================================
+global step 10600, epoch: 2, batch: 2455, loss: 0.717920, speed: 2.50 step/s
+Saving checkpoint to: squad2/model_10600
+{
+  "exact": 80.80518824223027,
+  "f1": 83.4236214802272,
+  "total": 11873,
+  "HasAns_exact": 73.75168690958165,
+  "HasAns_f1": 78.9960623877764,
+  "HasAns_total": 5928,
+  "NoAns_exact": 87.83851976450799,
+  "NoAns_f1": 87.83851976450799,
+  "NoAns_total": 5945,
+  "best_exact": 80.83887812684242,
+  "best_exact_thresh": -0.36336517333984375,
+  "best_f1": 83.44888889368593,
+  "best_f1_thresh": -0.023763656616210938
+}
+==================================================
+global step 10800, epoch: 2, batch: 2655, loss: 0.982345, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_10800
+{
+  "exact": 79.29756590583678,
+  "f1": 82.40285969379143,
+  "total": 11873,
+  "HasAns_exact": 80.43184885290148,
+  "HasAns_f1": 86.65134162354705,
+  "HasAns_total": 5928,
+  "NoAns_exact": 78.16652649285113,
+  "NoAns_f1": 78.16652649285113,
+  "NoAns_total": 5945,
+  "best_exact": 80.44302198264971,
+  "best_exact_thresh": -1.9087626934051514,
+  "best_f1": 83.26942495815878,
+  "best_f1_thresh": -1.9087626934051514
+}
+==================================================
+global step 11000, epoch: 2, batch: 2855, loss: 0.985368, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_11000
+{
+  "exact": 80.00505348269182,
+  "f1": 82.9797684940682,
+  "total": 11873,
+  "HasAns_exact": 78.52564102564102,
+  "HasAns_f1": 84.4836017763281,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.4802354920101,
+  "NoAns_f1": 81.4802354920101,
+  "NoAns_total": 5945,
+  "best_exact": 80.79676577107723,
+  "best_exact_thresh": -1.4713683128356934,
+  "best_f1": 83.60524280271835,
+  "best_f1_thresh": -1.4713683128356934
+}
+==================================================
+global step 11200, epoch: 2, batch: 3055, loss: 0.687485, speed: 2.56 step/s
+Saving checkpoint to: squad2/model_11200
+{
+  "exact": 79.76080181925377,
+  "f1": 82.85584986443091,
+  "total": 11873,
+  "HasAns_exact": 78.98110661268556,
+  "HasAns_f1": 85.1800785155852,
+  "HasAns_total": 5928,
+  "NoAns_exact": 80.53826745164004,
+  "NoAns_f1": 80.53826745164004,
+  "NoAns_total": 5945,
+  "best_exact": 81.05786237682136,
+  "best_exact_thresh": -2.0873405933380127,
+  "best_f1": 83.852428842487,
+  "best_f1_thresh": -1.6909427642822266
+}
+==================================================
+global step 11400, epoch: 2, batch: 3255, loss: 0.521933, speed: 2.57 step/s
+Saving checkpoint to: squad2/model_11400
+{
+  "exact": 80.42617704034363,
+  "f1": 83.37733821779294,
+  "total": 11873,
+  "HasAns_exact": 76.78812415654521,
+  "HasAns_f1": 82.69890969295817,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.053826745164,
+  "NoAns_f1": 84.053826745164,
+  "NoAns_total": 5945,
+  "best_exact": 80.88941295376064,
+  "best_exact_thresh": -1.339460849761963,
+  "best_f1": 83.70158262145428,
+  "best_f1_thresh": -1.3388700485229492
+}
+==================================================
+global step 11600, epoch: 2, batch: 3455, loss: 0.648994, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_11600
+{
+  "exact": 77.32670765602627,
+  "f1": 80.61750619181939,
+  "total": 11873,
+  "HasAns_exact": 81.15721997300945,
+  "HasAns_f1": 87.74825421988399,
+  "HasAns_total": 5928,
+  "NoAns_exact": 73.5071488645921,
+  "NoAns_f1": 73.5071488645921,
+  "NoAns_total": 5945,
+  "best_exact": 80.40933209803757,
+  "best_exact_thresh": -3.536497116088867,
+  "best_f1": 83.29628798345773,
+  "best_f1_thresh": -3.3635034561157227
+}
+==================================================
+global step 11800, epoch: 2, batch: 3655, loss: 0.870718, speed: 2.50 step/s
+Saving checkpoint to: squad2/model_11800
+{
+  "exact": 80.8809904826076,
+  "f1": 83.70605521731837,
+  "total": 11873,
+  "HasAns_exact": 76.82186234817814,
+  "HasAns_f1": 82.48009338650833,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.92851135407906,
+  "NoAns_f1": 84.92851135407906,
+  "NoAns_total": 5945,
+  "best_exact": 81.26000168449423,
+  "best_exact_thresh": -0.4562044143676758,
+  "best_f1": 84.01695710851502,
+  "best_f1_thresh": -0.4562044143676758
+}
+==================================================
+global step 12000, epoch: 2, batch: 3855, loss: 1.229779, speed: 2.57 step/s
+Saving checkpoint to: squad2/model_12000
+{
+  "exact": 79.76080181925377,
+  "f1": 82.88532905214564,
+  "total": 11873,
+  "HasAns_exact": 79.52091767881241,
+  "HasAns_f1": 85.77893249597267,
+  "HasAns_total": 5928,
+  "NoAns_exact": 80.0,
+  "NoAns_f1": 80.0,
+  "NoAns_total": 5945,
+  "best_exact": 80.94837025183189,
+  "best_exact_thresh": -3.6790828704833984,
+  "best_f1": 83.69941728065362,
+  "best_f1_thresh": -3.161156177520752
+}
+==================================================
+global step 12200, epoch: 2, batch: 4055, loss: 0.302380, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_12200
+{
+  "exact": 80.7883432999242,
+  "f1": 83.78120297503064,
+  "total": 11873,
+  "HasAns_exact": 76.51821862348179,
+  "HasAns_f1": 82.51252073592104,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.04625735912532,
+  "NoAns_f1": 85.04625735912532,
+  "NoAns_total": 5945,
+  "best_exact": 81.26842415564727,
+  "best_exact_thresh": -0.7116532325744629,
+  "best_f1": 84.11018726381283,
+  "best_f1_thresh": -0.6705493927001953
+}
+==================================================
+global step 12400, epoch: 2, batch: 4255, loss: 1.085052, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_12400
+{
+  "exact": 79.92925124231449,
+  "f1": 83.09297056067409,
+  "total": 11873,
+  "HasAns_exact": 79.89203778677462,
+  "HasAns_f1": 86.228549167828,
+  "HasAns_total": 5928,
+  "NoAns_exact": 79.9663582842725,
+  "NoAns_f1": 79.9663582842725,
+  "NoAns_total": 5945,
+  "best_exact": 81.1841994441169,
+  "best_exact_thresh": -2.2349133491516113,
+  "best_f1": 84.1897979461024,
+  "best_f1_thresh": -1.6188616752624512
+}
+==================================================
+global step 12600, epoch: 2, batch: 4455, loss: 0.570967, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_12600
+{
+  "exact": 80.47671186726186,
+  "f1": 83.56761553904055,
+  "total": 11873,
+  "HasAns_exact": 79.8076923076923,
+  "HasAns_f1": 85.99836357878351,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.14381833473507,
+  "NoAns_f1": 81.14381833473507,
+  "NoAns_total": 5945,
+  "best_exact": 81.61374547292175,
+  "best_exact_thresh": -2.6882331371307373,
+  "best_f1": 84.34298761084655,
+  "best_f1_thresh": -2.6882331371307373
+}
+==================================================
+global step 12800, epoch: 2, batch: 4655, loss: 1.038515, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_12800
+{
+  "exact": 80.46828939610882,
+  "f1": 83.4935931810418,
+  "total": 11873,
+  "HasAns_exact": 77.26045883940621,
+  "HasAns_f1": 83.31974221297405,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.66694701429773,
+  "NoAns_f1": 83.66694701429773,
+  "NoAns_total": 5945,
+  "best_exact": 80.96521519413795,
+  "best_exact_thresh": -1.1794772148132324,
+  "best_f1": 83.78875381748614,
+  "best_f1_thresh": -0.8828840255737305
+}
+==================================================
+global step 13000, epoch: 2, batch: 4855, loss: 0.805808, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_13000
+{
+  "exact": 80.51882422302704,
+  "f1": 83.42625316747778,
+  "total": 11873,
+  "HasAns_exact": 71.7948717948718,
+  "HasAns_f1": 77.61806745233858,
+  "HasAns_total": 5928,
+  "NoAns_exact": 89.21783010933558,
+  "NoAns_f1": 89.21783010933558,
+  "NoAns_total": 5945,
+  "best_exact": 80.54409163648614,
+  "best_exact_thresh": -0.041803836822509766,
+  "best_f1": 83.44478260401411,
+  "best_f1_thresh": -0.041803836822509766
+}
+==================================================
+global step 13200, epoch: 2, batch: 5055, loss: 0.653550, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_13200
+{
+  "exact": 80.28299503074201,
+  "f1": 83.25516318036057,
+  "total": 11873,
+  "HasAns_exact": 78.93049932523617,
+  "HasAns_f1": 84.88335904865407,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.63162321278385,
+  "NoAns_f1": 81.63162321278385,
+  "NoAns_total": 5945,
+  "best_exact": 81.44529604986103,
+  "best_exact_thresh": -2.297980785369873,
+  "best_f1": 84.07369667145765,
+  "best_f1_thresh": -1.7548742294311523
+}
+==================================================
+global step 13400, epoch: 2, batch: 5255, loss: 0.698492, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_13400
+{
+  "exact": 80.77992082877117,
+  "f1": 83.72616319594904,
+  "total": 11873,
+  "HasAns_exact": 77.20985155195682,
+  "HasAns_f1": 83.11078536192697,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.33978132884778,
+  "NoAns_f1": 84.33978132884778,
+  "NoAns_total": 5945,
+  "best_exact": 81.26842415564727,
+  "best_exact_thresh": -1.989790916442871,
+  "best_f1": 84.00009216996894,
+  "best_f1_thresh": -0.5946230888366699
+}
+==================================================
+global step 13600, epoch: 2, batch: 5455, loss: 0.612889, speed: 2.51 step/s
+Saving checkpoint to: squad2/model_13600
+{
+  "exact": 77.31828518487325,
+  "f1": 80.48659250038872,
+  "total": 11873,
+  "HasAns_exact": 81.49460188933872,
+  "HasAns_f1": 87.84030242191554,
+  "HasAns_total": 5928,
+  "NoAns_exact": 73.15391084945333,
+  "NoAns_f1": 73.15391084945333,
+  "NoAns_total": 5945,
+  "best_exact": 80.65358376147562,
+  "best_exact_thresh": -3.492501735687256,
+  "best_f1": 83.5384747281497,
+  "best_f1_thresh": -3.492501735687256
+}
+==================================================
+global step 13800, epoch: 2, batch: 5655, loss: 0.912225, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_13800
+{
+  "exact": 80.4177545691906,
+  "f1": 83.58635768610941,
+  "total": 11873,
+  "HasAns_exact": 78.86302294197031,
+  "HasAns_f1": 85.20931592563733,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.96804037005887,
+  "NoAns_f1": 81.96804037005887,
+  "NoAns_total": 5945,
+  "best_exact": 81.04101743451528,
+  "best_exact_thresh": -3.321645736694336,
+  "best_f1": 84.00653473972658,
+  "best_f1_thresh": -1.7374777793884277
+}
+==================================================
+global step 14000, epoch: 2, batch: 5855, loss: 0.590043, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_14000
+{
+  "exact": 81.37791628063674,
+  "f1": 84.13056582312306,
+  "total": 11873,
+  "HasAns_exact": 74.25775978407557,
+  "HasAns_f1": 79.77095276955819,
+  "HasAns_total": 5928,
+  "NoAns_exact": 88.47771236333053,
+  "NoAns_f1": 88.47771236333053,
+  "NoAns_total": 5945,
+  "best_exact": 81.40318369409584,
+  "best_exact_thresh": -0.23549890518188477,
+  "best_f1": 84.1305658231227,
+  "best_f1_thresh": -0.0023779869079589844
+}
+==================================================
+global step 14200, epoch: 2, batch: 6055, loss: 1.047859, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_14200
+{
+  "exact": 80.9062578960667,
+  "f1": 83.86456224097518,
+  "total": 11873,
+  "HasAns_exact": 78.93049932523617,
+  "HasAns_f1": 84.8555916813595,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.87636669470143,
+  "NoAns_f1": 82.87636669470143,
+  "NoAns_total": 5945,
+  "best_exact": 81.80746230944159,
+  "best_exact_thresh": -2.054534912109375,
+  "best_f1": 84.57667586462993,
+  "best_f1_thresh": -1.4116249084472656
+}
+==================================================
+global step 14400, epoch: 2, batch: 6255, loss: 0.673213, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_14400
+{
+  "exact": 80.62831634801651,
+  "f1": 83.61018672815248,
+  "total": 11873,
+  "HasAns_exact": 79.40283400809717,
+  "HasAns_f1": 85.37512601608564,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.85029436501262,
+  "NoAns_f1": 81.85029436501262,
+  "NoAns_total": 5945,
+  "best_exact": 81.51267581908532,
+  "best_exact_thresh": -1.598383903503418,
+  "best_f1": 84.30126713684042,
+  "best_f1_thresh": -1.0035943984985352
+}
+==================================================
+global step 14600, epoch: 2, batch: 6455, loss: 0.914369, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_14600
+{
+  "exact": 80.63673881916955,
+  "f1": 83.62616995392318,
+  "total": 11873,
+  "HasAns_exact": 79.25101214574899,
+  "HasAns_f1": 85.23844734529875,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.01850294365012,
+  "NoAns_f1": 82.01850294365012,
+  "NoAns_total": 5945,
+  "best_exact": 81.38633875178978,
+  "best_exact_thresh": -2.2079005241394043,
+  "best_f1": 84.18408192092274,
+  "best_f1_thresh": -1.701268196105957
+}
+==================================================
+global step 14800, epoch: 2, batch: 6655, loss: 1.205031, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_14800
+{
+  "exact": 79.58392992504001,
+  "f1": 82.66945231294338,
+  "total": 11873,
+  "HasAns_exact": 79.77395411605939,
+  "HasAns_f1": 85.95384738724321,
+  "HasAns_total": 5928,
+  "NoAns_exact": 79.39444911690497,
+  "NoAns_f1": 79.39444911690497,
+  "NoAns_total": 5945,
+  "best_exact": 81.04101743451528,
+  "best_exact_thresh": -3.104361057281494,
+  "best_f1": 83.87222675403983,
+  "best_f1_thresh": -2.3517236709594727
+}
+==================================================
+global step 15000, epoch: 2, batch: 6855, loss: 0.719554, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_15000
+{
+  "exact": 80.9062578960667,
+  "f1": 83.83331717936406,
+  "total": 11873,
+  "HasAns_exact": 77.7834008097166,
+  "HasAns_f1": 83.64591343970818,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.0201850294365,
+  "NoAns_f1": 84.0201850294365,
+  "NoAns_total": 5945,
+  "best_exact": 81.37791628063674,
+  "best_exact_thresh": -1.6267242431640625,
+  "best_f1": 84.05587776451678,
+  "best_f1_thresh": -0.8142008781433105
+}
+==================================================
+global step 15200, epoch: 2, batch: 7055, loss: 0.739379, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_15200
+{
+  "exact": 81.37791628063674,
+  "f1": 84.12855933369899,
+  "total": 11873,
+  "HasAns_exact": 79.03171390013495,
+  "HasAns_f1": 84.5408881526669,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.71740958788898,
+  "NoAns_f1": 83.71740958788898,
+  "NoAns_total": 5945,
+  "best_exact": 81.89168702097196,
+  "best_exact_thresh": -1.7166681289672852,
+  "best_f1": 84.47216244360735,
+  "best_f1_thresh": -1.0618197917938232
+}
+==================================================
+global step 15400, epoch: 2, batch: 7255, loss: 0.818014, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_15400
+{
+  "exact": 80.96521519413795,
+  "f1": 83.81393322778048,
+  "total": 11873,
+  "HasAns_exact": 79.87516869095816,
+  "HasAns_f1": 85.58077415881216,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.05214465937763,
+  "NoAns_f1": 82.05214465937763,
+  "NoAns_total": 5945,
+  "best_exact": 82.1106712709509,
+  "best_exact_thresh": -2.14223575592041,
+  "best_f1": 84.71962929985297,
+  "best_f1_thresh": -1.7123808860778809
+}
+==================================================
+global step 15600, epoch: 2, batch: 7455, loss: 0.689242, speed: 2.58 step/s
+Saving checkpoint to: squad2/model_15600
+{
+  "exact": 81.42845110755496,
+  "f1": 84.15450909713853,
+  "total": 11873,
+  "HasAns_exact": 77.7834008097166,
+  "HasAns_f1": 83.24333443156655,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.06307821698907,
+  "NoAns_f1": 85.06307821698907,
+  "NoAns_total": 5945,
+  "best_exact": 81.67270277099301,
+  "best_exact_thresh": -0.7431554794311523,
+  "best_f1": 84.29106242153033,
+  "best_f1_thresh": -0.7431554794311523
+}
+==================================================
+global step 15800, epoch: 2, batch: 7655, loss: 0.388599, speed: 1.49 step/s
+Saving checkpoint to: squad2/model_15800
+{
+  "exact": 81.66428029983997,
+  "f1": 84.34234202814694,
+  "total": 11873,
+  "HasAns_exact": 77.36167341430499,
+  "HasAns_f1": 82.72547687250155,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.95458368376788,
+  "NoAns_f1": 85.95458368376788,
+  "NoAns_total": 5945,
+  "best_exact": 81.73166006906426,
+  "best_exact_thresh": -0.1288776397705078,
+  "best_f1": 84.39648648555901,
+  "best_f1_thresh": -0.04152870178222656
+}
+==================================================
+global step 16000, epoch: 2, batch: 7855, loss: 0.714809, speed: 2.48 step/s
+Saving checkpoint to: squad2/model_16000
+{
+  "exact": 80.7883432999242,
+  "f1": 83.68591502350806,
+  "total": 11873,
+  "HasAns_exact": 80.70175438596492,
+  "HasAns_f1": 86.50520733368954,
+  "HasAns_total": 5928,
+  "NoAns_exact": 80.87468460891506,
+  "NoAns_f1": 80.87468460891506,
+  "NoAns_total": 5945,
+  "best_exact": 81.96748926134929,
+  "best_exact_thresh": -2.392683982849121,
+  "best_f1": 84.61597035078962,
+  "best_f1_thresh": -2.332505702972412
+}
+==================================================
+global step 16200, epoch: 2, batch: 8055, loss: 0.843109, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_16200
+{
+  "exact": 80.74623094415901,
+  "f1": 83.57177559598098,
+  "total": 11873,
+  "HasAns_exact": 81.24156545209176,
+  "HasAns_f1": 86.90075770092488,
+  "HasAns_total": 5928,
+  "NoAns_exact": 80.25231286795626,
+  "NoAns_f1": 80.25231286795626,
+  "NoAns_total": 5945,
+  "best_exact": 82.13593868441001,
+  "best_exact_thresh": -3.022365093231201,
+  "best_f1": 84.67744934217166,
+  "best_f1_thresh": -2.305572509765625
+}
+==================================================
+global step 16400, epoch: 3, batch: 110, loss: 0.702346, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_16400
+{
+  "exact": 80.85572306914848,
+  "f1": 83.73281681963302,
+  "total": 11873,
+  "HasAns_exact": 79.18353576248313,
+  "HasAns_f1": 84.94597403837784,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.52312867956266,
+  "NoAns_f1": 82.52312867956266,
+  "NoAns_total": 5945,
+  "best_exact": 81.50425334793228,
+  "best_exact_thresh": -2.5116629600524902,
+  "best_f1": 84.09741763921697,
+  "best_f1_thresh": -2.1332848072052
+}
+==================================================
+global step 16600, epoch: 3, batch: 310, loss: 0.453503, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_16600
+{
+  "exact": 80.61989387686347,
+  "f1": 83.67492836681794,
+  "total": 11873,
+  "HasAns_exact": 80.1450742240216,
+  "HasAns_f1": 86.26390426775134,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.09335576114381,
+  "NoAns_f1": 81.09335576114381,
+  "NoAns_total": 5945,
+  "best_exact": 81.53794323254444,
+  "best_exact_thresh": -3.968970775604248,
+  "best_f1": 84.39273567442653,
+  "best_f1_thresh": -2.824708938598633
+}
+==================================================
+global step 16800, epoch: 3, batch: 510, loss: 0.403637, speed: 2.50 step/s
+Saving checkpoint to: squad2/model_16800
+{
+  "exact": 79.79449170386592,
+  "f1": 82.75483575757134,
+  "total": 11873,
+  "HasAns_exact": 80.87044534412955,
+  "HasAns_f1": 86.7996229672139,
+  "HasAns_total": 5928,
+  "NoAns_exact": 78.72161480235492,
+  "NoAns_f1": 78.72161480235492,
+  "NoAns_total": 5945,
+  "best_exact": 81.40318369409584,
+  "best_exact_thresh": -2.836121082305908,
+  "best_f1": 84.17010558448823,
+  "best_f1_thresh": -2.836121082305908
+}
+==================================================
+global step 17000, epoch: 3, batch: 710, loss: 0.446098, speed: 2.51 step/s
+Saving checkpoint to: squad2/model_17000
+{
+  "exact": 79.12069401162302,
+  "f1": 82.48558255884569,
+  "total": 11873,
+  "HasAns_exact": 81.00539811066128,
+  "HasAns_f1": 87.74482485175037,
+  "HasAns_total": 5928,
+  "NoAns_exact": 77.24137931034483,
+  "NoAns_f1": 77.24137931034483,
+  "NoAns_total": 5945,
+  "best_exact": 81.26000168449423,
+  "best_exact_thresh": -5.997107028961182,
+  "best_f1": 84.13626238377776,
+  "best_f1_thresh": -5.997107028961182
+}
+==================================================
+global step 17200, epoch: 3, batch: 910, loss: 0.566528, speed: 2.43 step/s
+Saving checkpoint to: squad2/model_17200
+{
+  "exact": 81.42845110755496,
+  "f1": 84.309470206769,
+  "total": 11873,
+  "HasAns_exact": 77.68218623481782,
+  "HasAns_f1": 83.4524864650758,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.16400336417158,
+  "NoAns_f1": 85.16400336417158,
+  "NoAns_total": 5945,
+  "best_exact": 81.87484207866588,
+  "best_exact_thresh": -1.197150707244873,
+  "best_f1": 84.6527929050143,
+  "best_f1_thresh": -1.197150707244873
+}
+==================================================
+global step 17400, epoch: 3, batch: 1110, loss: 0.190630, speed: 2.09 step/s
+Saving checkpoint to: squad2/model_17400
+{
+  "exact": 80.72938600185294,
+  "f1": 83.7242389809396,
+  "total": 11873,
+  "HasAns_exact": 80.12820512820512,
+  "HasAns_f1": 86.12649956489493,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.32884777123633,
+  "NoAns_f1": 81.32884777123633,
+  "NoAns_total": 5945,
+  "best_exact": 81.78219489598249,
+  "best_exact_thresh": -2.911431312561035,
+  "best_f1": 84.55883513718678,
+  "best_f1_thresh": -2.8428311347961426
+}
+==================================================
+global step 17600, epoch: 3, batch: 1310, loss: 0.668373, speed: 1.94 step/s
+Saving checkpoint to: squad2/model_17600
+{
+  "exact": 80.47671186726186,
+  "f1": 83.34707407345678,
+  "total": 11873,
+  "HasAns_exact": 80.48245614035088,
+  "HasAns_f1": 86.231412023305,
+  "HasAns_total": 5928,
+  "NoAns_exact": 80.47098402018503,
+  "NoAns_f1": 80.47098402018503,
+  "NoAns_total": 5945,
+  "best_exact": 81.6474353575339,
+  "best_exact_thresh": -2.964162826538086,
+  "best_f1": 84.25156383545772,
+  "best_f1_thresh": -2.873432159423828
+}
+==================================================
+global step 17800, epoch: 3, batch: 1510, loss: 0.826390, speed: 0.59 step/s
+Saving checkpoint to: squad2/model_17800
+{
+  "exact": 81.88326454981892,
+  "f1": 84.60309753154462,
+  "total": 11873,
+  "HasAns_exact": 76.19770580296895,
+  "HasAns_f1": 81.64517155735994,
+  "HasAns_total": 5928,
+  "NoAns_exact": 87.55256518082422,
+  "NoAns_f1": 87.55256518082422,
+  "NoAns_total": 5945,
+  "best_exact": 81.91695443443106,
+  "best_exact_thresh": -0.06535577774047852,
+  "best_f1": 84.63030859219258,
+  "best_f1_thresh": -0.06535577774047852
+}
+==================================================
+global step 18000, epoch: 3, batch: 1710, loss: 0.829519, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_18000
+{
+  "exact": 81.3947612229428,
+  "f1": 84.22462482225791,
+  "total": 11873,
+  "HasAns_exact": 80.24628879892038,
+  "HasAns_f1": 85.91413132838541,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.53994953742641,
+  "NoAns_f1": 82.53994953742641,
+  "NoAns_total": 5945,
+  "best_exact": 82.03486903057357,
+  "best_exact_thresh": -3.71720552444458,
+  "best_f1": 84.6291301964419,
+  "best_f1_thresh": -1.159104824066162
+}
+==================================================
+global step 18200, epoch: 3, batch: 1910, loss: 0.369812, speed: 2.50 step/s
+Saving checkpoint to: squad2/model_18200
+{
+  "exact": 82.16962856902215,
+  "f1": 84.85980243225065,
+  "total": 11873,
+  "HasAns_exact": 78.40755735492577,
+  "HasAns_f1": 83.79561981749545,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.92094196804037,
+  "NoAns_f1": 85.92094196804037,
+  "NoAns_total": 5945,
+  "best_exact": 82.32965552092985,
+  "best_exact_thresh": -0.9704785346984863,
+  "best_f1": 85.00449616744358,
+  "best_f1_thresh": -0.22807526588439941
+}
+==================================================
+global step 18400, epoch: 3, batch: 2110, loss: 1.072524, speed: 2.56 step/s
+Saving checkpoint to: squad2/model_18400
+{
+  "exact": 81.03259496336226,
+  "f1": 83.93998384263179,
+  "total": 11873,
+  "HasAns_exact": 79.70647773279352,
+  "HasAns_f1": 85.52959314500137,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.35492010092514,
+  "NoAns_f1": 82.35492010092514,
+  "NoAns_total": 5945,
+  "best_exact": 81.78219489598249,
+  "best_exact_thresh": -2.5384860038757324,
+  "best_f1": 84.53108665258938,
+  "best_f1_thresh": -1.804837703704834
+}
+==================================================
+global step 18600, epoch: 3, batch: 2310, loss: 0.696197, speed: 2.56 step/s
+Saving checkpoint to: squad2/model_18600
+{
+  "exact": 81.42002863640192,
+  "f1": 84.436206409735,
+  "total": 11873,
+  "HasAns_exact": 76.06275303643724,
+  "HasAns_f1": 82.10375821571937,
+  "HasAns_total": 5928,
+  "NoAns_exact": 86.76198486122792,
+  "NoAns_f1": 86.76198486122792,
+  "NoAns_total": 5945,
+  "best_exact": 81.54636570369746,
+  "best_exact_thresh": -1.8020448684692383,
+  "best_f1": 84.51131757555567,
+  "best_f1_thresh": -0.31577205657958984
+}
+==================================================
+global step 18800, epoch: 3, batch: 2510, loss: 0.420356, speed: 2.56 step/s
+Saving checkpoint to: squad2/model_18800
+{
+  "exact": 81.25157921334119,
+  "f1": 84.24873503094793,
+  "total": 11873,
+  "HasAns_exact": 79.28475033738192,
+  "HasAns_f1": 85.28765705506835,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.21278385197645,
+  "NoAns_f1": 83.21278385197645,
+  "NoAns_total": 5945,
+  "best_exact": 82.08540385749178,
+  "best_exact_thresh": -2.3965530395507812,
+  "best_f1": 84.8849750850896,
+  "best_f1_thresh": -2.1559481620788574
+}
+==================================================
+global step 19000, epoch: 3, batch: 2710, loss: 0.492856, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_19000
+{
+  "exact": 81.07470731912743,
+  "f1": 83.99431538241325,
+  "total": 11873,
+  "HasAns_exact": 78.69433198380567,
+  "HasAns_f1": 84.54192080556564,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.44827586206897,
+  "NoAns_f1": 83.44827586206897,
+  "NoAns_total": 5945,
+  "best_exact": 81.75692748252337,
+  "best_exact_thresh": -3.517561912536621,
+  "best_f1": 84.4298656246178,
+  "best_f1_thresh": -1.1612308025360107
+}
+==================================================
+global step 19200, epoch: 3, batch: 2910, loss: 1.188102, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_19200
+{
+  "exact": 81.36107133833066,
+  "f1": 84.29692218780129,
+  "total": 11873,
+  "HasAns_exact": 78.05330634278003,
+  "HasAns_f1": 83.93342731709949,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.65937762825904,
+  "NoAns_f1": 84.65937762825904,
+  "NoAns_total": 5945,
+  "best_exact": 82.0180240882675,
+  "best_exact_thresh": -1.8396377563476562,
+  "best_f1": 84.81170112333474,
+  "best_f1_thresh": -1.4633946418762207
+}
+==================================================
+global step 19400, epoch: 3, batch: 3110, loss: 0.490055, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_19400
+{
+  "exact": 81.87484207866588,
+  "f1": 84.60604841587684,
+  "total": 11873,
+  "HasAns_exact": 78.4412955465587,
+  "HasAns_f1": 83.91154062781827,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.29857022708158,
+  "NoAns_f1": 85.29857022708158,
+  "NoAns_total": 5945,
+  "best_exact": 82.19489598248126,
+  "best_exact_thresh": -1.9371023178100586,
+  "best_f1": 84.71301848543719,
+  "best_f1_thresh": -1.610945701599121
+}
+==================================================
+global step 19600, epoch: 3, batch: 3310, loss: 0.655184, speed: 2.48 step/s
+Saving checkpoint to: squad2/model_19600
+{
+  "exact": 81.62216794407479,
+  "f1": 84.5551985892031,
+  "total": 11873,
+  "HasAns_exact": 78.79554655870446,
+  "HasAns_f1": 84.67001903670874,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.44070647603027,
+  "NoAns_f1": 84.44070647603027,
+  "NoAns_total": 5945,
+  "best_exact": 82.15278362671607,
+  "best_exact_thresh": -1.474757194519043,
+  "best_f1": 84.99098449783861,
+  "best_f1_thresh": -1.10878324508667
+}
+==================================================
+global step 19800, epoch: 3, batch: 3510, loss: 0.515549, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_19800
+{
+  "exact": 82.02644655942053,
+  "f1": 84.81295920911458,
+  "total": 11873,
+  "HasAns_exact": 78.32321187584346,
+  "HasAns_f1": 83.9042281865416,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.71909167367535,
+  "NoAns_f1": 85.71909167367535,
+  "NoAns_total": 5945,
+  "best_exact": 82.30438810747073,
+  "best_exact_thresh": -1.1548452377319336,
+  "best_f1": 85.04310966027028,
+  "best_f1_thresh": -0.558220624923706
+}
+==================================================
+global step 20000, epoch: 3, batch: 3710, loss: 0.433237, speed: 2.51 step/s
+Saving checkpoint to: squad2/model_20000
+{
+  "exact": 80.84730059799546,
+  "f1": 83.92636731417029,
+  "total": 11873,
+  "HasAns_exact": 80.43184885290148,
+  "HasAns_f1": 86.59881226739954,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.26156433978133,
+  "NoAns_f1": 81.26156433978133,
+  "NoAns_total": 5945,
+  "best_exact": 82.22016339594038,
+  "best_exact_thresh": -2.3955440521240234,
+  "best_f1": 85.11455100269967,
+  "best_f1_thresh": -2.3955440521240234
+}
+==================================================
+global step 20200, epoch: 3, batch: 3910, loss: 0.627672, speed: 2.49 step/s
+Saving checkpoint to: squad2/model_20200
+{
+  "exact": 81.68954771329908,
+  "f1": 84.76395435303417,
+  "total": 11873,
+  "HasAns_exact": 77.0748987854251,
+  "HasAns_f1": 83.23252868312686,
+  "HasAns_total": 5928,
+  "NoAns_exact": 86.29100084104289,
+  "NoAns_f1": 86.29100084104289,
+  "NoAns_total": 5945,
+  "best_exact": 81.7653499536764,
+  "best_exact_thresh": -0.8628182411193848,
+  "best_f1": 84.78922176649293,
+  "best_f1_thresh": -0.07928848266601562
+}
+==================================================
+global step 20400, epoch: 3, batch: 4110, loss: 0.452738, speed: 2.56 step/s
+Saving checkpoint to: squad2/model_20400
+{
+  "exact": 80.66200623262866,
+  "f1": 83.7239163646961,
+  "total": 11873,
+  "HasAns_exact": 80.39811066126856,
+  "HasAns_f1": 86.53071170682125,
+  "HasAns_total": 5928,
+  "NoAns_exact": 80.92514718250631,
+  "NoAns_f1": 80.92514718250631,
+  "NoAns_total": 5945,
+  "best_exact": 81.9506443190432,
+  "best_exact_thresh": -3.5602779388427734,
+  "best_f1": 84.82765170349913,
+  "best_f1_thresh": -2.690189838409424
+}
+==================================================
+global step 20600, epoch: 3, batch: 4310, loss: 0.718668, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_20600
+{
+  "exact": 81.95906679019625,
+  "f1": 84.79264439466047,
+  "total": 11873,
+  "HasAns_exact": 77.86774628879893,
+  "HasAns_f1": 83.54302747938667,
+  "HasAns_total": 5928,
+  "NoAns_exact": 86.03868797308662,
+  "NoAns_f1": 86.03868797308662,
+  "NoAns_total": 5945,
+  "best_exact": 82.10224879979786,
+  "best_exact_thresh": -1.44437575340271,
+  "best_f1": 84.83590777727517,
+  "best_f1_thresh": -1.356736660003662
+}
+==================================================
+global step 20800, epoch: 3, batch: 4510, loss: 0.307758, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_20800
+{
+  "exact": 81.41160616524888,
+  "f1": 84.39530393514957,
+  "total": 11873,
+  "HasAns_exact": 78.79554655870446,
+  "HasAns_f1": 84.7714985867125,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.0201850294365,
+  "NoAns_f1": 84.0201850294365,
+  "NoAns_total": 5945,
+  "best_exact": 81.89168702097196,
+  "best_exact_thresh": -1.559558391571045,
+  "best_f1": 84.71243695930367,
+  "best_f1_thresh": -1.559558391571045
+}
+==================================================
+global step 21000, epoch: 3, batch: 4710, loss: 0.622170, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_21000
+{
+  "exact": 81.70639265560516,
+  "f1": 84.61748739073403,
+  "total": 11873,
+  "HasAns_exact": 77.63157894736842,
+  "HasAns_f1": 83.46211669874934,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.76955424726661,
+  "NoAns_f1": 85.76955424726661,
+  "NoAns_total": 5945,
+  "best_exact": 81.9253769055841,
+  "best_exact_thresh": -1.723219394683838,
+  "best_f1": 84.68656198478081,
+  "best_f1_thresh": -0.38944435119628906
+}
+==================================================
+global step 21200, epoch: 3, batch: 4910, loss: 0.776196, speed: 2.56 step/s
+Saving checkpoint to: squad2/model_21200
+{
+  "exact": 80.58620399225133,
+  "f1": 83.69808074787636,
+  "total": 11873,
+  "HasAns_exact": 80.7523616734143,
+  "HasAns_f1": 86.98503925768163,
+  "HasAns_total": 5928,
+  "NoAns_exact": 80.42052144659378,
+  "NoAns_f1": 80.42052144659378,
+  "NoAns_total": 5945,
+  "best_exact": 82.10224879979786,
+  "best_exact_thresh": -3.852590560913086,
+  "best_f1": 84.90744290693186,
+  "best_f1_thresh": -3.5765585899353027
+}
+==================================================
+global step 21400, epoch: 3, batch: 5110, loss: 0.348943, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_21400
+{
+  "exact": 79.58392992504001,
+  "f1": 82.69227291146426,
+  "total": 11873,
+  "HasAns_exact": 82.4055330634278,
+  "HasAns_f1": 88.63113297534004,
+  "HasAns_total": 5928,
+  "NoAns_exact": 76.7703952901598,
+  "NoAns_f1": 76.7703952901598,
+  "NoAns_total": 5945,
+  "best_exact": 82.14436115556305,
+  "best_exact_thresh": -6.006319046020508,
+  "best_f1": 84.83459239949843,
+  "best_f1_thresh": -4.381943225860596
+}
+==================================================
+global step 21600, epoch: 3, batch: 5310, loss: 0.591741, speed: 2.51 step/s
+Saving checkpoint to: squad2/model_21600
+{
+  "exact": 80.72938600185294,
+  "f1": 83.68562423490694,
+  "total": 11873,
+  "HasAns_exact": 81.29217273954116,
+  "HasAns_f1": 87.2131269468709,
+  "HasAns_total": 5928,
+  "NoAns_exact": 80.1682085786375,
+  "NoAns_f1": 80.1682085786375,
+  "NoAns_total": 5945,
+  "best_exact": 82.23700833824644,
+  "best_exact_thresh": -3.8397397994995117,
+  "best_f1": 84.94932992669902,
+  "best_f1_thresh": -3.8397397994995117
+}
+==================================================
+global step 21800, epoch: 3, batch: 5510, loss: 0.418277, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_21800
+{
+  "exact": 81.52109829023836,
+  "f1": 84.48572725839522,
+  "total": 11873,
+  "HasAns_exact": 80.8029689608637,
+  "HasAns_f1": 86.74072870089859,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.23717409587888,
+  "NoAns_f1": 82.23717409587888,
+  "NoAns_total": 5945,
+  "best_exact": 82.64128695359219,
+  "best_exact_thresh": -2.791217803955078,
+  "best_f1": 85.4208541536591,
+  "best_f1_thresh": -2.3174972534179688
+}
+==================================================
+global step 22000, epoch: 3, batch: 5710, loss: 0.430849, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_22000
+{
+  "exact": 80.55251410763918,
+  "f1": 83.83857520141053,
+  "total": 11873,
+  "HasAns_exact": 79.6221322537112,
+  "HasAns_f1": 86.20367803076049,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.4802354920101,
+  "NoAns_f1": 81.4802354920101,
+  "NoAns_total": 5945,
+  "best_exact": 81.84957466520677,
+  "best_exact_thresh": -3.5209898948669434,
+  "best_f1": 84.88889333251497,
+  "best_f1_thresh": -2.403768301010132
+}
+==================================================
+global step 22200, epoch: 3, batch: 5910, loss: 0.447825, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_22200
+{
+  "exact": 82.68339930935737,
+  "f1": 85.35509859338897,
+  "total": 11873,
+  "HasAns_exact": 76.28205128205128,
+  "HasAns_f1": 81.63311160582124,
+  "HasAns_total": 5928,
+  "NoAns_exact": 89.06644238856181,
+  "NoAns_f1": 89.06644238856181,
+  "NoAns_total": 5945,
+  "best_exact": 82.6918217805104,
+  "best_exact_thresh": -0.45824718475341797,
+  "best_f1": 85.35559403286824,
+  "best_f1_thresh": -0.030513763427734375
+}
+==================================================
+global step 22400, epoch: 3, batch: 6110, loss: 0.195219, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_22400
+{
+  "exact": 81.5547881748505,
+  "f1": 84.56947852329436,
+  "total": 11873,
+  "HasAns_exact": 79.52091767881241,
+  "HasAns_f1": 85.55894374275896,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.58284272497897,
+  "NoAns_f1": 83.58284272497897,
+  "NoAns_total": 5945,
+  "best_exact": 82.21174092478734,
+  "best_exact_thresh": -2.4359006881713867,
+  "best_f1": 85.09848118308811,
+  "best_f1_thresh": -1.484316349029541
+}
+==================================================
+global step 22600, epoch: 3, batch: 6310, loss: 0.660483, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_22600
+{
+  "exact": 81.52109829023836,
+  "f1": 84.52909164811982,
+  "total": 11873,
+  "HasAns_exact": 79.20040485829959,
+  "HasAns_f1": 85.22501773585142,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.83515559293524,
+  "NoAns_f1": 83.83515559293524,
+  "NoAns_total": 5945,
+  "best_exact": 81.91695443443106,
+  "best_exact_thresh": -2.518960952758789,
+  "best_f1": 84.69886522027073,
+  "best_f1_thresh": -1.2665376663208008
+}
+==================================================
+global step 22800, epoch: 3, batch: 6510, loss: 0.676077, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_22800
+{
+  "exact": 82.1106712709509,
+  "f1": 84.91620046721643,
+  "total": 11873,
+  "HasAns_exact": 79.5715249662618,
+  "HasAns_f1": 85.19062890473364,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.64255677039529,
+  "NoAns_f1": 84.64255677039529,
+  "NoAns_total": 5945,
+  "best_exact": 82.54021729975575,
+  "best_exact_thresh": -1.6712398529052734,
+  "best_f1": 85.23098259030277,
+  "best_f1_thresh": -1.6712398529052734
+}
+==================================================
+global step 23000, epoch: 3, batch: 6710, loss: 0.581291, speed: 2.56 step/s
+Saving checkpoint to: squad2/model_23000
+{
+  "exact": 81.42002863640192,
+  "f1": 84.22485283868329,
+  "total": 11873,
+  "HasAns_exact": 80.81983805668017,
+  "HasAns_f1": 86.43752998543982,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.01850294365012,
+  "NoAns_f1": 82.01850294365012,
+  "NoAns_total": 5945,
+  "best_exact": 82.21174092478734,
+  "best_exact_thresh": -3.227896213531494,
+  "best_f1": 84.7874366380274,
+  "best_f1_thresh": -1.9239740371704102
+}
+==================================================
+global step 23200, epoch: 3, batch: 6910, loss: 0.824609, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_23200
+{
+  "exact": 81.70639265560516,
+  "f1": 84.6277765838788,
+  "total": 11873,
+  "HasAns_exact": 79.92577597840756,
+  "HasAns_f1": 85.77692162287343,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.48191757779647,
+  "NoAns_f1": 83.48191757779647,
+  "NoAns_total": 5945,
+  "best_exact": 82.27069822285858,
+  "best_exact_thresh": -2.0029449462890625,
+  "best_f1": 84.95952986788154,
+  "best_f1_thresh": -2.0029449462890625
+}
+==================================================
+global step 23400, epoch: 3, batch: 7110, loss: 0.329578, speed: 2.56 step/s
+Saving checkpoint to: squad2/model_23400
+{
+  "exact": 81.81588478059463,
+  "f1": 84.71526241579234,
+  "total": 11873,
+  "HasAns_exact": 79.65587044534414,
+  "HasAns_f1": 85.46294039519283,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.96972245584524,
+  "NoAns_f1": 83.96972245584524,
+  "NoAns_total": 5945,
+  "best_exact": 82.42230270361324,
+  "best_exact_thresh": -2.518110752105713,
+  "best_f1": 85.17747523409734,
+  "best_f1_thresh": -1.5235910415649414
+}
+==================================================
+global step 23600, epoch: 3, batch: 7310, loss: 0.545886, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_23600
+{
+  "exact": 82.16962856902215,
+  "f1": 85.06792333868462,
+  "total": 11873,
+  "HasAns_exact": 79.89203778677462,
+  "HasAns_f1": 85.69693890016924,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.44070647603027,
+  "NoAns_f1": 84.44070647603027,
+  "NoAns_total": 5945,
+  "best_exact": 82.75077907858166,
+  "best_exact_thresh": -0.9670495986938477,
+  "best_f1": 85.52486039546973,
+  "best_f1_thresh": -0.9196486473083496
+}
+==================================================
+global step 23800, epoch: 3, batch: 7510, loss: 0.493976, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_23800
+{
+  "exact": 80.6956961172408,
+  "f1": 83.58322703112675,
+  "total": 11873,
+  "HasAns_exact": 82.28744939271255,
+  "HasAns_f1": 88.07079192654669,
+  "HasAns_total": 5928,
+  "NoAns_exact": 79.10849453322119,
+  "NoAns_f1": 79.10849453322119,
+  "NoAns_total": 5945,
+  "best_exact": 82.51494988629663,
+  "best_exact_thresh": -4.202815055847168,
+  "best_f1": 85.07721217564749,
+  "best_f1_thresh": -3.7836146354675293
+}
+==================================================
+global step 24000, epoch: 3, batch: 7710, loss: 0.393493, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_24000
+{
+  "exact": 81.12524214604565,
+  "f1": 84.10680027415906,
+  "total": 11873,
+  "HasAns_exact": 81.98380566801619,
+  "HasAns_f1": 87.95547227649988,
+  "HasAns_total": 5928,
+  "NoAns_exact": 80.26913372582001,
+  "NoAns_f1": 80.26913372582001,
+  "NoAns_total": 5945,
+  "best_exact": 82.4138802324602,
+  "best_exact_thresh": -3.55108642578125,
+  "best_f1": 85.06929631312549,
+  "best_f1_thresh": -2.5243215560913086
+}
+==================================================
+global step 24200, epoch: 3, batch: 7910, loss: 0.506753, speed: 2.58 step/s
+Saving checkpoint to: squad2/model_24200
+{
+  "exact": 81.9253769055841,
+  "f1": 84.68443740610007,
+  "total": 11873,
+  "HasAns_exact": 76.68690958164642,
+  "HasAns_f1": 82.21294286818943,
+  "HasAns_total": 5928,
+  "NoAns_exact": 87.1488645920942,
+  "NoAns_f1": 87.1488645920942,
+  "NoAns_total": 5945,
+  "best_exact": 82.07698138633876,
+  "best_exact_thresh": -0.941093921661377,
+  "best_f1": 84.77611446425902,
+  "best_f1_thresh": -0.5887117385864258
+}
+==================================================
+global step 24400, epoch: 3, batch: 8110, loss: 0.252437, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_24400
+{
+  "exact": 81.61374547292175,
+  "f1": 84.64378894774599,
+  "total": 11873,
+  "HasAns_exact": 79.95951417004049,
+  "HasAns_f1": 86.02829051561895,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.2632464255677,
+  "NoAns_f1": 83.2632464255677,
+  "NoAns_total": 5945,
+  "best_exact": 82.34650046323591,
+  "best_exact_thresh": -3.1639342308044434,
+  "best_f1": 85.14248623295764,
+  "best_f1_thresh": -2.219447135925293
+}
+==================================================
+global step 24600, epoch: 4, batch: 165, loss: 0.395304, speed: 2.59 step/s
+Saving checkpoint to: squad2/model_24600
+{
+  "exact": 81.73166006906426,
+  "f1": 84.70284528769938,
+  "total": 11873,
+  "HasAns_exact": 80.22941970310391,
+  "HasAns_f1": 86.18031074575842,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.2296047098402,
+  "NoAns_f1": 83.2296047098402,
+  "NoAns_total": 5945,
+  "best_exact": 82.28754316516466,
+  "best_exact_thresh": -3.001049518585205,
+  "best_f1": 85.04426713365619,
+  "best_f1_thresh": -2.668297290802002
+}
+==================================================
+global step 24800, epoch: 4, batch: 365, loss: 0.862566, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_24800
+{
+  "exact": 82.00117914596143,
+  "f1": 84.76716249502161,
+  "total": 11873,
+  "HasAns_exact": 75.40485829959515,
+  "HasAns_f1": 80.9447571361999,
+  "HasAns_total": 5928,
+  "NoAns_exact": 88.57863751051303,
+  "NoAns_f1": 88.57863751051303,
+  "NoAns_total": 5945,
+  "best_exact": 82.03486903057357,
+  "best_exact_thresh": -0.23505783081054688,
+  "best_f1": 84.78084901064497,
+  "best_f1_thresh": -0.0871891975402832
+}
+==================================================
+global step 25000, epoch: 4, batch: 565, loss: 0.258285, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_25000
+{
+  "exact": 81.60532300176872,
+  "f1": 84.57151640770951,
+  "total": 11873,
+  "HasAns_exact": 80.01012145748987,
+  "HasAns_f1": 85.95101455950352,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.1959629941127,
+  "NoAns_f1": 83.1959629941127,
+  "NoAns_total": 5945,
+  "best_exact": 81.98433420365535,
+  "best_exact_thresh": -2.224336624145508,
+  "best_f1": 84.80542203403097,
+  "best_f1_thresh": -1.361036777496338
+}
+==================================================
+global step 25200, epoch: 4, batch: 765, loss: 0.263999, speed: 2.56 step/s
+Saving checkpoint to: squad2/model_25200
+{
+  "exact": 80.36721974227238,
+  "f1": 83.47173997101277,
+  "total": 11873,
+  "HasAns_exact": 81.05600539811066,
+  "HasAns_f1": 87.27394883195592,
+  "HasAns_total": 5928,
+  "NoAns_exact": 79.68040370058873,
+  "NoAns_f1": 79.68040370058873,
+  "NoAns_total": 5945,
+  "best_exact": 82.10224879979786,
+  "best_exact_thresh": -4.458828449249268,
+  "best_f1": 84.91200621835989,
+  "best_f1_thresh": -4.097581386566162
+}
+==================================================
+global step 25400, epoch: 4, batch: 965, loss: 0.532380, speed: 2.57 step/s
+Saving checkpoint to: squad2/model_25400
+{
+  "exact": 81.5295207613914,
+  "f1": 84.5186324931817,
+  "total": 11873,
+  "HasAns_exact": 79.35222672064778,
+  "HasAns_f1": 85.33902219830405,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.70058873002523,
+  "NoAns_f1": 83.70058873002523,
+  "NoAns_total": 5945,
+  "best_exact": 81.98433420365535,
+  "best_exact_thresh": -2.0983171463012695,
+  "best_f1": 84.76951145405896,
+  "best_f1_thresh": -2.0983171463012695
+}
+==================================================
+global step 25600, epoch: 4, batch: 1165, loss: 0.257483, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_25600
+{
+  "exact": 82.00117914596143,
+  "f1": 84.98542791533184,
+  "total": 11873,
+  "HasAns_exact": 78.57624831309042,
+  "HasAns_f1": 84.55330392016461,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.41631623212784,
+  "NoAns_f1": 85.41631623212784,
+  "NoAns_total": 5945,
+  "best_exact": 82.4391476459193,
+  "best_exact_thresh": -2.2209205627441406,
+  "best_f1": 85.26752713979047,
+  "best_f1_thresh": -1.8423552513122559
+}
+==================================================
+global step 25800, epoch: 4, batch: 1365, loss: 0.355221, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_25800
+{
+  "exact": 81.80746230944159,
+  "f1": 84.81876789753368,
+  "total": 11873,
+  "HasAns_exact": 79.41970310391363,
+  "HasAns_f1": 85.4509499405226,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.18839360807401,
+  "NoAns_f1": 84.18839360807401,
+  "NoAns_total": 5945,
+  "best_exact": 82.23700833824644,
+  "best_exact_thresh": -3.464132785797119,
+  "best_f1": 85.11642166939693,
+  "best_f1_thresh": -1.7832224369049072
+}
+==================================================
+global step 26000, epoch: 4, batch: 1565, loss: 0.323505, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_26000
+{
+  "exact": 81.04943990566832,
+  "f1": 84.08329179120614,
+  "total": 11873,
+  "HasAns_exact": 80.36437246963563,
+  "HasAns_f1": 86.44077655819682,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.73254835996636,
+  "NoAns_f1": 81.73254835996636,
+  "NoAns_total": 5945,
+  "best_exact": 82.09382632864482,
+  "best_exact_thresh": -4.545557975769043,
+  "best_f1": 84.82325488676915,
+  "best_f1_thresh": -2.6709728240966797
+}
+==================================================
+global step 26200, epoch: 4, batch: 1765, loss: 0.326888, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_26200
+{
+  "exact": 82.31281057862377,
+  "f1": 85.1049832140947,
+  "total": 11873,
+  "HasAns_exact": 78.05330634278003,
+  "HasAns_f1": 83.64565885643503,
+  "HasAns_total": 5928,
+  "NoAns_exact": 86.56013456686291,
+  "NoAns_f1": 86.56013456686291,
+  "NoAns_total": 5945,
+  "best_exact": 82.59075212667396,
+  "best_exact_thresh": -2.3011083602905273,
+  "best_f1": 85.26125522891095,
+  "best_f1_thresh": -1.1096668243408203
+}
+==================================================
+global step 26400, epoch: 4, batch: 1965, loss: 0.495298, speed: 2.57 step/s
+Saving checkpoint to: squad2/model_26400
+{
+  "exact": 81.74850501137034,
+  "f1": 84.72060062855333,
+  "total": 11873,
+  "HasAns_exact": 79.63900134952766,
+  "HasAns_f1": 85.59171580007,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.85197645079899,
+  "NoAns_f1": 83.85197645079899,
+  "NoAns_total": 5945,
+  "best_exact": 82.50652741514361,
+  "best_exact_thresh": -2.9408583641052246,
+  "best_f1": 85.24687240579622,
+  "best_f1_thresh": -2.7701597213745117
+}
+==================================================
+global step 26600, epoch: 4, batch: 2165, loss: 0.654074, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_26600
+{
+  "exact": 82.19489598248126,
+  "f1": 85.12036559981699,
+  "total": 11873,
+  "HasAns_exact": 77.74966261808368,
+  "HasAns_f1": 83.60899135739336,
+  "HasAns_total": 5928,
+  "NoAns_exact": 86.62741799831791,
+  "NoAns_f1": 86.62741799831791,
+  "NoAns_total": 5945,
+  "best_exact": 82.36334540554199,
+  "best_exact_thresh": -2.4508204460144043,
+  "best_f1": 85.18916552164433,
+  "best_f1_thresh": -0.2917776107788086
+}
+==================================================
+global step 26800, epoch: 4, batch: 2365, loss: 0.717101, speed: 2.57 step/s
+Saving checkpoint to: squad2/model_26800
+{
+  "exact": 81.15050955950475,
+  "f1": 84.26562525214787,
+  "total": 11873,
+  "HasAns_exact": 80.41497975708502,
+  "HasAns_f1": 86.6541445038382,
+  "HasAns_total": 5928,
+  "NoAns_exact": 81.88393608074011,
+  "NoAns_f1": 81.88393608074011,
+  "NoAns_total": 5945,
+  "best_exact": 82.30438810747073,
+  "best_exact_thresh": -4.480343341827393,
+  "best_f1": 85.0874816988704,
+  "best_f1_thresh": -4.389861583709717
+}
+==================================================
+global step 27000, epoch: 4, batch: 2565, loss: 0.221623, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_27000
+{
+  "exact": 81.88326454981892,
+  "f1": 84.92422259865855,
+  "total": 11873,
+  "HasAns_exact": 77.0748987854251,
+  "HasAns_f1": 83.16553557926356,
+  "HasAns_total": 5928,
+  "NoAns_exact": 86.67788057190917,
+  "NoAns_f1": 86.67788057190917,
+  "NoAns_total": 5945,
+  "best_exact": 82.30438810747073,
+  "best_exact_thresh": -1.9531440734863281,
+  "best_f1": 85.17789748473804,
+  "best_f1_thresh": -1.5605134963989258
+}
+==================================================
+global step 27200, epoch: 4, batch: 2765, loss: 0.176646, speed: 2.51 step/s
+Saving checkpoint to: squad2/model_27200
+{
+  "exact": 81.35264886717763,
+  "f1": 84.56179939061501,
+  "total": 11873,
+  "HasAns_exact": 79.8582995951417,
+  "HasAns_f1": 86.28580367152047,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.84272497897393,
+  "NoAns_f1": 82.84272497897393,
+  "NoAns_total": 5945,
+  "best_exact": 82.10224879979786,
+  "best_exact_thresh": -4.602199077606201,
+  "best_f1": 85.00213921192807,
+  "best_f1_thresh": -3.257298469543457
+}
+==================================================
+global step 27400, epoch: 4, batch: 2965, loss: 0.161034, speed: 2.57 step/s
+Saving checkpoint to: squad2/model_27400
+{
+  "exact": 81.40318369409584,
+  "f1": 84.57113151433852,
+  "total": 11873,
+  "HasAns_exact": 80.19568151147098,
+  "HasAns_f1": 86.5406620225611,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.60723296888142,
+  "NoAns_f1": 82.60723296888142,
+  "NoAns_total": 5945,
+  "best_exact": 82.29596563631769,
+  "best_exact_thresh": -4.616338729858398,
+  "best_f1": 85.14384011098842,
+  "best_f1_thresh": -3.185652256011963
+}
+==================================================
+global step 27600, epoch: 4, batch: 3165, loss: 0.380975, speed: 2.51 step/s
+Saving checkpoint to: squad2/model_27600
+{
+  "exact": 81.5547881748505,
+  "f1": 84.63583253013134,
+  "total": 11873,
+  "HasAns_exact": 80.8029689608637,
+  "HasAns_f1": 86.97389332494116,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.3044575273339,
+  "NoAns_f1": 82.3044575273339,
+  "NoAns_total": 5945,
+  "best_exact": 82.70866672281647,
+  "best_exact_thresh": -3.3073391914367676,
+  "best_f1": 85.57500161232444,
+  "best_f1_thresh": -3.3073391914367676
+}
+==================================================
+global step 27800, epoch: 4, batch: 3365, loss: 0.267955, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_27800
+{
+  "exact": 81.88326454981892,
+  "f1": 84.98513495958294,
+  "total": 11873,
+  "HasAns_exact": 78.4919028340081,
+  "HasAns_f1": 84.70453903089228,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.26492851135409,
+  "NoAns_f1": 85.26492851135409,
+  "NoAns_total": 5945,
+  "best_exact": 82.30438810747073,
+  "best_exact_thresh": -1.8223965167999268,
+  "best_f1": 85.22175965703327,
+  "best_f1_thresh": -1.8223965167999268
+}
+==================================================
+global step 28000, epoch: 4, batch: 3565, loss: 0.538754, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_28000
+{
+  "exact": 81.59690053061568,
+  "f1": 84.66896514131932,
+  "total": 11873,
+  "HasAns_exact": 79.52091767881241,
+  "HasAns_f1": 85.67385680210626,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.66694701429773,
+  "NoAns_f1": 83.66694701429773,
+  "NoAns_total": 5945,
+  "best_exact": 82.16962856902215,
+  "best_exact_thresh": -3.1715216636657715,
+  "best_f1": 85.04445317952168,
+  "best_f1_thresh": -3.1715216636657715
+}
+==================================================
+global step 28200, epoch: 4, batch: 3765, loss: 0.487276, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_28200
+{
+  "exact": 81.67270277099301,
+  "f1": 84.72975947489478,
+  "total": 11873,
+  "HasAns_exact": 80.46558704453442,
+  "HasAns_f1": 86.58846731535552,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.87636669470143,
+  "NoAns_f1": 82.87636669470143,
+  "NoAns_total": 5945,
+  "best_exact": 82.52337235744967,
+  "best_exact_thresh": -3.0134963989257812,
+  "best_f1": 85.33156739076685,
+  "best_f1_thresh": -3.0134963989257812
+}
+==================================================
+global step 28400, epoch: 4, batch: 3965, loss: 0.313055, speed: 2.49 step/s
+Saving checkpoint to: squad2/model_28400
+{
+  "exact": 81.7653499536764,
+  "f1": 84.86615782432608,
+  "total": 11873,
+  "HasAns_exact": 78.79554655870446,
+  "HasAns_f1": 85.00605463026729,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.72666105971405,
+  "NoAns_f1": 84.72666105971405,
+  "NoAns_total": 5945,
+  "best_exact": 82.17805104017519,
+  "best_exact_thresh": -3.1335854530334473,
+  "best_f1": 85.18344020785072,
+  "best_f1_thresh": -1.109593391418457
+}
+==================================================
+global step 28600, epoch: 4, batch: 4165, loss: 0.632855, speed: 2.49 step/s
+Saving checkpoint to: squad2/model_28600
+{
+  "exact": 81.94222184789017,
+  "f1": 85.00511605440288,
+  "total": 11873,
+  "HasAns_exact": 78.32321187584346,
+  "HasAns_f1": 84.45778389236283,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.55088309503785,
+  "NoAns_f1": 85.55088309503785,
+  "NoAns_total": 5945,
+  "best_exact": 82.27912069401162,
+  "best_exact_thresh": -3.1062240600585938,
+  "best_f1": 85.20999719341037,
+  "best_f1_thresh": -1.4137253761291504
+}
+==================================================
+global step 28800, epoch: 4, batch: 4365, loss: 0.262308, speed: 2.57 step/s
+Saving checkpoint to: squad2/model_28800
+{
+  "exact": 82.24543080939948,
+  "f1": 85.09821056639184,
+  "total": 11873,
+  "HasAns_exact": 78.79554655870446,
+  "HasAns_f1": 84.50928712125025,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.68544995794785,
+  "NoAns_f1": 85.68544995794785,
+  "NoAns_total": 5945,
+  "best_exact": 82.53179482860271,
+  "best_exact_thresh": -1.665144920349121,
+  "best_f1": 85.26170990617315,
+  "best_f1_thresh": -1.665144920349121
+}
+==================================================
+global step 29000, epoch: 4, batch: 4565, loss: 0.321418, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_29000
+{
+  "exact": 81.48740840562621,
+  "f1": 84.53335760326983,
+  "total": 11873,
+  "HasAns_exact": 79.87516869095816,
+  "HasAns_f1": 85.97580209575305,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.0950378469302,
+  "NoAns_f1": 83.0950378469302,
+  "NoAns_total": 5945,
+  "best_exact": 82.31281057862377,
+  "best_exact_thresh": -4.766305446624756,
+  "best_f1": 85.15112159578179,
+  "best_f1_thresh": -2.7309556007385254
+}
+==================================================
+global step 29200, epoch: 4, batch: 4765, loss: 0.257558, speed: 2.50 step/s
+Saving checkpoint to: squad2/model_29200
+{
+  "exact": 82.19489598248126,
+  "f1": 85.12309257992649,
+  "total": 11873,
+  "HasAns_exact": 78.79554655870446,
+  "HasAns_f1": 84.66033707852026,
+  "HasAns_total": 5928,
+  "NoAns_exact": 85.58452481076534,
+  "NoAns_f1": 85.58452481076534,
+  "NoAns_total": 5945,
+  "best_exact": 82.50652741514361,
+  "best_exact_thresh": -1.3135638236999512,
+  "best_f1": 85.35090129997658,
+  "best_f1_thresh": -0.6782729625701904
+}
+==================================================
+global step 29400, epoch: 4, batch: 4965, loss: 1.035067, speed: 2.51 step/s
+Saving checkpoint to: squad2/model_29400
+{
+  "exact": 82.27912069401162,
+  "f1": 85.2774124891565,
+  "total": 11873,
+  "HasAns_exact": 80.34750337381917,
+  "HasAns_f1": 86.35268530427743,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.20521446593776,
+  "NoAns_f1": 84.20521446593776,
+  "NoAns_total": 5945,
+  "best_exact": 82.86869367472417,
+  "best_exact_thresh": -2.450321674346924,
+  "best_f1": 85.67634263296013,
+  "best_f1_thresh": -2.450321674346924
+}
+==================================================
+global step 29600, epoch: 4, batch: 5165, loss: 0.376676, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_29600
+{
+  "exact": 82.2033184536343,
+  "f1": 85.21731241007446,
+  "total": 11873,
+  "HasAns_exact": 79.58839406207828,
+  "HasAns_f1": 85.62502534494196,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.8107653490328,
+  "NoAns_f1": 84.8107653490328,
+  "NoAns_total": 5945,
+  "best_exact": 82.73393413627558,
+  "best_exact_thresh": -2.147156238555908,
+  "best_f1": 85.58931625788927,
+  "best_f1_thresh": -2.147156238555908
+}
+==================================================
+global step 29800, epoch: 4, batch: 5365, loss: 0.113727, speed: 2.52 step/s
+Saving checkpoint to: squad2/model_29800
+{
+  "exact": 82.0432915017266,
+  "f1": 85.12983766130316,
+  "total": 11873,
+  "HasAns_exact": 79.84143049932524,
+  "HasAns_f1": 86.023374249773,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.23885618166527,
+  "NoAns_f1": 84.23885618166527,
+  "NoAns_total": 5945,
+  "best_exact": 82.65813189589825,
+  "best_exact_thresh": -1.9960651397705078,
+  "best_f1": 85.61341182810116,
+  "best_f1_thresh": -1.9632940292358398
+}
+==================================================
+global step 30000, epoch: 4, batch: 5565, loss: 0.539721, speed: 2.50 step/s
+Saving checkpoint to: squad2/model_30000
+{
+  "exact": 81.68954771329908,
+  "f1": 84.7020851116151,
+  "total": 11873,
+  "HasAns_exact": 80.49932523616734,
+  "HasAns_f1": 86.53303922574345,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.87636669470143,
+  "NoAns_f1": 82.87636669470143,
+  "NoAns_total": 5945,
+  "best_exact": 82.56548471321486,
+  "best_exact_thresh": -2.363799571990967,
+  "best_f1": 85.45827791938564,
+  "best_f1_thresh": -2.363799571990967
+}
+==================================================
+global step 30200, epoch: 4, batch: 5765, loss: 0.247140, speed: 2.51 step/s
+Saving checkpoint to: squad2/model_30200
+{
+  "exact": 82.02644655942053,
+  "f1": 85.0149092070726,
+  "total": 11873,
+  "HasAns_exact": 79.47031039136303,
+  "HasAns_f1": 85.45580583933437,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.57527333894029,
+  "NoAns_f1": 84.57527333894029,
+  "NoAns_total": 5945,
+  "best_exact": 82.46441505937842,
+  "best_exact_thresh": -3.349978446960449,
+  "best_f1": 85.31449928262447,
+  "best_f1_thresh": -1.3562097549438477
+}
+==================================================
+global step 30400, epoch: 4, batch: 5965, loss: 0.382951, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_30400
+{
+  "exact": 81.88326454981892,
+  "f1": 84.91340245587584,
+  "total": 11873,
+  "HasAns_exact": 80.16194331983806,
+  "HasAns_f1": 86.23090879868678,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.59966358284272,
+  "NoAns_f1": 83.59966358284272,
+  "NoAns_total": 5945,
+  "best_exact": 82.54021729975575,
+  "best_exact_thresh": -3.8520522117614746,
+  "best_f1": 85.37263877062428,
+  "best_f1_thresh": -2.179889678955078
+}
+==================================================
+global step 30600, epoch: 4, batch: 6165, loss: 0.225392, speed: 2.56 step/s
+Saving checkpoint to: squad2/model_30600
+{
+  "exact": 81.65585782868693,
+  "f1": 84.67222163888798,
+  "total": 11873,
+  "HasAns_exact": 80.71862348178138,
+  "HasAns_f1": 86.76000126830596,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.59041211101766,
+  "NoAns_f1": 82.59041211101766,
+  "NoAns_total": 5945,
+  "best_exact": 82.6244420112861,
+  "best_exact_thresh": -4.97835111618042,
+  "best_f1": 85.31888813279633,
+  "best_f1_thresh": -3.6743855476379395
+}
+==================================================
+global step 30800, epoch: 4, batch: 6365, loss: 0.224590, speed: 2.50 step/s
+Saving checkpoint to: squad2/model_30800
+{
+  "exact": 82.17805104017519,
+  "f1": 85.10440304963196,
+  "total": 11873,
+  "HasAns_exact": 79.8582995951417,
+  "HasAns_f1": 85.71939564917025,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.49116904962153,
+  "NoAns_f1": 84.49116904962153,
+  "NoAns_total": 5945,
+  "best_exact": 82.67497683820433,
+  "best_exact_thresh": -4.196891784667969,
+  "best_f1": 85.40417587875002,
+  "best_f1_thresh": -1.922914981842041
+}
+==================================================
+global step 31000, epoch: 4, batch: 6565, loss: 0.622728, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_31000
+{
+  "exact": 82.07698138633876,
+  "f1": 85.10230213656645,
+  "total": 11873,
+  "HasAns_exact": 80.07759784075573,
+  "HasAns_f1": 86.13691519356524,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.07064760302775,
+  "NoAns_f1": 84.07064760302775,
+  "NoAns_total": 5945,
+  "best_exact": 82.5739071843679,
+  "best_exact_thresh": -4.604706287384033,
+  "best_f1": 85.44355485387258,
+  "best_f1_thresh": -1.8845605850219727
+}
+==================================================
+global step 31200, epoch: 4, batch: 6765, loss: 0.397135, speed: 2.55 step/s
+Saving checkpoint to: squad2/model_31200
+{
+  "exact": 81.59690053061568,
+  "f1": 84.72401279019901,
+  "total": 11873,
+  "HasAns_exact": 80.3306342780027,
+  "HasAns_f1": 86.59382656174671,
+  "HasAns_total": 5928,
+  "NoAns_exact": 82.85954583683768,
+  "NoAns_f1": 82.85954583683768,
+  "NoAns_total": 5945,
+  "best_exact": 82.40545776130716,
+  "best_exact_thresh": -5.196061611175537,
+  "best_f1": 85.34761388216667,
+  "best_f1_thresh": -2.3540709018707275
+}
+==================================================
+global step 31400, epoch: 4, batch: 6965, loss: 0.364890, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_31400
+{
+  "exact": 81.65585782868693,
+  "f1": 84.76034062883059,
+  "total": 11873,
+  "HasAns_exact": 79.6727395411606,
+  "HasAns_f1": 85.89060801047697,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.63330529857022,
+  "NoAns_f1": 83.63330529857022,
+  "NoAns_total": 5945,
+  "best_exact": 82.4391476459193,
+  "best_exact_thresh": -3.282033920288086,
+  "best_f1": 85.28527450795494,
+  "best_f1_thresh": -2.21248197555542
+}
+==================================================
+global step 31600, epoch: 4, batch: 7165, loss: 1.164300, speed: 2.54 step/s
+Saving checkpoint to: squad2/model_31600
+{
+  "exact": 81.87484207866588,
+  "f1": 84.93549408039758,
+  "total": 11873,
+  "HasAns_exact": 79.84143049932524,
+  "HasAns_f1": 85.97151167620812,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.90243902439025,
+  "NoAns_f1": 83.90243902439025,
+  "NoAns_total": 5945,
+  "best_exact": 82.4391476459193,
+  "best_exact_thresh": -3.2596259117126465,
+  "best_f1": 85.3053363613729,
+  "best_f1_thresh": -1.8112330436706543
+}
+==================================================
+global step 31800, epoch: 4, batch: 7365, loss: 0.406973, speed: 2.53 step/s
+Saving checkpoint to: squad2/model_31800
+{
+  "exact": 81.79903983828855,
+  "f1": 84.8186598134402,
+  "total": 11873,
+  "HasAns_exact": 80.21255060728745,
+  "HasAns_f1": 86.26045006156822,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.38099243061396,
+  "NoAns_f1": 83.38099243061396,
+  "NoAns_total": 5945,
+  "best_exact": 82.5739071843679,
+  "best_exact_thresh": -3.41434383392334,
+  "best_f1": 85.36444005769556,
+  "best_f1_thresh": -1.8440403938293457
+}
+==================================================
+global step 32000, epoch: 4, batch: 7565, loss: 0.481261, speed: 2.49 step/s
+Saving checkpoint to: squad2/model_32000
+{
+  "exact": 82.03486903057357,
+  "f1": 85.05603099854994,
+  "total": 11873,
+  "HasAns_exact": 79.95951417004049,
+  "HasAns_f1": 86.01050203201494,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.10428931875526,
+  "NoAns_f1": 84.10428931875526,
+  "NoAns_total": 5945,
+  "best_exact": 82.56548471321486,
+  "best_exact_thresh": -4.659565448760986,
+  "best_f1": 85.3557516789659,
+  "best_f1_thresh": -1.4854702949523926
+}
+==================================================
+global step 32200, epoch: 4, batch: 7765, loss: 0.319117, speed: 2.49 step/s
+Saving checkpoint to: squad2/model_32200
+{
+  "exact": 81.74850501137034,
+  "f1": 84.83172140934424,
+  "total": 11873,
+  "HasAns_exact": 80.06072874493927,
+  "HasAns_f1": 86.23600342327009,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.43145500420522,
+  "NoAns_f1": 83.43145500420522,
+  "NoAns_total": 5945,
+  "best_exact": 82.52337235744967,
+  "best_exact_thresh": -4.816143035888672,
+  "best_f1": 85.35841071898604,
+  "best_f1_thresh": -1.8931808471679688
+}
+==================================================
+global step 32400, epoch: 4, batch: 7965, loss: 0.274172, speed: 2.50 step/s
+Saving checkpoint to: squad2/model_32400
+{
+  "exact": 81.82430725174767,
+  "f1": 84.89767244967608,
+  "total": 11873,
+  "HasAns_exact": 80.07759784075573,
+  "HasAns_f1": 86.23314186825327,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.56602186711523,
+  "NoAns_f1": 83.56602186711523,
+  "NoAns_total": 5945,
+  "best_exact": 82.54863977090878,
+  "best_exact_thresh": -4.6802659034729,
+  "best_f1": 85.3805649093221,
+  "best_f1_thresh": -1.8579471111297607
+}
+==================================================
+Saving checkpoint to: squad2/model_32580
+{
+  "exact": 81.9506443190432,
+  "f1": 84.98586342948472,
+  "total": 11873,
+  "HasAns_exact": 80.02699055330635,
+  "HasAns_f1": 86.10613301252923,
+  "HasAns_total": 5928,
+  "NoAns_exact": 83.86879730866274,
+  "NoAns_f1": 83.86879730866274,
+  "NoAns_total": 5945,
+  "best_exact": 82.5739071843679,
+  "best_exact_thresh": -4.464838981628418,
+  "best_f1": 85.39562076461856,
+  "best_f1_thresh": -1.5997509956359863
+}
+==================================================

@@ -184,111 +184,78 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 
 使用Paddle提供的预训练模型运行SQuAD v1.1数据集的Fine-tuning
 
-```shell
-unset CUDA_VISIBLE_DEVICES
-# 确保处在squad1.1文件夹
-cd task/squad1.1
-# 开始训练
-​```bash
-python -m paddle.distributed.launch --gpus "0" run_squad.py \
-    --model_type mpnet \
-    --model_name_or_path mpnet-base \
-    --max_seq_length 512 \
-    --batch_size 16 \
-    --learning_rate 2e-5 \
-    --num_train_epochs 4 \
-    --scheduler_type linear \
-    --layer_lr_decay 1.0 \
-    --logging_steps 500 \
-    --save_steps 500 \
-    --warmup_proportion 0.1 \
-    --weight_decay 0.01 \
-    --output_dir squad1.1/ \
-    --device gpu \
-    --do_train \
-    --seed 42 \
-    --do_predict
-```
+##### `训练代码正确，预测错误`(详细信息进入task/squad1.1/训练代码正确，预测错误文件夹查看里面的`README`)
 
-训练过程中模型会自动对结果进行评估，其中最好的结果如下所示：（详细训练可查看logs文件夹）
+由于预测数据集顺序错误，导致结果略低，通过重新评估`bash evaluate.sh`可以得到如下的结果：
 
 ```python
-# global step=21000
 {
-  "exact": 86.50898770104068,
-  "f1": 92.71873272105263,
+  "exact": 86.90633869441817,
+  "f1": 92.77206529725406,
   "total": 10570,
-  "HasAns_exact": 86.50898770104068,
-  "HasAns_f1": 92.71873272105263,
+  "HasAns_exact": 86.90633869441817,
+  "HasAns_f1": 92.77206529725406,
   "HasAns_total": 10570
 }
 ```
 
 ##### 模型链接
 
-链接：https://pan.baidu.com/s/1x39b4cEtTFHCQT76b4jv4Q 
-提取码：65xt
+链接：TODO
 
-#### 3、SQuAD v2.0
-对于 SQuAD v2.0,按如下方式启动 Fine-tuning:
+##### `训练代码正确，预测正确`(详细信息进入task/squad1.1/训练代码正确，预测正确文件夹查看里面的`README`)
 
-```shell
-unset CUDA_VISIBLE_DEVICES
-# 确保处在squad2.0文件夹
-cd task/squad2.0
-# 开始训练
-python -m paddle.distributed.launch --gpus "0" run_squad.py \
-    --model_type mpnet \
-    --model_name_or_path mpnet-base \
-    --max_seq_length 512 \
-    --batch_size 16 \
-    --learning_rate 2e-5 \
-    --num_train_epochs 4 \
-    --scheduler_type linear \
-    --layer_lr_decay 1.0 \
-    --logging_steps 500 \
-    --save_steps 500 \
-    --warmup_proportion 0.1 \
-    --weight_decay 0.01 \
-    --output_dir squad2/ \
-    --device gpu \
-    --do_train \
-    --seed 42 \
-    --do_predict \
-    --version_2_with_negative
-```
-
-* `version_2_with_negative`: 使用squad2.0数据集和评价指标的标志。
-
-训练过程中模型会自动对结果进行评估，其中最好的结果如下所示：（详细训练可查看logs文件夹）
+训练过程中模型会自动对结果进行评估，其中最好的结果如下所示：（详细训练可查看log文件夹）
 
 ```python
-# global step 24000
 {
-  "exact": 81.51267581908532,
-  "f1": 84.59661450171035,
+  "exact": 86.84957426679281,
+  "f1": 92.82031917884066,
+  "total": 10570,
+  "HasAns_exact": 86.84957426679281,
+  "HasAns_f1": 92.82031917884066,
+  "HasAns_total": 10570
+}
+```
+##### 模型链接
+
+链接：TODO
+
+
+#### 3、SQuAD v2.0 (详细介绍信息可以进入task/squad2文件夹，查看该文件夹的README)
+
+训练过程中模型会自动对结果进行评估，其中最好的结果如下所示：（详细训练可查看log文件夹）
+
+```python
+global step 29400, epoch: 4, batch: 4965, loss: 1.035067, speed: 2.51 step/s
+Saving checkpoint to: squad2/model_29400
+{
+  "exact": 82.27912069401162,
+  "f1": 85.2774124891565,
   "total": 11873,
-  "HasAns_exact": 78.74493927125506,
-  "HasAns_f1": 84.92166059021716,
+  "HasAns_exact": 80.34750337381917,
+  "HasAns_f1": 86.35268530427743,
   "HasAns_total": 5928,
-  "NoAns_exact": 84.27249789739277,
-  "NoAns_f1": 84.27249789739277,
+  "NoAns_exact": 84.20521446593776,
+  "NoAns_f1": 84.20521446593776,
   "NoAns_total": 5945,
-  "best_exact": 82.31281057862377,
-  "best_exact_thresh": -2.569451332092285,
-  "best_f1": 85.2005829057288,
-  "best_f1_thresh": -1.9268460273742676
+  "best_exact": 82.86869367472417,
+  "best_exact_thresh": -2.450321674346924,
+  "best_f1": 85.67634263296013,
+  "best_f1_thresh": -2.450321674346924
 }
 ```
 
 ##### 模型链接
 
-链接：https://pan.baidu.com/s/1CnksQgwG5wYvmgs9cODFZA 
-提取码：rfh4
+链接：TODO
+
 
 # Tips:
 - 对于SQUAD任务：根据这个[issues](https://github.com/microsoft/MPNet/issues/3)所说,论文中汇报的是`"best_exact"`和`"best_f1"`。
 - 对于GLUE任务：根据这个[issues](https://github.com/microsoft/MPNet/issues/7)所说，部分任务使用热启动。
+- PaddleNLP的tokenizer有BUG，通过分析模型的预测json，我才发现的，然后提了个issue。
+- 对于出现empty的结果，也是通过分析定位才找到问题在哪里。
 
 # Reference
 
