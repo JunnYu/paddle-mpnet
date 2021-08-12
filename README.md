@@ -184,7 +184,7 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 
 使用Paddle提供的预训练模型运行SQuAD v1.1数据集的Fine-tuning
 
-##### `训练代码正确，预测错误`(详细信息进入task/squad1.1/训练代码正确，预测错误文件夹查看里面的`README`)
+##### `训练代码正确，预测错误`(详细信息进入`task/squad1.1/训练代码正确，预测错误`文件夹查看里面的`README.md`)
 
 由于预测数据集顺序错误，导致结果略低，通过重新评估`bash evaluate.sh`可以得到如下的结果：
 
@@ -201,9 +201,10 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 
 ##### 模型链接
 
-链接：TODO
+链接：https://pan.baidu.com/s/16W8JN0KsGRc84zyqo2kLVw 
+提取码：ovyi
 
-##### `训练代码正确，预测正确`(详细信息进入task/squad1.1/训练代码正确，预测正确文件夹查看里面的`README`)
+##### `训练代码正确，预测正确`(详细信息进入`task/squad1.1/训练代码正确，预测正确`文件夹查看里面的`README.md`)
 
 训练过程中模型会自动对结果进行评估，其中最好的结果如下所示：（详细训练可查看log文件夹）
 
@@ -219,7 +220,8 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 ```
 ##### 模型链接
 
-链接：TODO
+链接：https://pan.baidu.com/s/1S55oc4maYOUa5e1vFw7d4w 
+提取码：s3c4
 
 
 #### 3、SQuAD v2.0 (详细介绍信息可以进入task/squad2文件夹，查看该文件夹的README)
@@ -248,14 +250,16 @@ Saving checkpoint to: squad2/model_29400
 
 ##### 模型链接
 
-链接：TODO
+链接：https://pan.baidu.com/s/1e2vLAnSMZ4s28q0J_eynwg 
+提取码：pl6c
 
 
 # Tips:
-- 对于SQUAD任务：根据这个[issues](https://github.com/microsoft/MPNet/issues/3)所说,论文中汇报的是`"best_exact"`和`"best_f1"`。
+- 对于SQUAD任务：根据这个[issues](https://github.com/microsoft/MPNet/issues/3)所说,论文中汇报的是`best_exact`和`best_f1`。
 - 对于GLUE任务：根据这个[issues](https://github.com/microsoft/MPNet/issues/7)所说，部分任务使用热启动。
-- PaddleNLP的tokenizer有BUG，通过分析模型的预测json，我才发现的，然后提了个issue。
+- PaddleNLP的tokenizer有BUG，通过分析模型的预测json，我才发现的，然后顺便提了个issue（调参调的头都大了，最终没想到有个BUG导致效果低！）。
 - 对于出现empty的结果，也是通过分析定位才找到问题在哪里。
+- 验证的时候记得下载权重！
 
 # Reference
 
