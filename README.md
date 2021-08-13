@@ -181,7 +181,7 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 | Mine | 60.5     | 95.9 | **91.6**/88.9 | **90.8**/90.3 | 89.7/72.5 | 87.6/86.6 | **93.3** | **82.4** | **86.5** |
 
 
-#### 2、SQuAD v1.1 (推荐使用huggingface的tokenizer进行处理数据！)
+#### 2、SQuAD v1.1 (现在可以使用paddlenlp的tokenizer进行处理数据！！！！)
 
 使用Paddle提供的预训练模型运行SQuAD v1.1数据集的Fine-tuning
 
@@ -190,6 +190,16 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 由于预测数据集顺序错误，导致结果略低，通过重新评估`bash evaluate.sh`可以得到如下的结果：
 
 ```python
+# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！
+{
+  "exact": 86.90633869441817,
+  "f1": 92.77206529725406,
+  "total": 10570,
+  "HasAns_exact": 86.90633869441817,
+  "HasAns_f1": 92.77206529725406,
+  "HasAns_total": 10570
+}
+# 使用huggingface的tokenizer进行数据处理的预测结果！！！！
 {
   "exact": 86.90633869441817,
   "f1": 92.77206529725406,
@@ -210,6 +220,16 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 训练过程中模型会自动对结果进行评估，其中最好的结果如下所示：（详细训练可查看log文件夹）
 
 ```python
+# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！
+{
+  "exact": 86.89687795648061,
+  "f1": 92.88753764866149,
+  "total": 10570,
+  "HasAns_exact": 86.89687795648061,
+  "HasAns_f1": 92.88753764866149,
+  "HasAns_total": 10570
+}
+# 使用huggingface的tokenizer进行数据处理的预测结果！！！！
 {
   "exact": 86.84957426679281,
   "f1": 92.82031917884066,
@@ -225,13 +245,29 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 提取码：s3c4
 
 
-#### 3、SQuAD v2.0 (详细介绍信息可以进入task/squad2文件夹，查看该文件夹的README)(推荐使用huggingface的tokenizer进行处理数据！)
+#### 3、SQuAD v2.0 (详细介绍信息可以进入task/squad2文件夹，查看该文件夹的README)(现在可以使用paddlenlp的tokenizer进行处理数据！！！！)
 
 训练过程中模型会自动对结果进行评估，其中最好的结果如下所示：（详细训练可查看log文件夹）
 
 ```python
-global step 29400, epoch: 4, batch: 4965, loss: 1.035067, speed: 2.51 step/s
-Saving checkpoint to: squad2/model_29400
+# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！
+{
+  "exact": 82.28754316516466,
+  "f1": 85.29235824679081,
+  "total": 11873,
+  "HasAns_exact": 80.44871794871794,
+  "HasAns_f1": 86.46696515926936,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.12111017661901,
+  "NoAns_f1": 84.12111017661901,
+  "NoAns_total": 5945,
+  "best_exact": 82.90238355933631,
+  "best_exact_thresh": -2.4589643478393555,
+  "best_f1": 85.71655580405353,
+  "best_f1_thresh": -2.4589643478393555
+}
+
+# 使用huggingface的tokenizer进行数据处理的预测结果！！！！
 {
   "exact": 82.27912069401162,
   "f1": 85.2774124891565,
@@ -261,12 +297,12 @@ Saving checkpoint to: squad2/model_29400
 - PaddleNLP的tokenizer有BUG，通过分析模型的预测json，我才发现的，然后顺便提了个issue（调参调的头都大了，最终没想到有个BUG导致效果低！）。
 - 对于出现empty的结果，也是通过分析定位才找到问题在哪里。
 - 验证的时候记得下载权重！
-- 推荐使用huggingface的tokenizer进行处理数据！
-- 推荐使用huggingface的tokenizer进行处理数据！
-- 推荐使用huggingface的tokenizer进行处理数据！
+- 现在可以直接使用paddlenlp的tokenizer进行处理数据！（当然我们可以直接开始验证了！）
+
 
 # 注意：
 2021/8/13日，修改成使用PaddleNLP的tokenizer，修复了`#`带来的BUG，但是还有空格bug，重音bug，PaddleNLP的tokenizer返回offset的时候bug太多了！
+2021/8/14日，修改成使用PaddleNLP的tokenizer的offset mapping的bug现在已经完全修复了！！！！！！！！
 
 # Reference
 
