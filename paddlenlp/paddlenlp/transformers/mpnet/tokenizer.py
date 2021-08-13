@@ -103,7 +103,6 @@ class MPNetTokenizer(BertTokenizer):
         if offset_mapping_1 is None:
             return [(0, 0)] + offset_mapping_0 + [(0, 0)]
 
-        print(offset_mapping_1)
         return [(0, 0)] + offset_mapping_0 + [(0, 0),(0, 0)] + offset_mapping_1 + [(0, 0)]
 
     def batch_encode(self,
