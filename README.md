@@ -180,7 +180,8 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 | Paper | **64.0** | **96.0** | 89.1/空 | 90.7/空 | **89.9**/空 | **88\.5**/空 | 93\.1 | 81.0 | **86.5** |
 | Mine | 60.5     | 95.9 | **91.6**/88.9 | **90.8**/90.3 | 89.7/72.5 | 87.6/86.6 | **93.3** | **82.4** | **86.5** |
 
-#### 2、SQuAD v1.1
+
+#### 2、SQuAD v1.1 (推荐使用huggingface的tokenizer进行处理数据！)
 
 使用Paddle提供的预训练模型运行SQuAD v1.1数据集的Fine-tuning
 
@@ -224,7 +225,7 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 提取码：s3c4
 
 
-#### 3、SQuAD v2.0 (详细介绍信息可以进入task/squad2文件夹，查看该文件夹的README)
+#### 3、SQuAD v2.0 (详细介绍信息可以进入task/squad2文件夹，查看该文件夹的README)(推荐使用huggingface的tokenizer进行处理数据！)
 
 训练过程中模型会自动对结果进行评估，其中最好的结果如下所示：（详细训练可查看log文件夹）
 
@@ -260,9 +261,12 @@ Saving checkpoint to: squad2/model_29400
 - PaddleNLP的tokenizer有BUG，通过分析模型的预测json，我才发现的，然后顺便提了个issue（调参调的头都大了，最终没想到有个BUG导致效果低！）。
 - 对于出现empty的结果，也是通过分析定位才找到问题在哪里。
 - 验证的时候记得下载权重！
+- 推荐使用huggingface的tokenizer进行处理数据！
+- 推荐使用huggingface的tokenizer进行处理数据！
+- 推荐使用huggingface的tokenizer进行处理数据！
 
 # 注意：
-2021/8/13日，修改成使用PaddleNLP的tokenizer，offset mapping的bug已经修复。
+2021/8/13日，修改成使用PaddleNLP的tokenizer，修复了`#`带来的BUG，但是还有空格bug，重音bug，PaddleNLP的tokenizer返回offset的时候bug太多了！
 
 # Reference
 
