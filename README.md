@@ -301,8 +301,8 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 
 
 # 注意：
-2021/8/13日，修改成使用PaddleNLP的tokenizer，修复了`#`带来的BUG，但是还有空格bug，重音bug，PaddleNLP的tokenizer返回offset的时候bug太多了！
-2021/8/14日，修改成使用PaddleNLP的tokenizer的offset mapping的bug现在已经完全修复了！！！！！！！！
+- 2021/8/13日，修改成使用PaddleNLP的tokenizer，修复了`#`带来的BUG，但是还有空格bug，重音bug，PaddleNLP的tokenizer返回offset的时候bug太多了！
+- 2021/8/14日，修改成使用PaddleNLP的tokenizer的offset mapping的bug现在已经完全修复了！！！！！！！！
 
 # Reference
 
