@@ -49,7 +49,7 @@ def prepare_validation_features(examples, tokenizer, args):
 
 dev_ds = load_dataset("squad", splits="dev_v2")
 
-tokenizer = MPNetTokenizer.from_pretrained(args.model_name_or_path)
+tokenizer = MPNetTokenizer.from_pretrained("mpnet-base")
 
 dev_ds.map(
     partial(prepare_validation_features, tokenizer=tokenizer, args=args),
