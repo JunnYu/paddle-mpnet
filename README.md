@@ -261,6 +261,9 @@ Saving checkpoint to: squad2/model_29400
 - 对于出现empty的结果，也是通过分析定位才找到问题在哪里。
 - 验证的时候记得下载权重！
 
+# 注意：
+2021/8/13日，修改成使用PaddleNLP的tokenizer，offset mapping的bug已经修复。
+
 # Reference
 
 ```bibtex

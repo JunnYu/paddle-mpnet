@@ -1,0 +1,1 @@
+python evaluate.py --model_name_or_path squad1.1/best-model_13000 --batch_size 16
