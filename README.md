@@ -190,7 +190,17 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 由于预测数据集顺序错误，导致结果略低，通过重新评估`bash evaluate.sh`可以得到如下的结果：
 
 ```python
-# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！
+# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！(调整paddlenlp的return_overflowing_tokens逻辑，使其与huggingface的逻辑相一致！)
+{
+  "exact": 86.90633869441817,
+  "f1": 92.77206529725406,
+  "total": 10570,
+  "HasAns_exact": 86.90633869441817,
+  "HasAns_f1": 92.77206529725406,
+  "HasAns_total": 10570
+}
+
+# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！(paddlenlp的return_overflowing_tokens逻辑与huggingface不同)
 {
   "exact": 86.90633869441817,
   "f1": 92.77206529725406,
@@ -220,7 +230,17 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 训练过程中模型会自动对结果进行评估，其中最好的结果如下所示：（详细训练可查看log文件夹）
 
 ```python
-# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！
+# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！(调整paddlenlp的return_overflowing_tokens逻辑，使其与huggingface的逻辑相一致！)
+{
+  "exact": 86.87795648060549,
+  "f1": 92.86409220300804,
+  "total": 10570,
+  "HasAns_exact": 86.87795648060549,
+  "HasAns_f1": 92.86409220300804,
+  "HasAns_total": 10570
+}
+
+# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！(paddlenlp的return_overflowing_tokens逻辑与huggingface不同)
 {
   "exact": 86.89687795648061,
   "f1": 92.88753764866149,
@@ -250,7 +270,23 @@ python run_predict.py --task_name qqp  --ckpt_path qqp/best-qqp_ft_model_106000.
 训练过程中模型会自动对结果进行评估，其中最好的结果如下所示：（详细训练可查看log文件夹）
 
 ```python
-# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！
+# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！(调整paddlenlp的return_overflowing_tokens逻辑，使其与huggingface的逻辑相一致！)
+{
+  "exact": 82.30438810747073,
+  "f1": 85.30246521217444,
+  "total": 11873,
+  "HasAns_exact": 80.44871794871794,
+  "HasAns_f1": 86.45346988261618,
+  "HasAns_total": 5928,
+  "NoAns_exact": 84.15475189234651,
+  "NoAns_f1": 84.15475189234651,
+  "NoAns_total": 5945,
+  "best_exact": 82.91080603048934,
+  "best_exact_thresh": -2.461650848388672,
+  "best_f1": 85.71824029828417,
+  "best_f1_thresh": -2.461650848388672
+}
+# 使用修复过的paddlenlp的tokenizer进行数据处理的预测结果！！！！(paddlenlp的return_overflowing_tokens逻辑与huggingface不同)
 {
   "exact": 82.28754316516466,
   "f1": 85.29235824679081,
