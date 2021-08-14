@@ -251,24 +251,23 @@ class MPNetTokenizer(BertTokenizer):
 
             if stride > 0 and second_ids is not None:
 
-                max_len_for_pair = max_seq_len - len(first_ids) - 4 # need -4  <sep> A </sep> </sep> B <sep>
+                max_len_for_pair = max_seq_len - len(first_ids) - self.num_special_tokens_to_add(pair=True) # need -4  <sep> A </sep> </sep> B <sep>
 
                 token_offset_mapping = self.rematch(text)
                 token_pair_offset_mapping = self.rematch(text_pair)
 
-                offset = 0
-                while offset < len(second_ids):
+
+                while True:
                     encoded_inputs = {}
-                    length = len(second_ids) - offset
-                    if length > max_len_for_pair:
-                        length = max_len_for_pair
 
                     ids = first_ids
-                    pair_ids = second_ids[offset:offset + length]
-
                     mapping = token_offset_mapping
-                    pair_mapping = token_pair_offset_mapping[offset:offset +
-                                                             length]
+                    if len(second_ids)<=max_len_for_pair:
+                        pair_ids = second_ids
+                        pair_mapping = token_pair_offset_mapping
+                    else:
+                        pair_ids = second_ids[:max_len_for_pair]
+                        pair_mapping = token_pair_offset_mapping[:max_len_for_pair]
 
                     offset_mapping = self.build_offset_mapping_with_special_tokens(
                         mapping, pair_mapping)
@@ -354,9 +353,12 @@ class MPNetTokenizer(BertTokenizer):
 
                     encoded_inputs['overflow_to_sample'] = example_id
                     batch_encode_inputs.append(encoded_inputs)
-                    if offset + length == len(second_ids):
+
+                    if len(second_ids)<=max_len_for_pair:
                         break
-                    offset += min(length, stride)
+                    else:
+                        second_ids = second_ids[max_len_for_pair-stride:]
+                        token_pair_offset_mapping = token_pair_offset_mapping[max_len_for_pair-stride:]
 
             else:
                 batch_encode_inputs.append(
