@@ -1,0 +1,1 @@
+python eval.py --model_name_or_path /hy-tmp/PADDLE-TEMPLATE/outputs/best-step-21000

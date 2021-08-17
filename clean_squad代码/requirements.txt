@@ -1,0 +1,4 @@
+visualdl
+tensorboardX
+paddlenlp
+tqdm
